@@ -5,7 +5,7 @@
 Based on [Karpathy's autoresearch](https://github.com/karpathy/autoresearch) — the principle that **constraint + mechanical metric + autonomous iteration = compounding gains**.
 
 [![Claude Code Skill](https://img.shields.io/badge/Claude_Code-Skill-blue?logo=anthropic&logoColor=white)](https://docs.anthropic.com/en/docs/claude-code)
-[![Version](https://img.shields.io/badge/version-1.0.4-blue.svg)](https://github.com/uditgoenka/autoresearch/releases)
+[![Version](https://img.shields.io/badge/version-1.1.0-blue.svg)](https://github.com/uditgoenka/autoresearch/releases)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![Based on](https://img.shields.io/badge/Based_on-Karpathy's_Autoresearch-orange)](https://github.com/karpathy/autoresearch)
 
@@ -24,6 +24,13 @@ Based on [Karpathy's autoresearch](https://github.com/karpathy/autoresearch) —
 | `/autoresearch:security --fail-on critical` | Exit non-zero if severity threshold met (CI/CD gate) | v1.0.3 |
 | `/loop N /autoresearch:security` | Bounded security audit (N iterations) | v1.0.3 |
 | `Guard: <command>` | Optional safety net — must pass for changes to be kept (regression prevention) | v1.0.4 |
+| `/autoresearch:ship` | Universal shipping workflow — ship code, content, marketing, sales, research, design | v1.1.0 |
+| `/autoresearch:ship --dry-run` | Validate everything but don't actually ship (stop before delivery) | v1.1.0 |
+| `/autoresearch:ship --auto` | Auto-approve dry-run gate if no errors found | v1.1.0 |
+| `/autoresearch:ship --rollback` | Undo the last ship action (if reversible) | v1.1.0 |
+| `/autoresearch:ship --monitor N` | Post-ship health monitoring for N minutes | v1.1.0 |
+| `/autoresearch:ship --checklist-only` | Generate and evaluate pre-ship checklist without shipping | v1.1.0 |
+| `/autoresearch:ship --type <type>` | Override auto-detection (code-pr, deployment, content, marketing-email, sales, research, design) | v1.1.0 |
 
 **Security audit includes:** STRIDE threat model, OWASP Top 10 (70+ checks), 4 red-team adversarial personas (Security Adversary, Supply Chain Attacker, Insider Threat, Infrastructure Attacker), proof-of-concept validation, structured report folder, historical comparison.
 
@@ -41,6 +48,21 @@ Based on [Karpathy's autoresearch](https://github.com/karpathy/autoresearch) —
 
 # Plan then run: wizard builds config, launches immediately
 /autoresearch:plan
+
+# Ship a PR with auto-approve
+/autoresearch:ship --auto
+
+# Dry-run a deployment before going live
+/autoresearch:ship --type deployment --dry-run
+
+# Ship with post-deploy monitoring (10 minutes)
+/autoresearch:ship --type deployment --monitor 10
+
+# Iterate on readiness then ship
+/loop 5 /autoresearch:ship
+
+# Just check if something is ready to ship
+/autoresearch:ship --checklist-only
 ```
 
 ### Quick Decision Guide
@@ -55,6 +77,13 @@ Based on [Karpathy's autoresearch](https://github.com/karpathy/autoresearch) —
 | Auto-fix security issues | `/autoresearch:security --fix` |
 | Block CI pipeline on vulnerabilities | `/autoresearch:security --fail-on critical` |
 | Optimize without breaking existing tests | Add `Guard: npm test` to your config |
+| Ship a PR / deployment / release | `/autoresearch:ship` or `/autoresearch:ship --auto` |
+| Ship a blog post or documentation | `/autoresearch:ship --type content` |
+| Ship a marketing email / campaign | `/autoresearch:ship --type marketing-email` |
+| Ship a sales deck or proposal | `/autoresearch:ship --type sales` |
+| Check if something is ready to ship | `/autoresearch:ship --checklist-only` |
+| Validate before shipping (no side effects) | `/autoresearch:ship --dry-run` |
+| Rollback a bad deployment | `/autoresearch:ship --rollback` |
 
 ### Guard — Prevent Regressions While Optimizing (v1.0.4)
 
@@ -88,6 +117,65 @@ If the metric improves but the guard fails, Claude **reworks the optimization** 
 Guard is **optional** — if not specified, the loop works exactly as before.
 
 > **Credit:** Guard was contributed by [@pronskiy](https://github.com/pronskiy) (JetBrains) in [PR #7](https://github.com/uditgoenka/autoresearch/pull/7).
+
+### Ship — Universal Shipping Workflow (v1.1.0)
+
+Ship anything through a structured 8-phase workflow: **Identify → Inventory → Checklist → Prepare → Dry-run → Ship → Verify → Log.**
+
+The key insight: shipping has a universal pattern regardless of what you're shipping. `/autoresearch:ship` applies autoresearch loop principles to the last mile — taking any artifact from "done" to "deployed/published/delivered."
+
+**9 supported shipment types** (auto-detected from context):
+
+| Type | What Gets Shipped | Example Ship Action |
+|------|-------------------|---------------------|
+| `code-pr` | Pull request | `gh pr create` with description |
+| `code-release` | Version release | Git tag + GitHub release |
+| `deployment` | Production deploy | CI/CD trigger, `kubectl apply` |
+| `content` | Blog post / docs | Publish via CMS or content branch |
+| `marketing-email` | Newsletter / campaign | Send via ESP (SendGrid, Mailchimp) |
+| `marketing-campaign` | Ad campaign | Activate in ad platform |
+| `sales` | Deck / proposal | Send email, share link |
+| `research` | Paper / report | Upload to repository |
+| `design` | Assets / mockups | Export and share with stakeholders |
+
+**How it works:**
+
+1. **Auto-detects** what you're shipping from context (or accept `--type`)
+2. **Generates domain-specific checklist** — every item is mechanically verifiable (pass/fail)
+3. **Runs autoresearch loop** to iteratively fix failing checklist items until 100% pass
+4. **Dry-runs** the ship action without side effects (draft PR, test email, local build)
+5. **Ships** — executes the actual delivery (merge, deploy, publish, send)
+6. **Verifies** the thing actually landed (health checks, delivery confirmation)
+7. **Logs** the shipment to `ship-log.tsv` for traceability
+
+**Flags:** `--dry-run`, `--auto`, `--force`, `--rollback`, `--monitor N`, `--type <type>`, `--checklist-only`
+
+```bash
+# Ship with interactive approval
+/autoresearch:ship
+
+# Full auto — ship if checklist passes
+/autoresearch:ship --auto
+
+# Validate deployment without deploying
+/autoresearch:ship --type deployment --dry-run
+
+# Ship with 10-minute post-deploy monitoring
+/autoresearch:ship --monitor 10
+
+# Iterate on readiness before shipping
+/loop 5 /autoresearch:ship
+
+# Just check if ready to ship (no action)
+/autoresearch:ship --checklist-only
+
+# Undo a bad ship
+/autoresearch:ship --rollback
+```
+
+**Composite readiness metric** (for bounded loops): `ship_score = (checklist_passing/total)*80 + (dry_run_passed ? 15 : 0) + (no_blockers ? 5 : 0)`. Score of 100 = ready. Below 80 = not shippable.
+
+Non-reversible actions (email send) are flagged before execution. Rollback protocol supports all reversible ship types.
 
 ---
 
