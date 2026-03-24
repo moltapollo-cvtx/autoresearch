@@ -1,0 +1,51 @@
+---
+tags: [entity, person]
+role: Controller / VP Finance
+organization: "[[Asphalt Transport Inc (ATI)]]"
+risk_level: high
+---
+
+# Rosanna Karim
+
+## Role & Access
+- **Title:** Controller / VP Finance
+- **Organization:** [[Asphalt Transport Inc (ATI)]]
+- **System access:** Full administrative access to accounting system
+- **Financial authority:** **Sole authorizer** of all bank transfers out of Apollo's account
+
+## Relevance to Investigation
+Rosanna is the single point of control for Apollo's finances. She is the primary user identified in the audit trail making suspicious journal entries and bulk data modifications. She has provided only partial ATI financials despite repeated requests.
+
+## Known Actions
+
+| Event | Evidence |
+|---|---|
+| Sole authorizer of all transfers from Apollo bank account | Account structure |
+| Batch-entered ALL Gemini liability records in single session | [[Gemini Record Manipulation]] |
+| Primary user on suspicious journal entries | [[GL Audit Trail Anomalies]] |
+| Bulk data modifications in accounting system | Audit trail analysis |
+| Provided only partial ATI financials despite requests | [[Outstanding Document Demands]] |
+| All 12 monthly statements batch-printed same date | [[Document Registry]] |
+
+## QB Log Statistics (from [[DOC-QB-LOGS-2022-2026]])
+- **Total entries:** 4,924 (18.2% of all transactions)
+- **General Journal entries:** 2,651 (**47.5% of ALL GJ entries in the system**)
+- **Backdating >30 days:** 1,942 entries (39.4% of her entries)
+- **Avg backdating lag:** 36 days
+- **Max backdating lag:** 300 days
+
+## Connected Findings
+- [[Fuel Cost Manipulation]] — Posted 2 of 6 undocumented "fuel" GJ entries ($61,640)
+- [[Gemini Record Manipulation]] — Batch-entered ALL Gemini liabilities ($282,416)
+- [[GL Audit Trail Anomalies]] — Controls 47.5% of all GJ entries; 39.4% backdated
+- [[ATI Monthly Billing Manipulation]] — Primary operator of intercompany entries
+- [[Promissory Note Backdating]] — Primary system user for $858K note
+- [[Intercompany Transfer Tracker]] — Sole authorizer of all bank transfers out
+- [[Revenue Timing Shift]] — Controlled the revenue recognition process
+
+## Source Files
+- [[Apollo QuickBooks LOGS 2022-2026]] — Activity documented (SHA: `d918f3c9...ef9a0a82`)
+- [[ATI GeneralLedger Report 2023]] — ATI-side entries
+
+## Strategic Notes
+Strong ego — communications should be crafted to secure commitments without triggering defensive responses.

@@ -1,0 +1,208 @@
+{
+  "main": {
+    "id": "d60e57a624a0108e",
+    "type": "split",
+    "children": [
+      {
+        "id": "72db53dbdf7eeabd",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "90d8c9b9cbf6b47a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "03_Findings/Gemini Record Manipulation.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Gemini Record Manipulation"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "6dc0e2320a2c5088",
+    "type": "split",
+    "children": [
+      {
+        "id": "0baeac9543d8f66c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ef4f7b754526ed8e",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "10b316adb018a553",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "d718aa8241a71164",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "5a24e49d7a35adfc",
+    "type": "split",
+    "children": [
+      {
+        "id": "9ece1d090a263388",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "036b7ded4b7ba36d",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "03_Findings/Gemini Record Manipulation.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Gemini Record Manipulation"
+            }
+          },
+          {
+            "id": "2ef2f30c0c8701c2",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "03_Findings/Gemini Record Manipulation.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Gemini Record Manipulation"
+            }
+          },
+          {
+            "id": "0402eb2d06274919",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "d05f3c6a872716d9",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "807ffe3cd19c5020",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "03_Findings/Gemini Record Manipulation.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Gemini Record Manipulation"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "90d8c9b9cbf6b47a",
+  "lastOpenFiles": [
+    "01_Entities/People/Rosanna Karim.md",
+    "02_Evidence/GL_Entries/DOC-QB-LOGS-2022-2026.md",
+    "09_Raw_Data_Index/Apollo/Apollo QuickBooks LOGS 2022-2026.md",
+    "03_Findings/GL Audit Trail Anomalies.md",
+    "01_Entities/Companies/Apollo Energy Resources LLC.md",
+    "01_Entities/People/Henry Collins.md",
+    "05_Chain_of_Custody/Source Registry.md",
+    "03_Findings/Fuel Cost Manipulation.md",
+    "01_Entities/Companies/Stellar Bank.md",
+    "00_Dashboard/Cash Flow Dashboard.md",
+    "00_Dashboard/Document Registry.md",
+    "06_Strategy/Outstanding Document Demands.md",
+    "07_Templates/Template - Finding.md",
+    "03_Findings/Account 2010 Fuel Payable Mechanism.md",
+    "03_Findings/Revenue Timing Shift.md",
+    "09_Raw_Data_Index/Apollo/Apollo Trial Balance.md",
+    "09_Raw_Data_Index/Apollo/Apollo ADJ Trail Balance 2024.md",
+    "09_Raw_Data_Index/Apollo/Apollo ADJ Trial Balance 2023.md",
+    "Untitled.canvas"
+  ]
+}
