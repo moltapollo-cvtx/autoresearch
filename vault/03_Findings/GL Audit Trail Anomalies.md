@@ -13,6 +13,7 @@ related:
 evidence-refs:
   - "[[DOC-QB-LOGS-2022-2026]]"
   - "[[Apollo Quickbooks Audit Trail 2023 to dec 2024]]"
+dollar-amount: 26452
 estimated_impact: varies
 direction: both
 ---
@@ -54,7 +55,7 @@ The accounting system has **no audit trail enabled**. This means:
 Source: [[DOC-QB-LOGS-2022-2026]] — 26,993 transactions, Feb 2023–Apr 2025
 
 ### 476-Day Entry — CONFIRMED
-Trans #1169: $26,451.77 "co driver fuel" — transaction date 09/20/2023, entered **01/08/2025 14:33** by **Cordee**. Credits NP ATI, debits Fuel Expense - Company. Simultaneously inflates Apollo's fuel cost AND increases Apollo's debt to ATI.
+Trans #1169: $26,451.77 "co driver fuel" ([[DOC-QB-LOGS-2022-2026|QB Log Trans #1169]]) — transaction date 09/20/2023, entered **01/08/2025 14:33** by **Cordee**. Credits NP ATI, debits Fuel Expense - Company. Simultaneously inflates Apollo's fuel cost AND increases Apollo's debt to ATI.
 
 ### Systematic Backdating by User
 | User | Entries >30d lag | % of their entries | Avg lag | Max lag |
@@ -69,12 +70,12 @@ Trans #1169: $26,451.77 "co driver fuel" — transaction date 09/20/2023, entere
 **Rosanna** has the worst backdating profile: nearly 40% of all her entries were made more than 30 days after the supposed transaction date.
 
 ### General Journal Dominance
-Rosanna controls **47.5%** of all General Journal entries (2,651 of 5,580). GJ entries bypass the normal AP/AR cycle and are the highest-manipulation-risk transaction type in the system.
+Rosanna controls **47.5%** ([[DOC-QB-LOGS-2022-2026]]) of all General Journal entries (2,651 of 5,580). GJ entries bypass the normal AP/AR cycle and are the highest-manipulation-risk transaction type in the system.
 
-### NEW: "Martha [Deleted User]" — 3,030 Entries
+### NEW: "Martha [Deleted User]" — 3,030 Entries ([[DOC-QB-LOGS-2022-2026]])
 Martha's user account has been **deleted from the system** but 3,030 transactions remain attributed to them. Deleting a user account is itself a form of audit trail destruction — the person cannot be questioned about their entries through system-level identification.
 
-### "Mauree" — 4,379 Entries (Not a Subject)
+### "Mauree" — 4,379 Entries ([[DOC-QB-LOGS-2022-2026]]) (Not a Subject)
 See [[Mauree]]. Third most active user in the system. **Assessment: incompetent, not malicious.** Entry pattern is routine fuel card settlements for named owner-operators. Does not touch intercompany accounts (NP ATI, NR Apollo) used in the manipulation mechanism.
 
 ## Source Files

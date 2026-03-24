@@ -24,7 +24,7 @@ documented_date: 2026-03-24
 ## SMOKING GUN — This is How the Fuel Overstatement Works in 2025
 
 ### Summary
-Account 2010 ("Fuel Payable") accumulated **$322,639.29** throughout all of 2024, growing every single month. On **March 31, 2025**, this balance was zeroed out via two manual journal entries — one dumping **$285,789.46 into Fuel Expense** (inflating the 2025 P&L) and the other reducing Cash by **$241,284.09** (the previously unexplained "ADJ TO STMT").
+Account 2010 ("Fuel Payable") accumulated **$322,639.29** ([[Apollo_2010_Monthly_Rollforward]]) throughout all of 2024, growing every single month. On **March 31, 2025**, this balance was zeroed out via two manual journal entries — one dumping **$285,789.46 into Fuel Expense** ([[Apollo_Manual_Journal_Fuel_Targets]]) (inflating the 2025 P&L) and the other reducing Cash by **$241,284.09** ([[Bank Rec Analysis 2025]]) (the previously unexplained "ADJ TO STMT").
 
 Both entries were posted to GL on **June 18-23, 2025** — nearly **3 months after** the stated transaction date. This is textbook backdated record manipulation.
 
@@ -117,7 +117,7 @@ Source: [[Apollo_Manual_Journal_Fuel_Targets]]
 ### 2025 Fuel Expense Decomposition
 | Component | Amount | % of Total |
 |-----------|--------|-----------|
-| Normal EFS fuel operations | ~$506,492 | 54.6% |
+| Normal EFS fuel operations | ~$506,492 ([[Bank Rec Analysis 2025]]) | 54.6% |
 | **Manual GJ from Account 2010** | **$285,789** | **30.8%** |
 | Other fuel charges | ~$136,066 | 14.7% |
 | **Total P&L Fuel (5500)** | **$700,425** | 100.0% |
@@ -125,12 +125,12 @@ Source: [[Apollo_Manual_Journal_Fuel_Targets]]
 ### What Apollo Actually Paid for Fuel (2025)
 | Source | Amount |
 |--------|--------|
-| EFS bank payments (verified) | $506,491.82 |
-| P&L Fuel Expense (5500 accounts) | $700,424.65 |
+| EFS bank payments (verified) | $506,491.82 ([[Bank Rec Analysis 2025]]) |
+| P&L Fuel Expense (5500 accounts) | $700,424.65 ([[Forensic Cross-Reference Report|Apollo 2025 December.csv]]) |
 | **Overstated by** | **$193,932.83 (38.3%)** |
 
 Including Fuel Surcharge Pay (5310): $208,766.41 and DEF (5520): $19,378.55
-- **Grand total fuel on P&L: $928,570**
+- **Grand total fuel on P&L: $928,570** ([[Forensic Cross-Reference Report|Apollo 2025 December.csv]])
 - **Vs EFS actual: $506,492**
 - **Grand overstatement: $422,078 (83.3%)**
 
@@ -141,6 +141,8 @@ Including Fuel Surcharge Pay (5310): $208,766.41 and DEF (5520): $19,378.55
 | Apollo | $3,734,804 | $928,570 | 24.9% |
 | **Apollo pays 8.1x more of its revenue on fuel than ATI** |
 
+Source: [[ATI 2025 Profit & Loss MoM]], [[Forensic Cross-Reference Report|Apollo 2025 December.csv]]
+
 ---
 
 ## Why This Matters
@@ -149,7 +151,7 @@ Including Fuel Surcharge Pay (5310): $208,766.41 and DEF (5520): $19,378.55
 
 2. **The backdating pattern repeats.** All entries are dated 3/31/2025 but posted 6/18-6/23/2025. The 2023 entries were also backdated months.
 
-3. **The $241,284 "ADJ TO STMT" is now explained** — it was part of zeroing out account 2010, and it REDUCED Apollo's cash. Combined with the $285K fuel hit, this single day's entries cost Apollo **$527,073**.
+3. **The $241,284 "ADJ TO STMT" is now explained** — it was part of zeroing out account 2010, and it REDUCED Apollo's cash. Combined with the $285K fuel hit, this single day's entries cost Apollo **$527,073** (combined from [[Apollo_Manual_Journal_Fuel_Targets]]).
 
 4. **Account 2010 accumulated for ALL of 2024 without being cleared.** This suggests deliberate timing — build up the balance, then dump it when convenient.
 

@@ -1,10 +1,12 @@
 ---
 tags: [source-file, apollo, bank-rec]
+type: source
 doc_id: SRC-APL-045
 file_path: "../../Apollo Bank Recs 2025-TMS SYSTEM REPORT.pdf"
 file_type: pdf
 entity: Apollo Energy Resources LLC
 period: 2025
+date-range: 2025-01-01 to 2025-12-31
 received_date:
 sha256:
 status: indexed
@@ -29,6 +31,9 @@ Bank reconciliation report for Apollo Energy for 2025, generated from TMS (Treas
 
 ## Related Findings
 - [[ATI Monthly Billing Manipulation]]
+
+> [!PROPOSAL] Potential evidence for additional findings
+> This TMS system report provides an independent verification baseline for bank reconciliations. May support [[Intercompany Transfer Tracker]] and [[Bank Rec Analysis 2025]] by providing system-generated data free from manual manipulation. Cross-reference recommended.
 
 ## Chain of Custody
 - **Indexed:** 2026-03-24

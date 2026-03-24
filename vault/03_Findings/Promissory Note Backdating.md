@@ -19,14 +19,14 @@ direction: apollo-inflated
 # Promissory Note Backdating
 
 ## Summary
-An $858K promissory note attributed to Apollo was proven backdated by **174 days** via batch timestamp analysis. The note's purported execution date does not match the system timestamp of when the entry was actually created.
+An $858K promissory note ([[Apollo QuickBooks LOGS 2022-2026|QB Logs — batch timestamp analysis]]) attributed to Apollo was proven backdated by **174 days** via batch timestamp analysis. The note's purported execution date does not match the system timestamp of when the entry was actually created.
 
 ## Evidence Chain
 
 ### The Proof
 - **Purported date:** The date shown on the promissory note document
 - **Batch timestamp:** The system records when the entry was actually created in the accounting system
-- **Delta:** 174 days — the note was entered into the system nearly 6 months after its supposed execution date
+- **Delta:** 174 days — confirmed via [[DOC-QB-LOGS-2022-2026]] batch timestamp vs transaction date — the note was entered into the system nearly 6 months after its supposed execution date
 
 ### Why This Matters
 A backdated promissory note of this size creates a retroactive liability on Apollo's books. It makes it appear Apollo owed this money for longer than it actually did, potentially justifying cash transfers from Apollo to ATI that would otherwise be unexplained.

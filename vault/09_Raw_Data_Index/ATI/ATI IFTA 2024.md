@@ -1,10 +1,12 @@
 ---
 tags: [source-file, ati, ifta]
+type: source
 doc_id: SRC-ATI-006
 file_path: "../../ATI IFTA 2024.csv"
 file_type: csv
 entity: Asphalt Transport Inc
 period: 2024
+date-range: 2024-01-01 to 2024-12-31
 received_date:
 sha256:
 status: indexed

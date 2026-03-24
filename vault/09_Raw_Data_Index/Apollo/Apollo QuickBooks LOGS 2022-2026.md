@@ -1,10 +1,12 @@
 ---
 tags: [source-file, apollo, quickbooks]
+type: source
 doc_id: SRC-APL-049
 file_path: "../../Apollo QuickBooks LOGS 2022-2026.xlsm"
 file_type: xlsm
 entity: Apollo Energy Resources LLC
 period: 2022 to 2026
+date-range: 2022-01-01 to 2026-12-31
 received_date:
 sha256: d918f3c9134d06e26fd2724abd8806c22090e5d8a3976f5f64e9a503ef9a0a82
 status: indexed

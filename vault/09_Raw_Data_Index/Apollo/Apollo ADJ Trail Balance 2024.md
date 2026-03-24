@@ -1,10 +1,12 @@
 ---
 tags: [source-file, apollo]
+type: source
 doc_id: SRC-APL-026
 file_path: "../../Apollo ADJ Trail Balance 2024.xlsm"
 file_type: xlsm
 entity: Apollo Energy Resources LLC
 period: 2024
+date-range: 2024-01-01 to 2024-12-31
 received_date:
 sha256:
 status: indexed
@@ -28,6 +30,9 @@ Adjusted trial balance for Apollo Energy for fiscal year 2024. Contains year-end
 ## Related Findings
 - [[Revenue Timing Shift]]
 - [[ATI Monthly Billing Manipulation]]
+
+> [!PROPOSAL] Potential evidence for additional findings
+> This adjusted trial balance may support [[Monthly GL vs Consolidated Reconciliation]] (verify year-end adjusted balances against monthly GL data) and [[Account 2010 Fuel Payable Mechanism]] (confirm year-end Account 2010 balance after 12 months of accumulation). Cross-reference recommended.
 
 ## Chain of Custody
 - **Indexed:** 2026-03-24

@@ -8,6 +8,7 @@ status: confirmed
 created: 2026-03-23
 updated: 2026-03-24
 related: ["[[Asphalt Transport Inc (ATI)]]", "[[Jimmy]]", "[[Cordee]]", "[[GL Audit Trail Anomalies]]"]
+known-accounts: ["QB Admin", "Stellar Bank 21920400 (authorizer)"]
 ---
 
 # Rosanna Karim
@@ -38,6 +39,22 @@ Rosanna is the single point of control for Apollo's finances. She is the primary
 - **Backdating >30 days:** 1,942 entries (39.4% of her entries)
 - **Avg backdating lag:** 36 days
 - **Max backdating lag:** 300 days
+
+## Known Accounts
+- QuickBooks administrative access (full system control)
+- Sole authorizer of bank transfers from Apollo Stellar Bank account 21920400
+
+## Key Transactions
+| Date | Amount | Type | Source |
+|------|--------|------|--------|
+| 2023-04-28 | $25,520.83 | Fuel GJ (Trans #258) | [[DOC-QB-LOGS-2022-2026]] |
+| 2023-05-10 | $44,452.17 | Fuel GJ (Trans #272) | [[DOC-QB-LOGS-2022-2026]] |
+| 2023-06-13 | $39,756.77 | Fuel GJ (Trans #273) | [[DOC-QB-LOGS-2022-2026]] |
+| 2023-07-13 | $62,382.14 | Fuel GJ (Trans #274) | [[DOC-QB-LOGS-2022-2026]] |
+| 2023-08-16 | $36,119.05 | Fuel GJ (Trans #286) | [[DOC-QB-LOGS-2022-2026]] |
+| 2023-11-02 | $282,416.38 | Gemini NP batch (Trans #760-762) | [[DOC-QB-LOGS-2022-2026]] |
+| 2025-03-31 | $285,789.46 | Acct 2010 fuel dump (posted 2025-06-23) | [[Apollo_Manual_Journal_Fuel_Targets]] |
+| 2025-03-31 | $241,284.09 | ADJ TO STMT (posted 2025-06-18) | [[Apollo_Manual_Journal_Fuel_Targets]] |
 
 ## Connected Findings
 - [[Fuel Cost Manipulation]] — Posted 2 of 6 undocumented "fuel" GJ entries ($61,640)

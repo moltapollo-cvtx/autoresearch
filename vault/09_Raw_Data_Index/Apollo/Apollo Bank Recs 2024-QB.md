@@ -1,10 +1,12 @@
 ---
 tags: [source-file, apollo, bank-rec]
+type: source
 doc_id: SRC-APL-044
 file_path: "../../Apollo Bank Recs 2024-QB.zip"
 file_type: zip
 entity: Apollo Energy Resources LLC
 period: 2024
+date-range: 2024-01-01 to 2024-12-31
 received_date:
 sha256:
 status: indexed
@@ -30,6 +32,9 @@ Compressed archive containing bank reconciliation files for Apollo Energy for al
 
 ## Related Findings
 - [[ATI Monthly Billing Manipulation]]
+
+> [!PROPOSAL] Potential evidence for additional findings
+> This bank reconciliation archive may contain detail supporting [[Intercompany Transfer Tracker]] (verify specific extraction amounts from Apollo to ATI) and cross-entity cash flow verification. Cross-reference recommended.
 
 ## Chain of Custody
 - **Indexed:** 2026-03-24

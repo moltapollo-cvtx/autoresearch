@@ -103,10 +103,18 @@ updated: 2026-03-24
 
 ---
 
+## Bridge Notes (Pass 2)
+- [[Bridge - GL Manipulation to Bank Evidence]] — Connects internal GL manipulation to independent bank statement verification
+- [[Bridge - Gemini Siphon to Intercompany Transfers]] — Connects Gemini phantom debt to physical cash extraction
+- [[Bridge - Backdating Pattern to Financial Impact]] — Connects systematic backdating to $1.9M+ quantified damage
+
+---
+
 ## Strategy & Deliverables
 - [[Evidence Tiers]] — Must Hit / Ought to Hit / Should Hit / 50-50 / Leave Alone
 - [[Grandparent Meeting Prep]] — Meeting objectives, framing, risk assessment
 - [[Outstanding Document Demands]] — Critical documents still needed
+- [[Open Questions]] — 17 unresolved questions with status tracking
 - [[Deliverables Index]] — Formal documents produced from the investigation
 
 ---
@@ -114,9 +122,9 @@ updated: 2026-03-24
 ## Raw Data Index
 > 90+ source file index notes organized by entity. See [[Source Registry]] for the master catalog.
 
-- `09_Raw_Data_Index/ATI/` — 7 ATI source files
-- `09_Raw_Data_Index/Apollo/` — ~55 Apollo source files (GL, bank recs, IFTA, fuel, trial balances)
-- `09_Raw_Data_Index/Gemini/` — 24 Gemini monthly GL files
+- `09_Raw_Data_Index/ATI/` — 7 ATI source files (enriched with `type: source`, `date-range`, proposals)
+- `09_Raw_Data_Index/Apollo/` — 60 Apollo source files (GL, bank recs, IFTA, fuel, trial balances, forensic key files)
+- `09_Raw_Data_Index/Gemini/` — 24 Gemini monthly GL files (all linked to [[Gemini Profit Siphon]], [[Gemini Record Manipulation]])
 
 ---
 

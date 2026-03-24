@@ -5,6 +5,9 @@ status: confirmed
 created: 2026-03-23
 updated: 2026-03-24
 related: ["[[Asphalt Transport Inc (ATI)]]", "[[Apollo Energy Resources LLC]]", "[[Rosanna Karim]]"]
+total-received: 924186
+key-accounts: ["GL NR Apollo (ever-growing receivable)", "NP Gemini 2410 on Apollo books"]
+related-entities: ["[[Asphalt Transport Inc (ATI)]]", "[[Apollo Energy Resources LLC]]", "[[GIG Transportation Services]]"]
 ---
 
 # Gemini Logistics USA LLC

@@ -1,10 +1,12 @@
 ---
 tags: [source-file, apollo, ifta]
+type: source
 doc_id: SRC-APL-047
 file_path: "../../Apollo IFTA Filing 2024.csv"
 file_type: csv
 entity: Apollo Energy Resources LLC
 period: 2024
+date-range: 2024-01-01 to 2024-12-31
 received_date:
 sha256:
 status: indexed

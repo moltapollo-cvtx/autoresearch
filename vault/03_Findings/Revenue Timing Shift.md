@@ -20,7 +20,7 @@ direction: apollo-inflated
 # Revenue Timing Shift
 
 ## Summary
-ATI-prepared monthly data for Apollo shows a systematic **one-month forward shift** in 2024 revenue recognition. Revenue that was earned and should have been recognized in a given month appears in the following month instead. The cumulative effect is approximately **$145K in revenue understated in FY2024**, with corresponding overstatement in FY2025.
+ATI-prepared monthly data for Apollo shows a systematic **one-month forward shift** in 2024 revenue recognition. Revenue that was earned and should have been recognized in a given month appears in the following month instead. The cumulative effect is approximately **$145K in revenue understated** (derived from [[Apollo ADJ Trail Balance 2024]], [[Apollo ADJ Trial Balance 2023]], [[Apollo ADJ Trial Balance 2025-QB]]) **in FY2024**, with corresponding overstatement in FY2025.
 
 ## Evidence
 The comparison workbook (APL_GL_Comparison_Report.xlsx) was being built to document this pattern when the session was interrupted.

@@ -6,6 +6,9 @@ created: 2026-03-24
 updated: 2026-03-24
 related: ["[[Gemini Logistics USA LLC]]", "[[Bank Rec Analysis 2024]]", "[[Intercompany Transfer Tracker]]"]
 dollar-amount: 111924
+total-received: 111924
+key-accounts: ["EFS fuel card advances (GIGTRANSPORTATIONSER)", "Apollo bank account (biweekly payments)"]
+related-entities: ["[[Gemini Logistics USA LLC]]", "[[Apollo Energy Resources LLC]]"]
 ---
 
 # GIG Transportation Services

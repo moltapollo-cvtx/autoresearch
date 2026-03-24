@@ -11,6 +11,78 @@ updated: 2026-03-24
 
 ---
 
+## 2026-03-24 — Vault Pass 2: Deep Evidence Citation & Enrichment
+
+### P2-1: Deep Evidence Citation (10 finding notes)
+- Added inline `[[source-note]]` links next to every dollar figure in all 10 finding notes
+- Expanded `evidence-refs` frontmatter arrays with ALL supporting sources (up to 11 refs per finding)
+- Added `dollar-amount` to GL Audit Trail Anomalies ($26,452) and Gemini Record Manipulation ($282,416)
+- Forensic Cross-Reference Report: 11 new source citations (Apollo 2024/2025 December, Apollo Fuel, IFTA, Manual Journal Targets, Chargebacks, Intercompany GL)
+- Gemini Profit Siphon: 6 new evidence-refs (monthly Apollo/Gemini CSVs for balance verification)
+- Monthly GL vs Consolidated Reconciliation: 8 new inline source citations + 1 new evidence-ref
+- Fuel Cost Manipulation: inline citations for ~$720K (ATI P&L), ~$433K (IFTA), EFS card records
+- Promissory Note Backdating: inline citation linking $858K to QB batch timestamp analysis
+
+### P2-2: Raw Data Index Enrichment (91 files)
+- Added `type: source` to all 91 stubs in 09_Raw_Data_Index/
+- Added `date-range:` field (YYYY-MM-DD to YYYY-MM-DD format) to all 91 files
+- Added `[!PROPOSAL]` callouts to 77 files suggesting cross-references to specific findings
+- Enriched 5 forensic-key evidence files with `forensic-key` tag and detailed summaries:
+  - Apollo_2010_2025_Detail, Apollo_2010_Monthly_Rollforward, Apollo_Manual_Journal_Fuel_Targets
+  - Fuel_vs_Financials_Forensic_Report, WHAT ATI CLAIMS APOLLO OWES FROM 2025 CHARGEBACKS
+
+### P2-3: Entity Relationship Mapping (17 files)
+- Added `known-accounts` frontmatter arrays to all 11 People files
+- Added `## Known Accounts` and `## Key Transactions` sections to 6 major people (Rosanna, Cordee, Jimmy, Henry, Walker, James Luhr Jr)
+- Added `total-extracted`/`total-received` numeric fields to all 6 Company files
+- Added `key-accounts` arrays to all Company files (bank accounts, GL accounts, carrier IDs)
+- Added `related-entities` arrays to ATI, Gemini, GIG, EFS, Stellar Bank
+- Apollo: 7-row Key Accounts table (Stellar Bank, EFS, GL 1000/2010/2410/2420/2430)
+
+### P2-4: Master Timeline Enrichment
+- Added Dataview auto-pull query for timeline events at top
+- Reorganized chronologically: 2023 → 2024 → 2025 (was out of order)
+- Standardized ALL dates to YYYY-MM-DD format
+- Added dollar amounts to every transaction event (was missing on ~8 entries)
+- Added `[[source-note]]` links to every event (replaced "Jan 2024 Bank Rec" with `[[Apollo Bank Rec Jan 2024]]`)
+- Added 12 new events: Gemini batch entries, MES overpayments, Sapphire Gas, NP Gemini year-end spike, Account 2010 clearing entries, April/July fuel reclasses, Gemini invoice, Cordee 476-day entry
+- Updated Investigation Milestones with 5 new entries (Account 2010 discovery, Gemini Siphon, Cross-Reference Report, Pass 1, Pass 2)
+- Populated `evidence-refs` frontmatter (was empty)
+
+### P2-5: Open Questions Note (NEW FILE)
+- Created `06_Strategy/Open Questions.md` with 17 tracked questions
+- 4 Critical (blocks key findings): paydown justification, Wire Payable disappearance, 2025 P&L, Ins/Elog breakdown
+- 5 High (affects scope): GIG entity, deleted records value, Cordee direction, Gemini legal relationship, Collins termination
+- 8 Medium (refines understanding): insurance allocation, RE gap, depreciation, Gemini RE anomaly, chargebacks 15x error, equipment loans, billing overcharge, revenue timing
+- 3 Resolved with dates and sources
+- Dataview query for auto-detecting unresolved items in vault
+
+### P2-6: Cash Flow Dashboard Upgrade
+- Added "SMOKING GUNS" section with 4 callouts (Account 2010 $527K, Net Extraction $916K, Gemini Siphon $341K, October 48%)
+- Added "Running Totals by Entity" table (ATI in/out, GIG, Gemini, EFS by year with totals)
+- Added Dataview "Entity Totals" query pulling from company total-extracted/total-received fields
+- Enhanced headline numbers table: added 4 new rows (2025 fuel overstatement $422K, manual GJ $286K, Gemini trapped profits $128K, NP Gemini growth $213K)
+- All source references upgraded from plain text to `[[wikilinks]]`
+
+### P2-7: Bridge Notes (3 NEW FILES)
+- `Bridge - GL Manipulation to Bank Evidence.md` — Connects GL entries to independent bank verification; evidence reliability hierarchy
+- `Bridge - Gemini Siphon to Intercompany Transfers.md` — Connects phantom debt growth to physical cash extraction; GIG connection analysis
+- `Bridge - Backdating Pattern to Financial Impact.md` — Complete backdating→dollar map ($1.9M+ quantified); escalation analysis
+
+### P2-8: CSS & Graph Polish
+- Added 3 new callout styles: `[!TIMELINE]` (cyan), `[!ENTITY]` (purple), `[!BRIDGE]` (teal)
+- Added tag color styling for `#bridge`, `#open-question`, `#strategy`
+- Added 6 graph view node colors: bridge, strategy, open-question, dashboard, source-file, forensic-key
+- Added Dataview table styling (matching forensic theme: gold headers, hover effects)
+
+### P2-9: Navigation Updates
+- Updated MOC-Master with Bridge Notes section, Open Questions link, enriched Raw Data Index counts
+- Updated evidence-refs on Master Timeline (was empty array)
+
+**Total files modified: ~130+ (91 Raw Data Index + 10 findings + 17 entities + 4 dashboards + 4 new files + CSS + MOC)**
+
+---
+
 ## 2026-03-24 — Vault Improvement Pass (Automated)
 
 ### Pass 1: Audit & Inventory

@@ -13,6 +13,7 @@ evidence-refs:
   - "[[DOC-QB-LOGS-2022-2026]]"
   - "[[ATI GL 2023 - Gemini N-R Analysis]]"
   - "[[Bank Rec Analysis 2025]]"
+dollar-amount: 282416
 estimated_impact: unknown
 direction: unknown
 ---

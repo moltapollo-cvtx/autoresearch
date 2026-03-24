@@ -1,10 +1,12 @@
 ---
 tags: [source-file, ati]
+type: source
 doc_id: SRC-ATI-002
 file_path: "../../ATI GeneralLedger Report 2023.xlsm"
 file_type: xlsm
 entity: Asphalt Transport Inc
 period: 2023
+date-range: 2023-01-01 to 2023-12-31
 received_date:
 sha256:
 status: indexed

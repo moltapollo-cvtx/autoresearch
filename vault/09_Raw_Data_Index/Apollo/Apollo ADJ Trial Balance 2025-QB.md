@@ -1,10 +1,12 @@
 ---
 tags: [source-file, apollo]
+type: source
 doc_id: SRC-APL-028
 file_path: "../../Apollo ADJ Trial Balance 2025-QB.xlsm"
 file_type: xlsm
 entity: Apollo Energy Resources LLC
 period: 2025
+date-range: 2025-01-01 to 2025-12-31
 received_date:
 sha256:
 status: indexed
@@ -28,6 +30,9 @@ Adjusted trial balance for Apollo Energy for fiscal year 2025, sourced from Quic
 
 ## Related Findings
 - [[Revenue Timing Shift]]
+
+> [!PROPOSAL] Potential evidence for additional findings
+> This adjusted trial balance may support [[Monthly GL vs Consolidated Reconciliation]] (verify year-end adjusted balances) and [[Account 2010 Fuel Payable Mechanism]] (confirm Account 2010 balance after clearing entries in 2025). Cross-reference recommended.
 
 ## Chain of Custody
 - **Indexed:** 2026-03-24

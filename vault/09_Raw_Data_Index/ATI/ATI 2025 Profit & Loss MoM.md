@@ -1,10 +1,12 @@
 ---
 tags: [source-file, ati]
+type: source
 doc_id: SRC-ATI-007
 file_path: "../../ATI 2025 Profit & Loss MoM.csv"
 file_type: csv
 entity: Asphalt Transport Inc
 period: 2025
+date-range: 2025-01-01 to 2025-12-31
 received_date:
 sha256:
 status: indexed

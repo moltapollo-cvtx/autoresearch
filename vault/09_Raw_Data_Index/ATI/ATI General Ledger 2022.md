@@ -1,10 +1,12 @@
 ---
 tags: [source-file, ati]
+type: source
 doc_id: SRC-ATI-001
 file_path: "../../ATI GEneral Ledger 2022.xlsm"
 file_type: xlsm
 entity: Asphalt Transport Inc
 period: 2022
+date-range: 2022-01-01 to 2022-12-31
 received_date:
 sha256:
 status: indexed
@@ -29,6 +31,9 @@ Complete general ledger for ATI for fiscal year 2022. Contains all journal entri
 
 ## Related Findings
 - [[ATI Monthly Billing Manipulation]]
+
+> [!PROPOSAL] Potential evidence for additional findings
+> This ATI general ledger provides baseline 2022 data that may support [[Promissory Note Backdating]] (verify whether intercompany note entries existed in 2022 or were retroactively created) and [[Revenue Timing Shift]] (establish pre-manipulation billing patterns). Cross-reference with 2023 GL recommended.
 
 ## Chain of Custody
 - **Indexed:** 2026-03-24

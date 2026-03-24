@@ -5,6 +5,9 @@ status: confirmed
 created: 2026-03-24
 updated: 2026-03-24
 related: ["[[Apollo Energy Resources LLC]]", "[[Fuel Cost Manipulation]]", "[[Fuel Spend Reconciliation]]", "[[Fuel Card Overview]]"]
+total-received: 1211757
+key-accounts: ["10 masked fuel cards *0040-*0049", "Carrier ID 5725124 (Apollo)", "Carrier ID 318067 (ATI)"]
+related-entities: ["[[Apollo Energy Resources LLC]]", "[[Asphalt Transport Inc (ATI)]]"]
 ---
 
 # EFS LLC — Fuel Card Provider

@@ -20,7 +20,7 @@ direction: apollo-inflated
 # ATI Monthly Billing Manipulation
 
 ## Summary
-ATI's monthly intercompany charges to Apollo were initially entered at varying amounts (consistent with actual costs), then **modified upward to a fixed amount**. The modification converts variable, verifiable costs into a flat fee that is harder to challenge and consistently higher than the original entries.
+ATI's monthly intercompany charges to Apollo were initially entered at varying amounts (consistent with actual costs), then **modified upward to a fixed amount** ([[ATI GL 2023 - Intercompany Billing]], [[WHAT ATI CLAIMS APOLLO OWES FROM 2025 CHARGEBACKS]]). The modification converts variable, verifiable costs into a flat fee that is harder to challenge and consistently higher than the original entries.
 
 ## Evidence
 - Initial entries showed varying monthly amounts

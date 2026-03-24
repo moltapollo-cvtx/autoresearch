@@ -8,6 +8,7 @@ status: confirmed
 created: 2026-03-23
 updated: 2026-03-24
 related: ["[[Asphalt Transport Inc (ATI)]]", "[[Rosanna Karim]]"]
+known-accounts: ["ATI corporate (President)"]
 ---
 
 # Jimmy (ATI President)
@@ -27,6 +28,16 @@ Strong ego — will resist on pride even when merits are against him. Communicat
 - **Total entries:** 10 (<0.1% — minimal direct system involvement)
 - **General Journal entries:** 0
 - Limited direct fingerprint in the system, but executive authority over all ATI actions
+
+## Known Accounts
+- ATI corporate accounts (President authority)
+- Oversight of all Apollo/Gemini financial operations via ATI control
+
+## Key Transactions
+| Date | Amount | Type | Source |
+|------|--------|------|--------|
+| Various 2024 | $335,566 | Total ATI extraction from Apollo (authorized) | [[Intercompany Transfer Tracker]] |
+| Various 2025 | $866,092 | Total ATI extraction from Apollo (authorized) | [[Intercompany Transfer Tracker]] |
 
 ## Connected Findings
 - [[Fuel Cost Manipulation]] — ATI-level mechanism

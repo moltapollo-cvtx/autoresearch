@@ -9,7 +9,11 @@ related:
   - "[[Fuel Spend Reconciliation]]"
   - "[[Bank Rec Analysis 2024]]"
   - "[[Bank Rec Analysis 2025]]"
-evidence-refs: []
+evidence-refs:
+  - "[[Bank Rec Analysis 2024]]"
+  - "[[Bank Rec Analysis 2025]]"
+  - "[[Intercompany Transfer Tracker]]"
+  - "[[Apollo_Manual_Journal_Fuel_Targets]]"
 ---
 
 # Cash Flow Dashboard
@@ -21,14 +25,18 @@ evidence-refs: []
 
 | Metric | Amount | Source |
 |---|---|---|
-| Net cash extracted by ATI (2024+2025) | **-$915,887** | Bank recs, verified |
-| Gross cash sent to ATI (2024+2025) | **-$1,201,658** | Bank recs, verified |
-| ATI/Gemini advances returned (2025 only) | +$285,771 | Bank recs, verified |
-| GIG Transportation (suspected Gemini, 2024) | **-$111,924** | Bank recs, unconfirmed entity |
-| Fuel overstatement (identified mechanism) | **-$287,000** est. | IFTA vs P&L cross-reference |
-| Undocumented journal entries (2023 GL) | **-$234,683** | QB logs, confirmed |
-| Unexplained "ADJ TO STMT" (Mar 2025) | **-$241,284** | Bank rec, unexplained |
-| Undocumented "Ins/Elog" (Nov 2025) | **-$84,960** | Bank rec, no invoices |
+| Net cash extracted by ATI (2024+2025) | **-$915,887** | [[Bank Rec Analysis 2024]], [[Bank Rec Analysis 2025]] |
+| Gross cash sent to ATI (2024+2025) | **-$1,201,658** | [[Bank Rec Analysis 2024]], [[Bank Rec Analysis 2025]] |
+| ATI/Gemini advances returned (2025 only) | +$285,771 | [[Intercompany Transfer Tracker]] |
+| GIG Transportation (suspected Gemini, 2024) | **-$111,924** | [[Bank Rec Analysis 2024]], [[GIG Transportation Services]] |
+| Fuel overstatement (identified mechanism) | **-$287,000** est. | [[Fuel Cost Manipulation]], [[Fuel Spend Reconciliation]] |
+| 2025 fuel overstatement (P&L vs EFS actual) | **-$422,078** (83.3%) | [[Account 2010 Fuel Payable Mechanism]], [[Forensic Cross-Reference Report]] |
+| Manual fuel GJ from Acct 2010 (2025-03-31) | **-$285,789** | [[Apollo_Manual_Journal_Fuel_Targets]] |
+| "ADJ TO STMT" cash reduction (2025-03-31) | **-$241,284** | [[Account 2010 Fuel Payable Mechanism]] |
+| Undocumented journal entries (2023 GL) | **-$234,683** | [[DOC-QB-LOGS-2022-2026]] |
+| Undocumented "Ins/Elog" (2025-11-30) | **-$84,960** | [[Bank Rec Analysis 2025]] |
+| Gemini trapped profits (24 months) | **-$127,964** | [[Gemini Profit Siphon]] |
+| NP Gemini phantom debt growth | **-$212,945** | [[Gemini Profit Siphon]] |
 
 ---
 
@@ -134,14 +142,46 @@ The mechanism: ATI posts fake "fuel" journal entries → inflates Apollo's recor
 
 ---
 
-## Dataview: Cash Flow Related Findings
+## SMOKING GUNS — Highest-Confidence Findings
+
+> [!SMOKING-GUN] Account 2010 Fuel Payable Mechanism — $527,073
+> On 2025-03-31, two manual GJ entries zeroed Account 2010: $285,789 dumped into Fuel Expense + $241,284 cash reduction ("ADJ TO STMT"). Both posted 79-84 days late. This single day's entries cost Apollo **$527,073**. [[Account 2010 Fuel Payable Mechanism]]
+
+> [!SMOKING-GUN] Net Cash Extraction — $915,887
+> Over 24 months (2024-2025), ATI extracted $1,201,658 from Apollo's bank account and returned only $285,771. Verified penny-level from [[Bank Rec Analysis 2024]] and [[Bank Rec Analysis 2025]]. [[Intercompany Transfer Tracker]]
+
+> [!SMOKING-GUN] Gemini Profit Siphon — $340,909
+> Gemini earned $127,964 in net profit over 24 months. NONE flowed to Apollo. Instead, Apollo's debt to Gemini grew by $212,945 — $85K MORE than Gemini even earned. [[Gemini Profit Siphon]]
+
+> [!CRITICAL] October 2025 — 48% Extraction
+> In a single month, ATI extracted $355,000 from Apollo (48% of that month's inflows): $230,000 on 10/16 + $125,000 on 10/31. [[Bank Rec Analysis 2025]]
+
+---
+
+## Running Totals by Entity
+
+| Entity | Direction | 2024 | 2025 | Total |
+|--------|-----------|------|------|-------|
+| **ATI** | OUT from Apollo | -$335,566 | -$866,092 | **-$1,201,658** |
+| **ATI** | IN to Apollo (advances) | $0 | +$285,771 | **+$285,771** |
+| **ATI net** | — | **-$335,566** | **-$580,320** | **-$915,887** |
+| **GIG Transportation** | OUT from Apollo | -$111,924 | $0 | **-$111,924** |
+| **Gemini** | IN to Apollo | $0 | ~$106,000 | **~+$106,000** |
+| **EFS (fuel)** | OUT from Apollo | -$705,265 | -$506,492 | **-$1,211,757** |
+
+Source: [[Bank Rec Analysis 2024]], [[Bank Rec Analysis 2025]], [[Intercompany Transfer Tracker]]
+
+---
+
+## Dataview: All Transactions by Dollar Amount
 
 ```dataview
 TABLE WITHOUT ID
   file.link AS "Finding",
   confidence AS "Confidence",
   dollar-amount AS "Amount ($)",
-  direction AS "Direction"
+  direction AS "Direction",
+  status AS "Status"
 FROM "03_Findings" OR "04_Cash_Flow"
 WHERE dollar-amount
 SORT dollar-amount DESC
@@ -157,6 +197,19 @@ TABLE WITHOUT ID
 FROM "02_Evidence"
 WHERE dollar-amount
 SORT dollar-amount DESC
+```
+
+## Dataview: Entity Totals
+
+```dataview
+TABLE WITHOUT ID
+  file.link AS "Entity",
+  total-extracted AS "Extracted ($)",
+  total-received AS "Received ($)",
+  key-accounts AS "Key Accounts"
+FROM "01_Entities/Companies"
+WHERE total-extracted OR total-received
+SORT total-extracted DESC
 ```
 
 ---

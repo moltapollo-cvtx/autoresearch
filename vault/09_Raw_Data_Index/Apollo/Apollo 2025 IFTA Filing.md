@@ -1,10 +1,12 @@
 ---
 tags: [source-file, apollo, ifta]
+type: source
 doc_id: SRC-APL-046
 file_path: "../../Apollo 2025 IFTA Filing.pdf"
 file_type: pdf
 entity: Apollo Energy Resources LLC
 period: 2025
+date-range: 2025-01-01 to 2025-12-31
 received_date:
 sha256:
 status: indexed

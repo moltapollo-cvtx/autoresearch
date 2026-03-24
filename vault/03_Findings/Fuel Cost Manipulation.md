@@ -15,6 +15,8 @@ evidence-refs:
   - "[[ATI IFTA 2024]]"
   - "[[DOC-QB-LOGS-2022-2026]]"
   - "[[DOC-ATI-GL-2023]]"
+  - "[[Forensic Cross-Reference Report]]"
+  - "[[Apollo Fuel 2023 2025]]"
 dollar-amount: 287000
 estimated_impact: "~$287K"
 direction: both
@@ -23,7 +25,7 @@ direction: both
 # Fuel Cost Manipulation
 
 ## Summary
-Apollo's ATI-prepared P&L reports fuel costs of approximately $720K. However, Apollo's own IFTA filing — a government-sworn document — reports approximately 145K gallons at a total cost of ~$433K, corroborated by EFS fuel card transaction records. The difference is approximately **$287K, a ~66% markup** with no documented basis. Simultaneously, ATI's own IFTA understates its fuel cost by ~$2M. Both discrepancies move money in the same direction: Apollo's expenses inflated, ATI's expenses deflated.
+Apollo's ATI-prepared P&L reports fuel costs of approximately $720K ([[Forensic Cross-Reference Report|ATI-prepared P&L]]). However, Apollo's own IFTA filing — a government-sworn document — reports approximately 145K gallons at a total cost of ~$433K ([[Apollo IFTA Filing 2024]]), corroborated by EFS fuel card transaction records ([[Apollo Fuel 2023 2025]]). The difference is approximately **$287K, a ~66% markup** with no documented basis. Simultaneously, ATI's own IFTA understates its fuel cost by ~$2M. Both discrepancies move money in the same direction: Apollo's expenses inflated, ATI's expenses deflated.
 
 ## Evidence Chain
 

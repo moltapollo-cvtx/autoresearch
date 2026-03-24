@@ -14,6 +14,14 @@ evidence-refs:
   - "[[Bank Rec Analysis 2025]]"
   - "[[DOC-QB-LOGS-2022-2026]]"
   - "[[ATI 2025 Profit & Loss MoM]]"
+  - "[[Apollo 2024 December]]"
+  - "[[Apollo 2025 December]]"
+  - "[[Apollo Fuel 2023 2025]]"
+  - "[[Apollo IFTA Filing 2024]]"
+  - "[[Apollo_Manual_Journal_Fuel_Targets]]"
+  - "[[WHAT ATI CLAIMS APOLLO OWES FROM 2025 CHARGEBACKS]]"
+  - "[[Apollo 2023 to dec 2024 General Ledger]]"
+  - "[[ATI GL 2023 - Intercompany Billing]]"
 documented_date: 2026-03-24
 ---
 
@@ -40,7 +48,7 @@ documented_date: 2026-03-24
 | P&L: 5520-02-00 DEF | -$1,060.12 | |
 | **GRAND TOTAL FUEL ON P&L** | **$928,569.61** | **83.3% more than actual** |
 
-Source: Apollo 2025 December.csv (YTD column)
+Source: [[Apollo 2025 December]] (YTD column)
 
 ### Apollo 2024 Fuel: P&L vs Reality
 
@@ -53,7 +61,7 @@ Source: Apollo 2025 December.csv (YTD column)
 | P&L: 5310-00-00 Fuel Surcharge Pay | $269,743.61 |
 | **Total fuel on P&L** | **$718,473.69** |
 
-Source: Apollo 2024 December.csv (YTD column)
+Source: [[Apollo 2024 December]] (YTD column)
 
 Note: 2024 P&L fuel ($718K) is close to EFS actual ($705K), BUT $322,639.29 was accumulating in account 2010 "Fuel Payable" throughout 2024 — fuel costs that were incurred but NOT on the P&L. This was later dumped onto the 2025 P&L.
 
@@ -65,7 +73,7 @@ Note: 2024 P&L fuel ($718K) is close to EFS actual ($705K), BUT $322,639.29 was 
 | **Apollo (P&L)** | $3,734,804.44 | $928,569.61 | **24.9%** |
 | **Apollo (actual EFS)** | $3,734,804.44 | $506,491.82 | **13.6%** |
 
-Source: ATI 2025 Profit & Loss MoM.csv, Apollo 2025 December.csv
+Source: [[ATI 2025 Profit & Loss MoM]], [[Apollo 2025 December]]
 
 ### EFS Card Transaction Data (Apollo Fuel 2023 2025.csv)
 
@@ -76,12 +84,16 @@ Source: ATI 2025 Profit & Loss MoM.csv, Apollo 2025 December.csv
 | 2025 | 152,168 | $536,712 | $3.5271 |
 | **Total** | **375,046** | **$1,384,229** | **$3.6908** |
 
+Source: [[Apollo Fuel 2023 2025]]
+
 ### IFTA Government Filing (Apollo IFTA Filing 2024.csv)
 
 | Entity | Gallons | Amount | PPG |
 |--------|---------|--------|-----|
 | **Apollo** | 170,954 | $537,061 | $3.1415 |
 | **ATI** | 1,309,965 | $4,278,193 | $3.2659 |
+
+Source: [[Apollo IFTA Filing 2024]]
 
 **Apollo pays $0.1243 LESS per gallon than ATI at the pump (IFTA data).** The per-gallon disparity is NOT at the pump — it's entirely in the ACCOUNTING. ATI overcharges Apollo via journal entries, not fuel card pricing.
 
@@ -93,6 +105,8 @@ Source: ATI 2025 Profit & Loss MoM.csv, Apollo 2025 December.csv
 | **P&L Fuel (5500)** | **$700,425** |
 | EFS card actual | $536,712 |
 | **5500 Overstated by** | **$163,712 (30.5%)** |
+
+Source: Derived from [[Apollo_Manual_Journal_Fuel_Targets]], [[Apollo 2025 December]], [[Apollo Fuel 2023 2025]]
 
 The $285,789 manual journal entry alone accounts for the ENTIRE overstatement plus more — without it, the organic fuel expense would be $414,635, which is actually LESS than the $536,712 EFS actual (because some EFS costs hit other accounts like driver advances).
 
@@ -128,7 +142,7 @@ Source: Apollo_Manual_Journal_Fuel_Targets.csv, Apollo_2010_Monthly_Rollforward.
 | ATI Promissory (2430) | $0.00 | $858,334.89 | +$858,335 | BACKDATED 174 days |
 | **Total ATI debt** | **$615,639.99** | **$1,392,936.19** | **+$777,296** | |
 
-Source: Apollo 2024 December.csv, Apollo 2025 December.csv (balance sheet sections)
+Source: [[Apollo 2024 December]], [[Apollo 2025 December]] (balance sheet sections)
 
 ### Wire Payable (2011) collapse: $870K → $1.4K
 This $868,535 disappearance must be traced. Most likely reclassified to ATI Promissory (2430), which would mean the $858K "backdated promissory note" was actually funded by Wire Payable — an existing intercompany clearing account. The note wasn't new debt; it was relabeling existing amounts to create the appearance of a formal loan.
@@ -153,7 +167,7 @@ Customer payments to Apollo are labeled as "overpayment for Gemini invoices" and
 | 02/10/2025 | MES | $10,726.91 | "MES Gemini invoice 30561" |
 | 02/19/2025 | MES | $11,766.25 | "MES Gemini invoice 30568" |
 
-Source: Apollo 2023 to dec 2024 General Ledger.csv (NP Gemini entries)
+Source: [[Apollo 2023 to dec 2024 General Ledger]] (NP Gemini entries)
 
 **The question:** If customers are paying Apollo for Gemini work, those are Apollo's revenues. Crediting them to NP Gemini means Apollo's revenue goes to service Gemini's "debt" — but who authorized this? The net effect is Apollo's revenue is being siphoned to build a Gemini payable that may never be settled.
 
@@ -203,6 +217,8 @@ From [[ATI GL 2023 - Intercompany Billing]]: ATI billed Apollo **$21,260/month**
 ATI Total Insurance: **$2,855,696.01** for **$37.1M revenue** = 7.7%
 Apollo Net Insurance: **~$192,701** for **$3.7M revenue** = 5.2%
 
+Source: [[Apollo 2025 December]], [[ATI 2025 Profit & Loss MoM]], [[ATI GL 2023 - Intercompany Billing]]
+
 At the $15,000/month intercompany rate, ATI would be billing Apollo $180,000/year. Apollo's actual insurance on its P&L ($192K) is close to that. But the question remains: is Apollo's insurance cost proportional to its fleet size, or is ATI marking up?
 
 ---
@@ -243,6 +259,8 @@ Sources: [[Apollo_Manual_Journal_Fuel_Targets]], [[DOC-QB-LOGS-2022-2026]]
 | Combined ATI+Promissory debt on Apollo | **$1,392,936** | HIGH | Dec 2025 balance sheet |
 | Wire Payable disappearance | **$868,535** | SUSPICIOUS | Balance sheet delta |
 | GIG Transportation payments (2024) | **$111,924** | CONFIRMED | Bank recs + GL |
+
+Sources: [[Bank Rec Analysis 2024]], [[Bank Rec Analysis 2025]], [[Apollo 2025 December]], [[Apollo_Manual_Journal_Fuel_Targets]], [[Intercompany Transfer Tracker]]
 
 ---
 

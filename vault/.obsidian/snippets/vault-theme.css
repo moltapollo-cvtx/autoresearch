@@ -107,6 +107,46 @@
   font-size: 1.05em;
 }
 
+/* --- Custom Callout: TIMELINE --- */
+.callout[data-callout="timeline"] {
+  --callout-color: 6, 182, 212;
+  --callout-icon: lucide-clock;
+  border-left: 4px solid #06b6d4;
+  background-color: rgba(6, 182, 212, 0.05);
+}
+.callout[data-callout="timeline"] .callout-title {
+  color: #06b6d4;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+/* --- Custom Callout: ENTITY --- */
+.callout[data-callout="entity"] {
+  --callout-color: 168, 85, 247;
+  --callout-icon: lucide-users;
+  border-left: 4px solid #a855f7;
+  background-color: rgba(168, 85, 247, 0.05);
+}
+.callout[data-callout="entity"] .callout-title {
+  color: #a855f7;
+  font-weight: 600;
+}
+
+/* --- Custom Callout: BRIDGE --- */
+.callout[data-callout="bridge"] {
+  --callout-color: 20, 184, 166;
+  --callout-icon: lucide-git-merge;
+  border-left: 4px solid #14b8a6;
+  background-color: rgba(20, 184, 166, 0.06);
+}
+.callout[data-callout="bridge"] .callout-title {
+  color: #14b8a6;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
 /* --- Tag Styling --- */
 .tag {
   background-color: var(--forensic-tag-bg);
@@ -219,7 +259,58 @@ input[type="checkbox"]:checked {
 .graph-view.color-fill-tag[data-tag="timeline"] { color: #06b6d4; }
 .graph-view.color-fill-tag[data-tag="critical"] { color: var(--forensic-critical); }
 
+/* --- Bridge tag styling --- */
+a.tag[href="#bridge"],
+a.tag[href*="/bridge"] {
+  background-color: rgba(20, 184, 166, 0.15);
+  color: #14b8a6;
+  border-color: rgba(20, 184, 166, 0.3);
+}
+
+/* --- Open-question tag styling --- */
+a.tag[href="#open-question"],
+a.tag[href*="/open-question"] {
+  background-color: rgba(234, 179, 8, 0.15);
+  color: var(--forensic-medium);
+  border-color: rgba(234, 179, 8, 0.3);
+}
+
+/* --- Strategy tag styling --- */
+a.tag[href="#strategy"],
+a.tag[href*="/strategy"] {
+  background-color: rgba(168, 85, 247, 0.12);
+  color: #a855f7;
+  border-color: rgba(168, 85, 247, 0.25);
+}
+
+/* --- Graph View Additional Node Colors --- */
+.graph-view.color-fill-tag[data-tag="bridge"] { color: #14b8a6; }
+.graph-view.color-fill-tag[data-tag="strategy"] { color: #a855f7; }
+.graph-view.color-fill-tag[data-tag="open-question"] { color: var(--forensic-medium); }
+.graph-view.color-fill-tag[data-tag="dashboard"] { color: var(--forensic-accent-amber); }
+.graph-view.color-fill-tag[data-tag="source-file"] { color: #14b8a6; }
+.graph-view.color-fill-tag[data-tag="forensic-key"] { color: var(--forensic-critical); }
+
 /* --- Dollar amounts emphasis --- */
 strong {
   color: var(--forensic-accent-warm);
+}
+
+/* --- Dataview table styling --- */
+.dataview.table-view-table th {
+  background-color: var(--forensic-bg-tertiary);
+  color: var(--forensic-accent-warm);
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 0.85em;
+  letter-spacing: 0.04em;
+  padding: 8px 12px;
+  border-bottom: 2px solid var(--forensic-accent-gold);
+}
+.dataview.table-view-table td {
+  padding: 6px 12px;
+  border-bottom: 1px solid var(--forensic-border);
+}
+.dataview.table-view-table tr:hover td {
+  background-color: rgba(245, 158, 11, 0.03);
 }

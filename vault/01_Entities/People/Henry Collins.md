@@ -8,6 +8,7 @@ status: needs-verification
 created: 2026-03-23
 updated: 2026-03-24
 related: ["[[Apollo Energy Resources LLC]]", "[[Fuel Card Overview]]", "[[Card 0048 - Henry Collins]]"]
+known-accounts: ["EFS Fuel Card *0048"]
 ---
 
 # Henry Collins
@@ -19,6 +20,14 @@ related: ["[[Apollo Energy Resources LLC]]", "[[Fuel Card Overview]]", "[[Card 0
 
 ## Relevance to Investigation
 Henry Collins is associated with card *0048, which has the highest spend of all 10 masked fuel cards. His exact **termination date is a critical evidentiary threshold** — any charges on *0048 after his departure are direct evidence of fraud.
+
+## Known Accounts
+- EFS Fuel Card *0048 (highest-spend masked card)
+
+## Key Transactions
+| Date | Amount | Type | Source |
+|------|--------|------|--------|
+| Post-termination | Unknown | Fuel card charges after employment ended | [[Card 0048 - Henry Collins]] |
 
 ## Action Items
 - [ ] **PRIORITY:** Confirm exact termination date

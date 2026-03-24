@@ -6,6 +6,8 @@ status: confirmed
 created: 2026-03-23
 updated: 2026-03-24
 related: ["[[Asphalt Transport Inc (ATI)]]", "[[Gemini Logistics USA LLC]]", "[[Stellar Bank]]"]
+total-extracted: -915887
+key-accounts: ["Stellar Bank 21920400", "EFS Carrier ID 5725124", "QB GL 1000-00-00"]
 ---
 
 # Apollo Energy Resources LLC
@@ -23,6 +25,17 @@ related: ["[[Asphalt Transport Inc (ATI)]]", "[[Gemini Logistics USA LLC]]", "[[
 
 ## The Core Problem
 Apollo generates revenue and incurs costs, but ATI exclusively controls all bank accounts, cash flows, asset titles, the accounting system, and financial record-keeping. Walker, as owner, cannot independently verify what ATI reports.
+
+## Key Accounts
+| Account | Type | Controlled By |
+|---------|------|--------------|
+| Stellar Bank 21920400 | Operating bank account | [[Rosanna Karim]] (sole authorizer) |
+| EFS Carrier ID 5725124 | Fuel card carrier | ATI |
+| GL 1000-00-00 | Cash account | ATI (no audit trail) |
+| GL 2010-00-00 | Fuel Payable | ATI — accumulated $322,639 in 2024 |
+| GL 2410 | NP Gemini | $924,186 (Dec 2025) |
+| GL 2420 | NP ATI | $534,601 (Dec 2025) |
+| GL 2430 | ATI Promissory | $858,335 (backdated) |
 
 ## Connected Findings
 - [[Fuel Cost Manipulation]] — P&L inflated by ~$287K on fuel

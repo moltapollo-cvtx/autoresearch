@@ -8,6 +8,7 @@ status: confirmed
 created: 2026-03-24
 updated: 2026-03-24
 related: ["[[Apollo Energy Resources LLC]]", "[[Investigation Dashboard]]", "[[Grandparent Meeting Prep]]"]
+known-accounts: ["None — no financial system access"]
 ---
 
 # Walker — Apollo Owner
@@ -26,6 +27,10 @@ Walker is the **complainant and investigation principal**. He owns Apollo Energy
 - Has no direct access to Apollo's own Stellar Bank account (Acct 21920400)
 - Initiated "Project Whoopsie" investigation
 - Target audience for deliverables: grandparent company (ATI's parent)
+
+## Known Accounts
+- NO direct access to Apollo's Stellar Bank account 21920400
+- NO access to QuickBooks accounting system
 
 ## Known Actions
 | Date | Action | Source |

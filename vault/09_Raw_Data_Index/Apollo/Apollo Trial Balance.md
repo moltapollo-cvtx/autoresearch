@@ -1,10 +1,12 @@
 ---
 tags: [source-file, apollo]
+type: source
 doc_id: SRC-APL-052
 file_path: "../../Apollo Trial Balance.CSV"
 file_type: csv
 entity: Apollo Energy Resources LLC
 period:
+date-range:
 received_date:
 sha256:
 status: indexed
@@ -27,6 +29,9 @@ Trial balance export for Apollo Energy. Contains all account balances (debit and
 
 ## Related Findings
 - [[Revenue Timing Shift]]
+
+> [!PROPOSAL] Potential evidence for additional findings
+> This trial balance may support [[Monthly GL vs Consolidated Reconciliation]] (P&L verification at a specific point in time). Date of this report should be determined to place it in the investigation timeline. Cross-reference recommended.
 
 ## Chain of Custody
 - **Indexed:** 2026-03-24

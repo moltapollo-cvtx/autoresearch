@@ -1,10 +1,12 @@
 ---
 tags: [source-file, apollo]
+type: source
 doc_id: SRC-APL-025
 file_path: "../../Apollo 2023 to dec 2024 General Ledger.csv"
 file_type: csv
 entity: Apollo Energy Resources LLC
 period: 2023-01 to 2024-12
+date-range: 2023-01-01 to 2024-12-31
 received_date:
 sha256:
 status: indexed

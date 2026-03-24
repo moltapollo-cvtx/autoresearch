@@ -1,10 +1,12 @@
 ---
 tags: [source-file, gemini]
+type: source
 doc_id: SRC-GEM-007
 file_path: "../../Gemini July 2024.csv"
 file_type: csv
 entity: Gemini Logistics USA LLC
 period: 2024-07
+date-range: 2024-07-01 to 2024-07-31
 received_date:
 sha256:
 status: indexed
@@ -27,6 +29,9 @@ Monthly general ledger export for Gemini Logistics, July 2024. Contains all jour
 
 ## Related Findings
 - [[Gemini Record Manipulation]]
+
+> [!PROPOSAL] Potential evidence for additional findings
+> This Gemini GL source file may contain transaction-level detail supporting [[Gemini Profit Siphon]] (monthly P&L verification to trace profit extraction patterns) or [[Gemini Record Manipulation]] (identify manipulated entries). Cross-reference with ATI intercompany billing recommended.
 
 ## Chain of Custody
 - **Indexed:** 2026-03-24

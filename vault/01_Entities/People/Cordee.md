@@ -8,6 +8,7 @@ status: confirmed
 created: 2026-03-23
 updated: 2026-03-24
 related: ["[[Apollo Energy Resources LLC]]", "[[Rosanna Karim]]", "[[GL Audit Trail Anomalies]]", "[[Gemini Record Manipulation]]"]
+known-accounts: ["QB User (43.3% of all entries)"]
 ---
 
 # Cordee
@@ -29,6 +30,15 @@ related: ["[[Apollo Energy Resources LLC]]", "[[Rosanna Karim]]", "[[GL Audit Tr
 | Mass-deleted 23 Gemini-related records in ~25 minutes | [[Gemini Record Manipulation]] |
 | 476-day backdated entry: $26,452 "co driver fuel" (Trans #1169) | [[GL Audit Trail Anomalies]], [[Fuel Cost Manipulation]] |
 | Entry #1169: Tx date 09/20/2023, entered 01/08/2025 14:33 | [[DOC-QB-LOGS-2022-2026]] |
+
+## Known Accounts
+- QuickBooks user (most active: 11,698 entries, 43.3% of total)
+
+## Key Transactions
+| Date | Amount | Type | Source |
+|------|--------|------|--------|
+| 2023-09-20 (entered 2025-01-08) | $26,451.77 | 476-day backdated fuel GJ (Trans #1169) | [[DOC-QB-LOGS-2022-2026]] |
+| Various | — | 23 Gemini records mass-deleted (~25 min window) | [[DOC-QB-LOGS-2022-2026]] |
 
 ## Relevance to Investigation
 Two critical actions: (1) Mass deletion of Gemini records — overt evidence destruction. (2) The most extreme backdated entry in the dataset (476 days) — a "co driver fuel" entry that simultaneously inflates Apollo's fuel cost and increases Apollo's debt to ATI. Whether Cordee acted independently or at direction from ATI personnel (e.g., [[Rosanna Karim]] or [[Jimmy]]) is a key question.

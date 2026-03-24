@@ -1,10 +1,12 @@
 ---
 tags: [source-file, apollo, bank-rec]
+type: source
 doc_id: SRC-APL-053
 file_path: "../../Apollo bank transfers 2025.pdf"
 file_type: pdf
 entity: Apollo Energy Resources LLC
 period: 2025
+date-range: 2025-01-01 to 2025-12-31
 received_date:
 sha256:
 status: indexed
@@ -29,6 +31,9 @@ Record of bank transfers involving Apollo Energy during 2025. Likely includes in
 
 ## Related Findings
 - [[ATI Monthly Billing Manipulation]]
+
+> [!PROPOSAL] Potential evidence for additional findings
+> This bank transfers file may contain detail supporting [[Intercompany Transfer Tracker]] (verify specific extraction amounts and timing) and [[Account 2010 Fuel Payable Mechanism]] (trace how Account 2010 clearing entries corresponded to actual bank transfers in 2025). Cross-reference recommended.
 
 ## Chain of Custody
 - **Indexed:** 2026-03-24

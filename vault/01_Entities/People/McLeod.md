@@ -8,6 +8,7 @@ status: needs-verification
 created: 2026-03-24
 updated: 2026-03-24
 related: ["[[Other Flagged Users]]", "[[DOC-BankRec-2025-McLeod]]", "[[Bank Rec Analysis 2025]]"]
+known-accounts: ["System User (bank rec generator)"]
 ---
 
 # McLeod — System User (Bank Rec Generator)

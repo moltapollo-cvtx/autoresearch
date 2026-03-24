@@ -1,10 +1,12 @@
 ---
 tags: [source-file, apollo]
+type: source
 doc_id: SRC-APL-012
 file_path: "../../Apollo 2024 December.csv"
 file_type: csv
 entity: Apollo Energy Resources LLC
 period: 2024-12
+date-range: 2024-12-01 to 2024-12-31
 received_date:
 sha256:
 status: indexed
@@ -28,6 +30,9 @@ Monthly general ledger export for Apollo Energy, December 2024. Contains all jou
 
 ## Related Findings
 - [[ATI Monthly Billing Manipulation]]
+
+> [!PROPOSAL] Potential evidence for additional findings
+> This source file may contain transaction-level detail supporting [[Account 2010 Fuel Payable Mechanism]] (Account 2010 grew every month of 2024 through fuel payable entries) or [[Monthly GL vs Consolidated Reconciliation]] (P&L verification). Cross-reference recommended.
 
 ## Chain of Custody
 - **Indexed:** 2026-03-24

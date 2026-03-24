@@ -12,6 +12,12 @@ related:
 evidence-refs:
   - "[[ATI GL 2023 - Gemini N-R Analysis]]"
   - "[[ATI 2025 Profit & Loss MoM]]"
+  - "[[Apollo 2024 January]]"
+  - "[[Apollo 2024 December]]"
+  - "[[Apollo 2025 January]]"
+  - "[[Apollo 2025 December]]"
+  - "[[Gemini January 2024]]"
+  - "[[Gemini 2025 December]]"
 dollar-amount: 340909
 estimated_impact: "$127,964 trapped profits + $212,945 phantom debt growth"
 direction: apollo-inflated
@@ -30,7 +36,7 @@ documented_date: 2026-03-24
 | Total Expenses | $686,263.46 | $1,117,775.63 | $1,804,039.09 |
 | **Net Income** | **$66,665.37** | **$61,298.59** | **$127,963.96** |
 
-Source: All 24 Gemini monthly P&L CSVs (Gemini January 2024.csv through Gemini 2025 December.csv)
+Source: Gemini monthly P&L CSVs ([[Gemini January 2024]] through [[Gemini 2025 December]]) — see [[ATI GL 2023 - Gemini N-R Analysis]]
 
 **Gemini generated $127,964 in net profit over 24 months. NONE of it flowed to Apollo.**
 
@@ -47,6 +53,8 @@ Instead of distributing profits to Apollo, Gemini's books show an ever-growing "
 | Jan 2025 | $815,445.37 | $815,445.37 | YES |
 | Dec 2025 | $924,185.80 | $924,185.80 | YES |
 
+Source: [[Apollo 2024 January]], [[Apollo 2024 December]], [[Apollo 2025 January]], [[Apollo 2025 December]] (balance sheet sections)
+
 **24-month growth: +$212,945.11**
 
 The receivable grew by MORE than Gemini's total profits ($212K > $128K). Not only did Apollo not receive Gemini's profits — Apollo's DEBT to Gemini increased by $85K more than Gemini even earned.
@@ -62,7 +70,9 @@ The receivable grew by MORE than Gemini's total profits ($212K > $128K). Not onl
 | ATI Promissory (2430) | $858,334.89 | ATI |
 | **TOTAL** | **$2,089,420.25** | **ALL ATI** |
 
-Apollo's Retained Earnings: **($1,182,612.17)** — deeply negative.
+Source: [[Apollo 2025 January]] (balance sheet, NP accounts 2410/2420/2430)
+
+Apollo's Retained Earnings: **($1,182,612.17)** ([[Apollo 2025 January|Apollo 2025 January — Retained Earnings]]) — deeply negative.
 
 Apollo is technically insolvent on a retained earnings basis, while carrying $2.09M in intercompany debt to entities controlled by the same parent company that controls Apollo's books.
 
@@ -74,6 +84,8 @@ Apollo is technically insolvent on a retained earnings basis, while carrying $2.
 |------|-----------|----------------|---------------|
 | Jan 2024 | $297,667.18 | — | — |
 | Dec 2025 | $242,207.08 | +$127,964 (net income) | **-$55,460** |
+
+Source: [[Gemini January 2024]], [[Gemini 2025 December]] (retained earnings line)
 
 Gemini's retained earnings **DECREASED** by $55,460 despite earning $127,964 in net income. That means approximately **$183,424** was removed from Gemini's retained earnings through unidentified adjustments — likely reclassified to build the NR Apollo receivable or transferred to ATI.
 

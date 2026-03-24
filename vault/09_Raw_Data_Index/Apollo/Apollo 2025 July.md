@@ -1,10 +1,12 @@
 ---
 tags: [source-file, apollo]
+type: source
 doc_id: SRC-APL-019
 file_path: "../../Apollo 2025 July.csv"
 file_type: csv
 entity: Apollo Energy Resources LLC
 period: 2025-07
+date-range: 2025-07-01 to 2025-07-31
 received_date:
 sha256:
 status: indexed
@@ -27,6 +29,9 @@ Monthly general ledger export for Apollo Energy, July 2025. Contains all journal
 
 ## Related Findings
 - [[ATI Monthly Billing Manipulation]]
+
+> [!PROPOSAL] Potential evidence for additional findings
+> This source file may contain transaction-level detail supporting [[Account 2010 Fuel Payable Mechanism]] (clearing entries in 2025 that attempted to settle the inflated Account 2010 balance) or [[Forensic Cross-Reference Report]] (monthly verification of intercompany charges). Cross-reference recommended.
 
 ## Chain of Custody
 - **Indexed:** 2026-03-24
