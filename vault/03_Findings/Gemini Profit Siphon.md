@@ -89,6 +89,11 @@ Source: [[Gemini January 2024]], [[Gemini 2025 December]] (retained earnings lin
 
 Gemini's retained earnings **DECREASED** by $55,460 despite earning $127,964 in net income. That means approximately **$183,424** was removed from Gemini's retained earnings through unidentified adjustments — likely reclassified to build the NR Apollo receivable or transferred to ATI.
 
+> [!MISSING-EVIDENCE]
+> **To trace the $183K Gemini RE removal:** Requires Gemini's 2024-2025 adjusting journal entries affecting retained earnings (account 3000 or equivalent). These entries would show whether equity was distributed to ATI, reclassified to NR Apollo, or removed through some other mechanism.
+> **From whom:** ATI ([[Rosanna Karim]]) — they control Gemini's books.
+> **What it would prove:** Where ~$183K in Gemini equity went. If distributed to ATI while Apollo received nothing, this is direct evidence of preferential treatment — ATI extracts from both Apollo (via cash) and Gemini (via equity) while Apollo's debt to Gemini keeps growing.
+
 ---
 
 ## How the Money Flows (The Complete Picture)

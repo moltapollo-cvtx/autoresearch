@@ -314,3 +314,50 @@ strong {
 .dataview.table-view-table tr:hover td {
   background-color: rgba(245, 158, 11, 0.03);
 }
+
+/* =============================================================
+   GRAPH VIEW — Pass 6: Simplification & Visual Hierarchy
+   ============================================================= */
+
+/* --- Graph container: tighter padding, subtle grid background --- */
+.graph-view.mod-global {
+  padding: 4px;
+}
+
+.graph-view .graph-view-container {
+  background-image:
+    radial-gradient(circle at 1px 1px, rgba(245, 158, 11, 0.025) 1px, transparent 0);
+  background-size: 20px 20px;
+  background-color: var(--forensic-bg-primary);
+}
+
+/* --- Source/raw-data dimming ---
+   Primary mechanism: graph.json search filter excludes 09_Raw_Data_Index by default.
+   When sources ARE shown (full view), the grey color group (rgb 7041664)
+   ensures they recede visually against gold/blue/purple nodes.
+   These CSS rules target graph UI elements where applicable. */
+.graph-view.color-fill-tag[data-tag="source"] {
+  opacity: 0.35;
+}
+
+/* --- Hub node emphasis (dashboards, MOC, critical findings) --- */
+.graph-view.color-fill-tag[data-tag="critical"] {
+  filter: brightness(1.3);
+}
+
+.graph-view.color-fill-tag[data-tag="dashboard"] {
+  filter: brightness(1.2);
+}
+
+/* --- Graph controls styling --- */
+.graph-controls {
+  background-color: var(--forensic-bg-secondary);
+  border: 1px solid var(--forensic-border);
+  border-radius: 6px;
+}
+
+.graph-controls .search-input-container input {
+  background-color: var(--forensic-bg-tertiary);
+  border: 1px solid var(--forensic-border);
+  color: var(--forensic-text-primary);
+}

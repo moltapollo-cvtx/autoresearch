@@ -280,6 +280,11 @@ ATI's own chargeback summary contains **internal math errors**:
 
 The insurance line claims $1,100/month but $198,000/year — those are off by **15x**. The E-Log line claims $32/month but $5,760/year — also off by **15x**. This is either incompetence or deliberate obfuscation.
 
+> [!MISSING-EVIDENCE]
+> **To determine intent behind 15x errors:** Requires ATI's internal insurance billing calculations and actual insurance invoices from the carrier. Cross-reference the $198,000/yr claimed against the $192,701 on Apollo's 2025 P&L and the ~$51,260/month allocation visible in 2024 GL.
+> **From whom:** ATI ([[Rosanna Karim]]) — insurance invoices demanded in [[Document Demand Letter Template]].
+> **What it would prove:** Whether the 15x multiplier is an arithmetic error in a hastily prepared document or a deliberate attempt to inflate Apollo's apparent obligations to ATI.
+
 Compare to what Apollo's 2025 P&L actually shows:
 - Insurance Expense (6200): $195,920 (close to the $198K claimed — ATI is billing Apollo their full annual rate)
 - E-Log Service (5615): $11,520 (DOUBLE what ATI claims: $5,760)

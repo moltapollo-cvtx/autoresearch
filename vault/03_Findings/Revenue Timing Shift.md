@@ -41,6 +41,9 @@ Understating FY2024 revenue makes Apollo appear less profitable in the completed
 - [[APL GL work]] — Working analysis file
 - [[Source Registry]] | [[Data Lineage]]
 
+> [!UNANALYZED-SOURCE]
+> **[[APL GL work]]** — This working analysis file was being built to compare monthly revenue by transaction date vs. book date across all 12 months of 2024. The analysis was interrupted before completion. Completing this comparison would either confirm the systematic one-month forward shift pattern across the full year or reveal it as isolated to certain months. This is the single most impactful unfinished analysis in the vault.
+
 > [!UPGRADE-PATH] Confidence: MEDIUM-HIGH → HIGH
 > **Document needed:** Completed APL_GL_Comparison_Report.xlsx — monthly revenue comparison across all 12 months of 2024, showing transaction-date revenue vs. book-date revenue for each month.
 > **From whom:** Investigation team (analysis in progress, was interrupted).

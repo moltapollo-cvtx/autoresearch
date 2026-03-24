@@ -1,6 +1,6 @@
 {
-  "collapse-filter": true,
-  "search": "",
+  "collapse-filter": false,
+  "search": "-path:09_Raw_Data_Index -path:07_Templates -file:Untitled",
   "showTags": true,
   "showAttachments": false,
   "hideUnresolved": false,
@@ -8,20 +8,16 @@
   "collapse-color-groups": false,
   "colorGroups": [
     {
-      "query": "tag:#critical",
-      "color": { "a": 1, "rgb": 15684692 }
-    },
-    {
       "query": "tag:#finding",
       "color": { "a": 1, "rgb": 16098048 }
     },
     {
       "query": "tag:#synthesis",
-      "color": { "a": 1, "rgb": 16750848 }
+      "color": { "a": 1, "rgb": 16098048 }
     },
     {
       "query": "tag:#bridge",
-      "color": { "a": 1, "rgb": 1301186 }
+      "color": { "a": 1, "rgb": 16098048 }
     },
     {
       "query": "tag:#evidence",
@@ -29,39 +25,43 @@
     },
     {
       "query": "tag:#person",
-      "color": { "a": 1, "rgb": 15497088 }
+      "color": { "a": 1, "rgb": 9133295 }
     },
     {
       "query": "tag:#company",
       "color": { "a": 1, "rgb": 9133295 }
     },
     {
-      "query": "tag:#source",
-      "color": { "a": 1, "rgb": 1357406 }
-    },
-    {
-      "query": "tag:#timeline",
-      "color": { "a": 1, "rgb": 440260 }
-    },
-    {
-      "query": "tag:#dashboard",
-      "color": { "a": 1, "rgb": 16766720 }
+      "query": "path:06_Strategy",
+      "color": { "a": 1, "rgb": 2278750 }
     },
     {
       "query": "tag:#open-question",
-      "color": { "a": 1, "rgb": 16776960 }
+      "color": { "a": 1, "rgb": 2278750 }
+    },
+    {
+      "query": "tag:#dashboard",
+      "color": { "a": 1, "rgb": 14251782 }
+    },
+    {
+      "query": "path:08_Deliverables",
+      "color": { "a": 1, "rgb": 14251782 }
+    },
+    {
+      "query": "tag:#source",
+      "color": { "a": 1, "rgb": 7041664 }
     }
   ],
   "collapse-display": true,
   "showArrow": true,
   "textFadeMultiplier": 0,
-  "nodeSizeMultiplier": 1.2,
-  "lineSizeMultiplier": 1,
+  "nodeSizeMultiplier": 2.2,
+  "lineSizeMultiplier": 0.8,
   "collapse-forces": true,
-  "centerStrength": 0.518713248970312,
-  "repelStrength": 10,
-  "linkStrength": 1,
-  "linkDistance": 250,
-  "scale": 0.8486290049468931,
+  "centerStrength": 0.65,
+  "repelStrength": 8,
+  "linkStrength": 1.2,
+  "linkDistance": 120,
+  "scale": 0.85,
   "close": false
 }

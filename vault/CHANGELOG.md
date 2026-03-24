@@ -11,6 +11,69 @@ updated: 2026-03-24
 
 ---
 
+## 2026-03-24 — Vault Pass 6: Allegation Status Matrix & Graph Simplification
+
+### Summary
+Pass 6 created the definitive allegation cross-reference matrix and dramatically simplified the graph view. Every claim in the vault — confirmed or not — is now tracked in a single strategic document with status, confidence, dollar amounts, best evidence, and gaps. The graph was reconfigured to hide 91+ raw data stubs by default while preserving all information accessible via local graph.
+
+### P6-1: Allegation Status Matrix (NEW FILE)
+- Created `06_Strategy/Allegation Status Matrix.md` — the single most important strategic document in the vault
+- **18 allegations tracked** across 4 status levels:
+  - **CONFIRMED (5):** Net Cash Extraction ($915,887), Account 2010 Fuel Dump ($527,073), 2025 Fuel Overstatement ($422,078), 2023 Fuel GJ Fabrication ($234,683), Systematic GL Backdating ($1.9M+ affected)
+  - **PARTIAL (6):** Promissory Note Backdating ($858K), Gemini Profit Siphon ($340,909), Gemini Record Manipulation ($282,416+), GIG Transportation ($111,924), GL vs P&L Discrepancies (~$131K), Revenue Timing Shift (~$145K)
+  - **UNCONFIRMED (3):** ATI Monthly Billing (unquantified), Undocumented Ins/Elog ($84,960), ATI Chargeback Errors (indeterminate)
+  - **NEEDS-INVESTIGATION (4):** Wire Payable Disappearance ($868,535), Card *0048 Post-Termination (unquantified), Equipment Loan Pass-Through (~$442K/yr), Gemini RE Anomaly (~$183K)
+- **Total confirmed cash exposure: $915,887**
+- **Total confirmed P&L fraud: $656,761** (non-overlapping)
+- Strongest case / weakest point analysis
+- Double-counting warnings cross-referencing Master Financial Reconciliation
+- Unanalyzed Sources table: 5 raw data files that could confirm open allegations
+- Graph View Filter Presets table for quick switching between views
+
+### P6-2: Stub Finding Notes (3 NEW FILES)
+- Created `03_Findings/Wire Payable Disappearance.md` — $868,535 account 2011 collapse; likely reclassified to ATI Promissory
+- Created `03_Findings/Undocumented Ins-Elog Charge.md` — $84,960 single charge with no supporting invoices
+- Created `03_Findings/Equipment Loan Pass-Through.md` — $785K in ATI-titled loans charged to Apollo ($442K/year)
+- All stubs include [!MISSING-EVIDENCE] callouts specifying exact documents needed
+- Wire Payable and Equipment Loan stubs include [!UNANALYZED-SOURCE] callouts
+
+### P6-3: Finding Note Callout Additions (3 files modified)
+- **Forensic Cross-Reference Report:** Added [!MISSING-EVIDENCE] for ATI chargeback 15x calculation errors (insurance billing intent)
+- **Revenue Timing Shift:** Added [!UNANALYZED-SOURCE] for [[APL GL work]] interrupted analysis
+- **Gemini Profit Siphon:** Added [!MISSING-EVIDENCE] for ~$183K retained earnings removal tracing
+
+### P6-4: Graph Simplification
+- **graph.json** rewritten with 6 consolidated color groups (11 rules, 6 visual colors):
+  - Findings/synthesis/bridge = gold (#F59E00)
+  - Evidence = blue (#60A5FF)
+  - Entities (person + company) = purple (#8B5CF6)
+  - Strategy/open-question = green (#22C55E)
+  - Dashboard/deliverables = amber (#D97706)
+  - Sources/raw-data = grey-dimmed (#6B7280)
+- **Default search filter:** `-path:09_Raw_Data_Index -path:07_Templates -file:Untitled` — hides 91+ raw data stubs and templates from global graph by default
+- **Full view:** Clear search field to see everything
+- **Node sizing:** `nodeSizeMultiplier` increased from 1.2 → 2.2 (hub notes visually dominate)
+- **Link distance:** Reduced from 250 → 120 (tighter clustering by section)
+- **Center strength:** Increased from 0.52 → 0.65 (more cohesive layout)
+- **Repel strength:** Reduced from 10 → 8 (less spread)
+- **Link strength:** Increased from 1.0 → 1.2 (stronger section clustering)
+- Filter preset strings documented in Allegation Status Matrix
+
+### P6-5: CSS Graph Styling
+- Added graph container tighter padding (4px)
+- Added subtle radial-gradient dot grid background for depth perception
+- Added source node opacity dimming (0.35) for visual recession
+- Added brightness boost for critical (1.3x) and dashboard (1.2x) nodes
+- Added graph controls panel styling matching forensic theme
+
+**New files created: 4** (Allegation Status Matrix, Wire Payable Disappearance, Undocumented Ins-Elog Charge, Equipment Loan Pass-Through)
+**Files modified: 5** (Forensic Cross-Reference Report, Revenue Timing Shift, Gemini Profit Siphon, graph.json, vault-theme.css)
+**Allegations tracked: 18** (5 confirmed / 6 partial / 3 unconfirmed / 4 needs-investigation)
+**Total confirmed cash exposure: $915,887**
+**Total confirmed P&L fraud: $656,761**
+
+---
+
 ## 2026-03-24 — Vault Pass 5: Legal Packaging & Final Audit-Readiness
 
 ### Summary
