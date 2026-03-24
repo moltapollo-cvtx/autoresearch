@@ -1,5 +1,5 @@
 ---
-tags: [source-file, apollo, bank-rec]
+tags: [source]
 type: source
 doc_id: SRC-APL-040
 file_path: "../../Apollo Bank Rec NOV 2024.xlsm"
@@ -10,6 +10,7 @@ date-range: 2024-11-01 to 2024-11-30
 received_date:
 sha256:
 status: indexed
+updated: 2026-03-24
 ---
 
 # Apollo Energy Bank Reconciliation - November 2024

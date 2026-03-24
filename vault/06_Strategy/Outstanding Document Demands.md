@@ -2,7 +2,7 @@
 type: strategy
 status: active
 confidence: high
-tags: [strategy, open-question]
+tags: [open-question]
 created: 2026-03-23
 updated: 2026-03-24
 related:

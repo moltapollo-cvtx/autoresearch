@@ -1,5 +1,5 @@
 ---
-tags: [source-file, gemini]
+tags: [source]
 type: source
 doc_id: SRC-GEM-023
 file_path: "../../Gemini 2025 November.csv"
@@ -10,6 +10,7 @@ date-range: 2025-11-01 to 2025-11-30
 received_date:
 sha256:
 status: indexed
+updated: 2026-03-24
 ---
 
 # Gemini Logistics GL - November 2025

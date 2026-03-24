@@ -1,5 +1,5 @@
 ---
-tags: [source-file, apollo, quickbooks]
+tags: [source]
 type: source
 doc_id: SRC-APL-050
 file_path: "../../Apollo Quickbooks Audit Trail 2023 to dec 2024.CSV"
@@ -10,6 +10,7 @@ date-range: 2023-01-01 to 2024-12-31
 received_date:
 sha256:
 status: indexed
+updated: 2026-03-24
 ---
 
 # Apollo Energy QuickBooks Audit Trail - 2023 through December 2024

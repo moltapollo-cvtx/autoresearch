@@ -1,5 +1,5 @@
 ---
-tags: [source-file, apollo, fuel]
+tags: [source]
 type: source
 doc_id: SRC-APL-048
 file_path: "../../Apollo Fuel 2023 2025.csv"
@@ -10,6 +10,7 @@ date-range: 2023-01-01 to 2025-12-31
 received_date:
 sha256:
 status: indexed
+updated: 2026-03-24
 ---
 
 # Apollo Energy Fuel Data - 2023 through 2025

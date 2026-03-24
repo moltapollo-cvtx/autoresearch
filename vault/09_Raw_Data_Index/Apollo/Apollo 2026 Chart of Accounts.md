@@ -1,5 +1,5 @@
 ---
-tags: [source-file, apollo]
+tags: [source]
 type: source
 doc_id: SRC-APL-054
 file_path: "../../Apollo 2026 Chart of Accounts.csv"
@@ -10,6 +10,7 @@ date-range: 2026-01-01 to 2026-12-31
 received_date:
 sha256:
 status: indexed
+updated: 2026-03-24
 ---
 
 # Apollo Energy Chart of Accounts - 2026

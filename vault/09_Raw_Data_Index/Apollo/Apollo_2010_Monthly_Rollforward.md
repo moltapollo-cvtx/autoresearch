@@ -1,5 +1,5 @@
 ---
-tags: [source-file, apollo, account-2010, forensic-key]
+tags: [source, critical]
 type: source
 doc_id: SRC-APL-056
 file_path: "../../Apollo_2010_Monthly_Rollforward.csv"
@@ -10,6 +10,7 @@ date-range: 2023-01-01 to 2025-12-31
 received_date:
 sha256:
 status: indexed
+updated: 2026-03-24
 ---
 
 # Apollo Energy Account 2010 Monthly Rollforward

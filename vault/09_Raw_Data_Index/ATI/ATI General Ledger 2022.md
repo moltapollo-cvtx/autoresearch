@@ -1,5 +1,5 @@
 ---
-tags: [source-file, ati]
+tags: [source]
 type: source
 doc_id: SRC-ATI-001
 file_path: "../../ATI GEneral Ledger 2022.xlsm"
@@ -10,6 +10,7 @@ date-range: 2022-01-01 to 2022-12-31
 received_date:
 sha256:
 status: indexed
+updated: 2026-03-24
 ---
 
 # ATI General Ledger - 2022

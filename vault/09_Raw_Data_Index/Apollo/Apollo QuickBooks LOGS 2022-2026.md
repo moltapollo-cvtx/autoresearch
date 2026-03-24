@@ -1,5 +1,5 @@
 ---
-tags: [source-file, apollo, quickbooks]
+tags: [source]
 type: source
 doc_id: SRC-APL-049
 file_path: "../../Apollo QuickBooks LOGS 2022-2026.xlsm"
@@ -10,6 +10,7 @@ date-range: 2022-01-01 to 2026-12-31
 received_date:
 sha256: d918f3c9134d06e26fd2724abd8806c22090e5d8a3976f5f64e9a503ef9a0a82
 status: indexed
+updated: 2026-03-24
 ---
 
 # Apollo Energy QuickBooks Audit Logs - 2022 through 2026

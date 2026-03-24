@@ -8,8 +8,20 @@
   "collapse-color-groups": false,
   "colorGroups": [
     {
+      "query": "tag:#critical",
+      "color": { "a": 1, "rgb": 15684692 }
+    },
+    {
       "query": "tag:#finding",
       "color": { "a": 1, "rgb": 16098048 }
+    },
+    {
+      "query": "tag:#synthesis",
+      "color": { "a": 1, "rgb": 16750848 }
+    },
+    {
+      "query": "tag:#bridge",
+      "color": { "a": 1, "rgb": 1301186 }
     },
     {
       "query": "tag:#evidence",
@@ -32,12 +44,12 @@
       "color": { "a": 1, "rgb": 440260 }
     },
     {
-      "query": "tag:#critical",
-      "color": { "a": 1, "rgb": 15684692 }
-    },
-    {
       "query": "tag:#dashboard",
       "color": { "a": 1, "rgb": 16766720 }
+    },
+    {
+      "query": "tag:#open-question",
+      "color": { "a": 1, "rgb": 16776960 }
     }
   ],
   "collapse-display": true,

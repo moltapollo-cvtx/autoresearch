@@ -1,5 +1,5 @@
 ---
-tags: [source-file, ati, ifta]
+tags: [source]
 type: source
 doc_id: SRC-ATI-006
 file_path: "../../ATI IFTA 2024.csv"
@@ -10,6 +10,7 @@ date-range: 2024-01-01 to 2024-12-31
 received_date:
 sha256:
 status: indexed
+updated: 2026-03-24
 ---
 
 # ATI IFTA Filing - 2024

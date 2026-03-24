@@ -11,6 +11,86 @@ updated: 2026-03-24
 
 ---
 
+## 2026-03-24 — Vault Pass 4: Synthesis, Cross-Entity Analysis & Presentation Layer
+
+### Summary
+Pass 4 built the synthesis and presentation layer on top of the structured, citation-complete, placeholder-free vault from Passes 1-3. Created master narrative, cross-entity transaction mapping, evidence strength assessment, fuel fraud synthesis, upgraded meeting prep with actionable exhibits, and performed comprehensive tag normalization.
+
+### P4-1: Master Narrative (NEW FILE)
+- Created `00_Dashboard/Master Narrative.md` — the single note a reader should open first
+- Core thesis in 2 sentences, 5 most critical proven findings with dollar amounts
+- Complete mechanism explanation (how money moves from Apollo → ATI → unknown)
+- Every actor named with role and wikilink
+- Timeline arc: 2023 establishment → 2024 drain → 2025 escalation → 2026 investigation
+- "What we still need" section linking to Open Questions and Outstanding Document Demands
+- Dataview query pulling all CRITICAL-confidence findings
+- Navigation hub linking to all dashboards, synthesis notes, and strategy files
+
+### P4-2: Cross-Entity Transaction Map (NEW FILE)
+- Created `04_Cash_Flow/Cross-Entity Transaction Map.md`
+- Every documented money flow between entities, sorted chronologically
+- Apollo → ATI: $1,201,658 in paydowns (2024: $335,566, 2025: $866,092)
+- ATI → Apollo: $285,771 in advances (all 2025)
+- Apollo → GIG: $111,924 in 9 settlement payments (Jan-May 2024)
+- Gemini-related flows: $519K+ in customer "overpayments" credited to NP Gemini
+- Fabricated debt entries: $1.9M+ in journal entries creating paper obligations
+- Running totals by entity pair and year
+- 5 [!SMOKING-GUN] callouts for largest transactions
+
+### P4-3: Evidence Strength Matrix (NEW FILE)
+- Created `06_Strategy/Evidence Strength Matrix.md`
+- 12-row matrix assessing every finding: best evidence, evidence type, admissibility, ATI rebuttal potential, missing evidence, confidence
+- "Bulletproof" tier: Net Cash Extraction, Account 2010 Mechanism, Fuel Overstatement
+- "Strong" tier: Gemini Siphon, Record Manipulation, GL Anomalies, 2023 Fuel GJ
+- "Needs Work" tier: Promissory Backdating, Revenue Timing, ATI Billing, GIG
+- Evidence type legend with reliability ranking
+
+### P4-4: Fuel Fraud Synthesis (NEW FILE)
+- Created `03_Findings/SYNTHESIS - Fuel Fraud Complete Picture.md`
+- Unified all 3 fuel fraud mechanisms: Account 2010 dump ($285,789), EFS/IFTA vs P&L gap ($422,078 in 2025), Card *0048 Henry Collins anomalies
+- Interconnection diagram showing how mechanisms feed into each other
+- Combined documented exposure: $656,761+ (non-overlapping)
+- Year-by-year evolution: 2023 journal entries → 2024 accumulation → 2025 dump
+- Evolving sophistication analysis
+
+### P4-5: Grandparent Meeting Prep (REWRITTEN)
+- Complete rewrite of `06_Strategy/Grandparent Meeting Prep.md`
+- Opening statement: exact words Walker should say first
+- Top 5 exhibits with sources, what each shows, why it's bulletproof, and format
+- 6 anticipated pushback scenarios with specific counter-arguments
+- 7 questions designed to force admissions or create documented contradictions
+- Red lines table: 6 ATI claims that are demonstrably false with counter-evidence
+- Closing ask: 6 specific requests from immediate to investment
+- Meeting logistics (duration, materials, attendees, who NOT to invite)
+
+### P4-6: Deliverables Index (UPGRADED)
+- "Ready to Present" section: 8 findings with dollar impact, confidence, key source
+- "Needs Work" section: 5 findings with specific gaps and what's needed
+- "Draft Reports" section: 5 synthesis notes with status
+- Active external documents table
+- Planned deliverables with audience, format, estimated page count
+
+### P4-7: Tag Audit & Graph Refinement (101 files modified)
+- Audited all 162 markdown files for tag compliance
+- Removed 16 non-controlled tags: `source-file` (→`source`), `apollo`, `gemini`, `ati`, `bank-rec`, `fuel`, `ifta`, `quickbooks`, `account-2010`, `chargebacks`, `cross-entity`, `strategy`, `chain-of-custody`, `cash-flow`, `deliverable`, `forensic-key` (→`critical`)
+- 91 Raw Data Index files: tags normalized to `[source]` or `[source, critical]`
+- 10 strategy/chain-of-custody/deliverable files: non-controlled tags removed
+- graph.json updated: added 3 new color groups (synthesis=orange, bridge=teal, open-question=yellow), total 11 color groups
+
+### P4-8: Final Polish
+- Fixed 1 broken wikilink: `[[ATI]]` → `[[Asphalt Transport Inc (ATI)]]` in SYNTHESIS note
+- Added `updated: 2026-03-24` to 91 Raw Data Index files (previously missing)
+- Updated 2 files from `updated: 2026-03-23` to `2026-03-24`
+- AUDIT.md rewritten to reflect post-Pass 4 state
+- Verified: 154/155 wikilink targets resolve (155/155 after fix)
+
+**New files created: 4 (Master Narrative, Cross-Entity Transaction Map, Evidence Strength Matrix, Fuel Fraud Synthesis)**
+**Files rewritten: 3 (Grandparent Meeting Prep, Deliverables Index, AUDIT.md)**
+**Files modified (tags/dates): ~101 (91 Raw Data Index + 10 other)**
+**Total files affected: ~108**
+
+---
+
 ## 2026-03-24 — Vault Pass 3: Zero-Tolerance Placeholder Sweep
 
 ### Summary

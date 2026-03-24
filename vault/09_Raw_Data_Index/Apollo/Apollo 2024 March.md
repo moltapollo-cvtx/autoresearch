@@ -1,5 +1,5 @@
 ---
-tags: [source-file, apollo]
+tags: [source]
 type: source
 doc_id: SRC-APL-003
 file_path: "../../Apollo 2024 March.csv"
@@ -10,6 +10,7 @@ date-range: 2024-03-01 to 2024-03-31
 received_date:
 sha256:
 status: indexed
+updated: 2026-03-24
 ---
 
 # Apollo Energy GL - March 2024

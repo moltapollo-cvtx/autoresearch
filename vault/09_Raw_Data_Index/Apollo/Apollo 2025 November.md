@@ -1,5 +1,5 @@
 ---
-tags: [source-file, apollo]
+tags: [source]
 type: source
 doc_id: SRC-APL-023
 file_path: "../../Apollo 2025 November.csv"
@@ -10,6 +10,7 @@ date-range: 2025-11-01 to 2025-11-30
 received_date:
 sha256:
 status: indexed
+updated: 2026-03-24
 ---
 
 # Apollo Energy GL - November 2025

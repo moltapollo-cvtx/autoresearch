@@ -1,5 +1,5 @@
 ---
-tags: [source-file, apollo, bank-rec]
+tags: [source]
 type: source
 doc_id: SRC-APL-044
 file_path: "../../Apollo Bank Recs 2024-QB.zip"
@@ -10,6 +10,7 @@ date-range: 2024-01-01 to 2024-12-31
 received_date:
 sha256:
 status: indexed
+updated: 2026-03-24
 ---
 
 # Apollo Energy Bank Reconciliations - 2024 Archive (QuickBooks)

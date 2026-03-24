@@ -1,7 +1,7 @@
 ---
 type: strategy
 status: active
-tags: [strategy, open-question]
+tags: [open-question]
 created: 2026-03-24
 updated: 2026-03-24
 related:

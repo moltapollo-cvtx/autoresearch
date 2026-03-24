@@ -4,7 +4,7 @@ status: documented
 confidence: critical
 tags: [finding, evidence]
 created: 2026-03-23
-updated: 2026-03-23
+updated: 2026-03-24
 related:
   - "[[Fuel Cost Manipulation]]"
   - "[[Bank Rec Analysis 2024]]"

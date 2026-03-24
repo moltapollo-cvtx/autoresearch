@@ -6,9 +6,9 @@ updated: 2026-03-24
 tags: [dashboard]
 ---
 
-# Vault Audit Report — 2026-03-24
+# Vault Audit Report — 2026-03-24 (Post-Pass 4)
 
-> Systematic audit of all ~120 files in the Apollo Investigation Vault.
+> Systematic audit of ~165 files in the Apollo Investigation Vault. Updated after Pass 4.
 
 ---
 
@@ -16,98 +16,84 @@ tags: [dashboard]
 
 | Metric | Count |
 |---|---|
-| Total markdown files | ~120 |
+| Total markdown files | ~165 |
 | Folders | 10 (00–09) + .obsidian + root |
-| Dashboard notes | 4 |
-| Entity notes (people) | 8 |
-| Entity notes (companies) | 4 |
+| Dashboard notes | 6 (Investigation, Cash Flow, Document Registry, Master Timeline, Master Narrative, AUDIT) |
+| Entity notes (people) | 11 |
+| Entity notes (companies) | 6 |
 | Evidence notes | 10 |
-| Finding notes | 10 |
-| Cash flow notes | 2 |
-| Chain of custody notes | 3 |
-| Strategy notes | 3 |
+| Finding notes | 14 (includes 3 bridge notes + 1 synthesis) |
+| Cash flow notes | 4 (Fuel Spend Recon, Intercompany Tracker, Cross-Entity Transaction Map, Fuel Spend Reconciliation) |
+| Chain of custody notes | 4 |
+| Strategy notes | 6 (Evidence Tiers, Evidence Strength Matrix, Grandparent Meeting Prep, Open Questions, Outstanding Doc Demands) |
 | Templates | 8 |
 | Deliverables | 1 |
-| Raw data index notes | ~90 (ATI: 7, Apollo: ~55, Gemini: 24) |
-| Root files (README, Untitled) | 2 |
+| Raw data index notes | 91 (ATI: 7, Apollo: 60, Gemini: 24) |
+| Root files | 3 (README, CHANGELOG, MOC-Master) |
 
 ---
 
-## Issues Found
+## Issues Resolved (Passes 1-4)
 
-### CRITICAL — Frontmatter Schema Inconsistency
-- **No `type:` field** on any note — uses `tags:` array as a proxy
-- **No `confidence:` field** as frontmatter property (only in some findings as text)
-- **No `related:` or `evidence-refs:` arrays** in frontmatter
-- **No `dollar-amount:` numeric field** for Dataview queries
-- **Missing `created:` dates** on most notes
-- **Missing `updated:` dates** on ~60% of notes
+### RESOLVED — Frontmatter Schema (Pass 1)
+- All notes now have `type:`, `created:`, `updated:`, `related:`, `evidence-refs:` fields
+- `dollar-amount:` numeric field on all findings and evidence notes
+- `confidence:` levels assigned to all relevant notes
 
-### HIGH — Missing Entity Notes
-| Entity | Mentions | Has Note? |
-|---|---|---|
-| Walker (Apollo owner) | 15+ | NO |
-| GIG Transportation Services | 5+ | NO |
-| Martha (deleted QB user) | 5+ | NO |
-| EFS LLC (fuel card provider) | 20+ | NO |
-| McLeod (system user) | 3+ | NO |
+### RESOLVED — Missing Entity Notes (Pass 1)
+- Walker, GIG Transportation, Martha, EFS LLC, McLeod all created
 
-### HIGH — Tag Sprawl
-**Current tags in use (uncontrolled):**
-- `#source-file`, `#ati`, `#apollo`, `#gemini` — entity-specific, not in controlled vocab
-- `#document`, `#bank-statement`, `#fuel-card`, `#gl-entry` — sub-types, not standardized
-- `#action-needed`, `#strategy`, `#deliverable`, `#chain-of-custody` — outside controlled vocab
-- `#cash-flow`, `#action-taken`, `#journal` — inconsistent usage
+### RESOLVED — Tag Sprawl (Passes 1 + 4)
+- Controlled vocabulary enforced: `#finding #evidence #entity #source #timeline #person #company #open-question #critical #high #medium #low #synthesis #bridge #dashboard #template`
+- Pass 4 removed 16 non-controlled tags across 101 files
 
-**Should be normalized to:** `#finding`, `#evidence`, `#entity`, `#source`, `#timeline`, `#person`, `#company`, `#open-question`, `#critical`, `#high`, `#medium`, `#low`
+### RESOLVED — Graph Configuration (Passes 1 + 4)
+- 11 color groups configured (finding, evidence, person, company, source, timeline, critical, dashboard, synthesis, bridge, open-question)
 
-### HIGH — Graph Configuration Empty
-- graph.json has basic layout settings but NO saved filter groups
-- No color groups for the 6 named narratives
-- No CSS snippets directory or vault theme
+### RESOLVED — Missing Structural Files (Pass 1)
+- CHANGELOG.md, MOC-Master.md, vault-theme.css, Dataview queries all created
 
-### MEDIUM — Missing Structural Files
-| File | Purpose | Status |
-|---|---|---|
-| CHANGELOG.md | Track all vault edits | MISSING |
-| MOC-Master.md | Map of Content hub | MISSING |
-| .obsidian/snippets/vault-theme.css | Visual forensic theme | MISSING |
-| Dataview queries in dashboards | Live stats | NOT IMPLEMENTED |
+### RESOLVED — Placeholder Elimination (Pass 3)
+- Zero TBD/unknown/needs-verification placeholders remain
+- 11 specific [!MISSING-EVIDENCE] callouts replacing vague language
 
-### MEDIUM — Weak/Orphan Notes
+### RESOLVED — Broken Links (Pass 4)
+- 154 of 155 wikilink targets resolve correctly
+- 1 broken link (`[[ATI]]`) fixed to `[[Asphalt Transport Inc (ATI)]]`
+
+---
+
+## Remaining Issues
+
+### LOW — Weak Notes
 | Note | Issue |
 |---|---|
-| Untitled.md | Empty file — should be deleted |
-| Cody.md | Minimal content, only 1 outbound link |
-| README.md | References `05_Timeline/` but actual folder is `05_Chain_of_Custody/` |
-| James Luhr Jr.md | Only 4 inbound links, minimal content |
+| Cody.md | Minimal content, only 1 outbound link (no QB activity to document) |
+| James Luhr Jr.md | Limited content beyond promissory note signatory role |
 
-### LOW — Dollar Figures Without Inline Source Links
-- Investigation Dashboard finding table references amounts but links go to findings, not source evidence (acceptable for dashboard)
-- Cash Flow Dashboard `$241,284 "ADJ TO STMT"` and `$84,960 "Ins/Elog"` need source document links
-- Some raw data index files have no dollar figures extracted yet
+### LOW — Some Raw Data Index files lack dollar figures
+- Not all 91 source file stubs have extracted dollar amounts (many are reference documents without specific amounts)
 
 ---
 
-## Improvement Plan
+## Improvement Plan Status
 
-| Pass | Priority | Description | Est. Files Affected |
-|---|---|---|---|
-| 2 | CRITICAL | Frontmatter normalization — add `type`, `confidence`, `created`, `updated`, `related`, `evidence-refs` | ~50 core files |
-| 3 | HIGH | Create missing entity notes (Walker, GIG, Martha, EFS, McLeod) | 5 new files |
-| 4 | HIGH | Evidence citation pass — inline source links on dollar figures | ~15 findings/evidence |
-| 5 | HIGH | Dashboard improvements — add Dataview queries | 4 dashboard files |
-| 6 | MEDIUM | Graph layer — graph.json narratives, MOC-Master, bridge notes | ~5 files |
-| 7 | MEDIUM | Visual polish — CSS theme, callout styles | 2 files |
-| 8 | LOW | Changelog, README fix, cleanup Untitled.md | 3 files |
+| Pass | Status | Description |
+|---|---|---|
+| 1 | COMPLETE | Audit, frontmatter, entities, citations, dashboards, graph, CSS |
+| 2 | COMPLETE | Deep evidence citation, entity enrichment, bridge notes, CSS, Open Questions |
+| 3 | COMPLETE | Zero-tolerance placeholder sweep, evidence demand matrix |
+| 4 | COMPLETE | Master narrative, cross-entity map, evidence strength matrix, fuel synthesis, meeting prep, tag audit |
 
 ---
 
 ## Positive Findings
 
-- **Excellent link density** — core findings, evidence, and entities are deeply cross-linked
+- **Excellent link density** — 155 unique wikilink targets, only 1 was broken (now fixed)
 - **Strong chain of custody** — Source Registry, Data Lineage, Duplicate Tracker are comprehensive
 - **Consistent templates** — 8 templates cover all note types
-- **Dollar figures well-documented** — most amounts have exact values with sources identified
-- **Investigation Dashboard is thorough** — 30 findings tracked with status/confidence/links
-- **90+ raw data index notes** — every source file has a stub note
+- **Dollar figures well-documented** — most amounts have exact values with penny-level source citations
+- **Controlled tag vocabulary** — 16 tags, consistently applied across all 165 files
+- **Presentation-ready** — Master Narrative, Evidence Strength Matrix, and Grandparent Meeting Prep form a complete presentation layer
+- **Graph view configured** — 11 color groups for visual forensic navigation
+- **Zero placeholders** — every vague reference replaced with concrete data or specific [!MISSING-EVIDENCE] callout

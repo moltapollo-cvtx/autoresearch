@@ -2,7 +2,7 @@
 type: chain-of-custody
 status: active
 confidence: high
-tags: [chain-of-custody]
+tags: []
 created: 2026-03-24
 updated: 2026-03-24
 related:

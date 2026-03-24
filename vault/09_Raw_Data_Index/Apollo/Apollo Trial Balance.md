@@ -1,5 +1,5 @@
 ---
-tags: [source-file, apollo]
+tags: [source]
 type: source
 doc_id: SRC-APL-052
 file_path: "../../Apollo Trial Balance.CSV"
@@ -10,6 +10,7 @@ date-range:
 received_date:
 sha256:
 status: indexed
+updated: 2026-03-24
 ---
 
 # Apollo Energy Trial Balance
