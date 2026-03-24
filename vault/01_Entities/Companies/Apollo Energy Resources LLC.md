@@ -1,6 +1,11 @@
 ---
+type: entity-company
 tags: [entity, company]
 parent: "[[Asphalt Transport Inc (ATI)]]"
+status: confirmed
+created: 2026-03-23
+updated: 2026-03-24
+related: ["[[Asphalt Transport Inc (ATI)]]", "[[Gemini Logistics USA LLC]]", "[[Stellar Bank]]"]
 ---
 
 # Apollo Energy Resources LLC

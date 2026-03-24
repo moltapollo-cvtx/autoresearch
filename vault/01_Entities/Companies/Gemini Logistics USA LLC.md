@@ -1,5 +1,10 @@
 ---
+type: entity-company
 tags: [entity, company]
+status: confirmed
+created: 2026-03-23
+updated: 2026-03-24
+related: ["[[Asphalt Transport Inc (ATI)]]", "[[Apollo Energy Resources LLC]]", "[[Rosanna Karim]]"]
 ---
 
 # Gemini Logistics USA LLC

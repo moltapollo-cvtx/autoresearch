@@ -1,7 +1,18 @@
 ---
-tags: [finding]
+type: finding
 status: documented
 confidence: high
+tags: [finding, high]
+created: 2026-03-23
+updated: 2026-03-24
+related:
+  - "[[Gemini Profit Siphon]]"
+  - "[[Gemini Logistics USA LLC]]"
+  - "[[GL Audit Trail Anomalies]]"
+evidence-refs:
+  - "[[DOC-QB-LOGS-2022-2026]]"
+  - "[[ATI GL 2023 - Gemini N-R Analysis]]"
+  - "[[Bank Rec Analysis 2025]]"
 estimated_impact: unknown
 direction: unknown
 ---

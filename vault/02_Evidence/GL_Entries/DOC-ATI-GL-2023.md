@@ -1,11 +1,15 @@
 ---
-tags: [document, evidence, gl-entry]
+type: evidence
+tags: [evidence, source]
 doc_id: DOC-ATI-GL-2023
 received_date: 2026-03-23
 received_from: unknown
 generation_date: unknown
 sha256: PENDING
 status: under-review
+created: 2026-03-23
+updated: 2026-03-24
+related: ["[[ATI GL 2023 - Apollo N-R Analysis]]", "[[ATI GL 2023 - Gemini N-R Analysis]]", "[[ATI GL 2023 - Intercompany Billing]]"]
 ---
 
 # ATI General Ledger Report — 2023

@@ -1,7 +1,12 @@
 ---
-tags: [template, entity, company]
+type: entity-company
+tags: [entity, company]
 parent:
 subsidiaries:
+status: confirmed | needs-verification
+created: {{date:YYYY-MM-DD}}
+updated: {{date:YYYY-MM-DD}}
+related: []
 ---
 
 # Company Name
@@ -19,3 +24,6 @@ subsidiaries:
 
 ## Connected Findings
 - [[]]
+
+## Source Files
+- [[Source Registry]] | [[Data Lineage]]

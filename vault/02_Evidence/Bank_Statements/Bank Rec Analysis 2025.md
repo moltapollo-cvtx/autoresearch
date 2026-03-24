@@ -1,7 +1,13 @@
 ---
-tags: [evidence, finding, bank-statement, cash-flow]
-status: in-progress
+type: evidence
+tags: [evidence, finding, high]
+status: documented
 confidence: high
+created: 2026-03-23
+updated: 2026-03-24
+related: ["[[Bank Rec Analysis 2024]]", "[[Intercompany Transfer Tracker]]", "[[Account 2010 Fuel Payable Mechanism]]"]
+evidence-refs: ["[[Apollo Bank Recs 2025-TMS SYSTEM REPORT]]", "[[DOC-BankRec-2025-McLeod]]"]
+dollar-amount: 866092
 ---
 
 # Bank Reconciliation Analysis — 2025

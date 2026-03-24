@@ -1,8 +1,14 @@
 ---
-tags: [finding, evidence, gl-entry]
+type: evidence
+tags: [evidence, finding, high]
 status: documented
 confidence: high
 direction: unknown
+dollar-amount: 341705
+created: 2026-03-23
+updated: 2026-03-24
+related: ["[[DOC-ATI-GL-2023]]", "[[Gemini Record Manipulation]]", "[[Gemini Logistics USA LLC]]"]
+evidence-refs: ["[[DOC-ATI-GL-2023]]", "[[ATI GeneralLedger Report 2023]]"]
 ---
 
 # ATI GL 2023 — N/R Gemini Analysis

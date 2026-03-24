@@ -1,7 +1,18 @@
 ---
-tags: [finding]
+type: finding
 status: documented
 confidence: critical
+tags: [finding, critical]
+created: 2026-03-24
+updated: 2026-03-24
+related:
+  - "[[Gemini Record Manipulation]]"
+  - "[[Gemini Logistics USA LLC]]"
+  - "[[Intercompany Transfer Tracker]]"
+evidence-refs:
+  - "[[ATI GL 2023 - Gemini N-R Analysis]]"
+  - "[[ATI 2025 Profit & Loss MoM]]"
+dollar-amount: 340909
 estimated_impact: "$127,964 trapped profits + $212,945 phantom debt growth"
 direction: apollo-inflated
 documented_date: 2026-03-24

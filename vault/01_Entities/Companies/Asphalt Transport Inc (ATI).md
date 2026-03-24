@@ -1,7 +1,12 @@
 ---
+type: entity-company
 tags: [entity, company]
-parent: "Grandparent Company"
+parent: Grandparent Company
 subsidiaries: "[[Apollo Energy Resources LLC]]"
+status: confirmed
+created: 2026-03-23
+updated: 2026-03-24
+related: ["[[Apollo Energy Resources LLC]]", "[[Gemini Logistics USA LLC]]"]
 ---
 
 # Asphalt Transport Inc (ATI)

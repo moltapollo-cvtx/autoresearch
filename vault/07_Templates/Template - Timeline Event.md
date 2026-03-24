@@ -1,9 +1,16 @@
 ---
-tags: [template, timeline]
+type: timeline
+tags: [timeline]
 date: YYYY-MM-DD
 recorded_date:
 actual_date:
 event_type: financial | administrative | legal | investigation
+dollar-amount:
+status: confirmed | needs-verification
+created: {{date:YYYY-MM-DD}}
+updated: {{date:YYYY-MM-DD}}
+related: []
+evidence-refs: []
 ---
 
 # Event Title
@@ -19,3 +26,6 @@ event_type: financial | administrative | legal | investigation
 - [[]]
 
 ## Significance
+
+## Connected
+- [[Master Timeline]]

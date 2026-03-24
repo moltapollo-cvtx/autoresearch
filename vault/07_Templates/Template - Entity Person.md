@@ -1,8 +1,13 @@
 ---
-tags: [template, entity, person]
+type: entity-person
+tags: [entity, person]
 role:
 organization:
 risk_level: high | medium | low
+status: confirmed | needs-verification
+created: {{date:YYYY-MM-DD}}
+updated: {{date:YYYY-MM-DD}}
+related: []
 ---
 
 # Name
@@ -22,3 +27,6 @@ risk_level: high | medium | low
 
 ## Connected Findings
 - [[]]
+
+## Source Files
+- [[Source Registry]] | [[Data Lineage]]

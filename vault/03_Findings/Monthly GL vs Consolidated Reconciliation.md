@@ -1,7 +1,18 @@
 ---
-tags: [finding]
+type: finding
 status: documented
 confidence: high
+tags: [finding, high]
+created: 2026-03-24
+updated: 2026-03-24
+related:
+  - "[[Account 2010 Fuel Payable Mechanism]]"
+  - "[[Forensic Cross-Reference Report]]"
+  - "[[GL Audit Trail Anomalies]]"
+evidence-refs:
+  - "[[Apollo 2024 January]]"
+  - "[[Apollo 2024 December]]"
+  - "[[Apollo ADJ Trail Balance 2024]]"
 documented_date: 2026-03-24
 ---
 

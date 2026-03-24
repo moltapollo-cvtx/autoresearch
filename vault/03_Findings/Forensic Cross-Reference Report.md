@@ -1,7 +1,19 @@
 ---
-tags: [finding]
+type: finding
 status: documented
 confidence: critical
+tags: [finding, critical]
+created: 2026-03-24
+updated: 2026-03-24
+related:
+  - "[[Account 2010 Fuel Payable Mechanism]]"
+  - "[[Fuel Cost Manipulation]]"
+  - "[[Gemini Profit Siphon]]"
+  - "[[Intercompany Transfer Tracker]]"
+evidence-refs:
+  - "[[Bank Rec Analysis 2025]]"
+  - "[[DOC-QB-LOGS-2022-2026]]"
+  - "[[ATI 2025 Profit & Loss MoM]]"
 documented_date: 2026-03-24
 ---
 

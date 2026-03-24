@@ -1,7 +1,19 @@
 ---
-tags: [finding]
+type: finding
 status: documented
 confidence: critical
+tags: [finding, critical]
+created: 2026-03-24
+updated: 2026-03-24
+related:
+  - "[[Fuel Cost Manipulation]]"
+  - "[[GL Audit Trail Anomalies]]"
+  - "[[Forensic Cross-Reference Report]]"
+evidence-refs:
+  - "[[Bank Rec Analysis 2025]]"
+  - "[[Apollo_2010_2025_Detail]]"
+  - "[[Apollo_2010_Monthly_Rollforward]]"
+dollar-amount: 527073
 estimated_impact: "$285,789 fuel expense inflation + $241,284 unexplained cash reduction"
 direction: apollo-inflated
 documented_date: 2026-03-24

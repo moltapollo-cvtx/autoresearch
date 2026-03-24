@@ -1,5 +1,16 @@
 ---
+type: deliverable
+status: active
+confidence: high
 tags: [deliverable]
+created: 2026-03-23
+updated: 2026-03-24
+related:
+  - "[[Grandparent Meeting Prep]]"
+  - "[[Evidence Tiers]]"
+  - "[[Investigation Dashboard]]"
+  - "[[Data Lineage]]"
+evidence-refs: []
 ---
 
 # Deliverables Index

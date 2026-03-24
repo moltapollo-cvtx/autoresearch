@@ -1,8 +1,13 @@
 ---
-tags: [entity, person]
+type: entity-person
+tags: [entity, person, critical]
 role: Controller / VP Finance
 organization: "[[Asphalt Transport Inc (ATI)]]"
 risk_level: high
+status: confirmed
+created: 2026-03-23
+updated: 2026-03-24
+related: ["[[Asphalt Transport Inc (ATI)]]", "[[Jimmy]]", "[[Cordee]]", "[[GL Audit Trail Anomalies]]"]
 ---
 
 # Rosanna Karim

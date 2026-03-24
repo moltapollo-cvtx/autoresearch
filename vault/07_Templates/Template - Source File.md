@@ -1,13 +1,17 @@
 ---
-tags: [source-file]
+type: source
+tags: [source]
 doc_id:
 file_path:
-file_type: xlsx|csv|pdf|xlsm|zip
+file_type: xlsx | csv | pdf | xlsm | zip
 entity:
 period:
 received_date:
 sha256:
-status: indexed
+status: indexed | analyzed | under-review
+created: {{date:YYYY-MM-DD}}
+updated: {{date:YYYY-MM-DD}}
+related: []
 ---
 
 # Source File Title

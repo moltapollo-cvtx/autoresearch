@@ -1,5 +1,14 @@
 ---
-tags: [strategy, action-needed]
+type: strategy
+status: active
+confidence: high
+tags: [strategy, open-question]
+created: 2026-03-23
+updated: 2026-03-24
+related:
+  - "[[Investigation Dashboard]]"
+  - "[[Document Registry]]"
+evidence-refs: []
 ---
 
 # Outstanding Document Demands

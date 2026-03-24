@@ -1,7 +1,15 @@
 ---
-tags: [chain-of-custody]
+type: chain-of-custody
 status: active
+confidence: high
+tags: [chain-of-custody]
+created: 2026-03-24
 updated: 2026-03-24
+related:
+  - "[[Data Lineage]]"
+  - "[[Duplicate Tracker]]"
+  - "[[Document Registry]]"
+evidence-refs: []
 ---
 
 # Source Registry

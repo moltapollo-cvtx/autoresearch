@@ -1,8 +1,13 @@
 ---
-tags: [entity, person]
+type: entity-person
+tags: [entity, person, high]
 role: Driver (terminated)
 organization: "[[Apollo Energy Resources LLC]]"
 risk_level: high
+status: needs-verification
+created: 2026-03-23
+updated: 2026-03-24
+related: ["[[Apollo Energy Resources LLC]]", "[[Fuel Card Overview]]", "[[Card 0048 - Henry Collins]]"]
 ---
 
 # Henry Collins

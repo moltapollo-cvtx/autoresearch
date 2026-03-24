@@ -1,5 +1,6 @@
 ---
-tags: [template, document]
+type: evidence
+tags: [evidence, source]
 doc_id: DOC-XXX
 received_date: YYYY-MM-DD
 received_from:
@@ -7,6 +8,9 @@ generation_date:
 sha256:
 status: unreviewed
 prior_version:
+created: {{date:YYYY-MM-DD}}
+updated: {{date:YYYY-MM-DD}}
+related: []
 ---
 
 # Document Title
@@ -35,3 +39,6 @@ prior_version:
 | Date Received | What Changed | Impact |
 |---|---|---|
 | | | |
+
+## Chain of Custody
+- [[Source Registry]] | [[Data Lineage]]

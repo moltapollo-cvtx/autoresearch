@@ -1,16 +1,49 @@
 {
   "collapse-filter": true,
   "search": "",
-  "showTags": false,
+  "showTags": true,
   "showAttachments": false,
   "hideUnresolved": false,
   "showOrphans": true,
-  "collapse-color-groups": true,
-  "colorGroups": [],
+  "collapse-color-groups": false,
+  "colorGroups": [
+    {
+      "query": "tag:#finding",
+      "color": { "a": 1, "rgb": 16098048 }
+    },
+    {
+      "query": "tag:#evidence",
+      "color": { "a": 1, "rgb": 6333695 }
+    },
+    {
+      "query": "tag:#person",
+      "color": { "a": 1, "rgb": 15497088 }
+    },
+    {
+      "query": "tag:#company",
+      "color": { "a": 1, "rgb": 9133295 }
+    },
+    {
+      "query": "tag:#source",
+      "color": { "a": 1, "rgb": 1357406 }
+    },
+    {
+      "query": "tag:#timeline",
+      "color": { "a": 1, "rgb": 440260 }
+    },
+    {
+      "query": "tag:#critical",
+      "color": { "a": 1, "rgb": 15684692 }
+    },
+    {
+      "query": "tag:#dashboard",
+      "color": { "a": 1, "rgb": 16766720 }
+    }
+  ],
   "collapse-display": true,
-  "showArrow": false,
+  "showArrow": true,
   "textFadeMultiplier": 0,
-  "nodeSizeMultiplier": 1,
+  "nodeSizeMultiplier": 1.2,
   "lineSizeMultiplier": 1,
   "collapse-forces": true,
   "centerStrength": 0.518713248970312,

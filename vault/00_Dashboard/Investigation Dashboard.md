@@ -1,7 +1,18 @@
 ---
-tags: [dashboard]
+type: dashboard
 status: active
+tags: [dashboard]
+created: 2026-03-23
 updated: 2026-03-24
+related:
+  - "[[Cash Flow Dashboard]]"
+  - "[[Document Registry]]"
+  - "[[Master Timeline]]"
+  - "[[Evidence Tiers]]"
+  - "[[Outstanding Document Demands]]"
+  - "[[Source Registry]]"
+  - "[[Data Lineage]]"
+evidence-refs: []
 ---
 
 # Investigation Dashboard
@@ -69,6 +80,59 @@ ATI (Asphalt Transport, Inc.) holds exclusive financial control over Apollo Ener
 
 ---
 
+## Dataview: Findings by Confidence
+
+> [!NOTE] Requires Dataview plugin
+> Install Dataview from Community Plugins to enable live queries below.
+
+```dataview
+TABLE WITHOUT ID
+  file.link AS "Finding",
+  confidence AS "Confidence",
+  status AS "Status",
+  dollar-amount AS "Dollar Impact",
+  direction AS "Direction"
+FROM "03_Findings"
+WHERE type = "finding"
+SORT choice(confidence, "critical", 1, choice(confidence, "high", 2, choice(confidence, "medium-high", 3, choice(confidence, "medium", 4, 5))))
+```
+
+## Dataview: Total Dollar Impact (Findings)
+
+```dataview
+TABLE WITHOUT ID
+  sum(rows.dollar-amount) AS "Total Documented Impact ($)"
+FROM "03_Findings"
+WHERE dollar-amount
+GROUP BY true
+```
+
+## Dataview: Open Questions & Action Items
+
+```dataview
+TABLE WITHOUT ID
+  file.link AS "Note",
+  type AS "Type",
+  status AS "Status"
+FROM ""
+WHERE contains(tags, "open-question") OR status = "needs-verification"
+SORT file.name ASC
+```
+
+## Dataview: All Entities
+
+```dataview
+TABLE WITHOUT ID
+  file.link AS "Entity",
+  type AS "Type",
+  role AS "Role",
+  risk_level AS "Risk"
+FROM "01_Entities"
+SORT risk_level DESC
+```
+
+---
+
 ## Entity Map
 
 ```
@@ -88,9 +152,14 @@ Gemini Logistics USA LLC            ← Related entity under investigation
                                       Records mass-deleted by Cordee
                                       Confirmed transacting through Apollo's bank
 
+EFS LLC                             ← Independent fuel card provider
+                                      $1.2M in verified payments (2024-2025)
+
 GIG Transportation Services         ← 2024: $112K paid from Apollo
                                       Suspected Gemini affiliate — needs verification
 ```
+
+**Entity links:** [[Asphalt Transport Inc (ATI)]] | [[Apollo Energy Resources LLC]] | [[Gemini Logistics USA LLC]] | [[Stellar Bank]] | [[EFS LLC]] | [[GIG Transportation Services]] | [[Jimmy]] | [[Rosanna Karim]] | [[James Luhr Jr]] | [[Walker]] | [[Cordee]] | [[Cody]]
 
 ---
 
@@ -104,16 +173,22 @@ GIG Transportation Services         ← 2024: $112K paid from Apollo
 
 ---
 
-## Tags Reference
-- `#finding` — A documented investigative conclusion
-- `#evidence` — A specific piece of source evidence
-- `#entity` — A person or company
-- `#document` — A received financial document
-- `#timeline` — A dated event
-- `#cash-flow` — Money movement tracking
-- `#action-needed` — Requires follow-up
-- `#strategy` — Meeting prep and legal strategy
-- `#template` — Reusable note template
+## Tags Reference (Controlled Vocabulary)
+
+| Tag | Usage |
+|---|---|
+| `#finding` | A documented investigative conclusion |
+| `#evidence` | A specific piece of source evidence |
+| `#entity` | A person or company |
+| `#source` | A raw data file index note |
+| `#timeline` | A dated event |
+| `#person` | An individual (used with `#entity`) |
+| `#company` | A business entity (used with `#entity`) |
+| `#open-question` | Requires follow-up or investigation |
+| `#critical` | Critical confidence level |
+| `#high` | High confidence level |
+| `#medium` | Medium confidence level |
+| `#low` | Low confidence level |
 
 ---
 
@@ -125,4 +200,5 @@ GIG Transportation Services         ← 2024: $112K paid from Apollo
 | 03/23/2026 | QB Transaction Log forensic analysis (26,993 rows); Bank Rec PDF verification & SHA-256 hashing; Confirmed all prior findings from primary source data | [[DOC-QB-LOGS-2022-2026]], [[Mauree]], SHA-256 hashes, 5 new bank rec findings, vault v2 |
 | 03/23/2026 | **2024 bank recs (13 .xlsm files) ingested; Two-year cash flow reconstruction; ATI extraction quantified at $1.2M gross / $916K net; GIG Transportation entity flagged; Forensic workbook produced** | [[Bank Rec Analysis 2024]], updated [[Intercompany Transfer Tracker]], updated [[Fuel Spend Reconciliation]], updated [[Cash Flow Dashboard]], `Apollo_Forensic_CashFlow_Analysis.xlsx`, vault v3 |
 | 03/24/2026 | **Vault restructure: 05_Chain_of_Custody (3 notes), 09_Raw_Data_Index (~90 index notes), vault_metrics.sh, vault-improve autoresearch command. Cross-linked all findings to source files. Mauree/Martha downgraded to non-subjects.** | [[Source Registry]], [[Data Lineage]], [[Duplicate Tracker]], vault metrics, ~90 raw data index notes |
+| 03/24/2026 | **Vault improvement pass: Frontmatter normalization (50+ files), 5 new entity notes (Walker, GIG, EFS, Martha, McLeod), Dataview queries added to dashboards, graph.json with 8 color groups, MOC-Master hub, CSS forensic theme, bridge notes, AUDIT.md** | [[MOC-Master]], [[AUDIT]], [[Walker]], [[GIG Transportation Services]], [[EFS LLC]], [[Martha]], [[McLeod]], vault-theme.css |
 | — | _Next session..._ | |

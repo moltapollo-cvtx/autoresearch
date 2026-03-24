@@ -1,8 +1,13 @@
 ---
-tags: [entity, person]
+type: entity-person
+tags: [entity, person, high]
 role: President
 organization: "[[Asphalt Transport Inc (ATI)]]"
 risk_level: high
+status: confirmed
+created: 2026-03-23
+updated: 2026-03-24
+related: ["[[Asphalt Transport Inc (ATI)]]", "[[Rosanna Karim]]"]
 ---
 
 # Jimmy (ATI President)

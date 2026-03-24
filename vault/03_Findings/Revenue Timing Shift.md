@@ -1,7 +1,18 @@
 ---
-tags: [finding]
+type: finding
 status: partially-documented
 confidence: medium-high
+tags: [finding, medium]
+created: 2026-03-23
+updated: 2026-03-24
+related:
+  - "[[ATI Monthly Billing Manipulation]]"
+evidence-refs:
+  - "[[APL GL work]]"
+  - "[[Apollo ADJ Trail Balance 2024]]"
+  - "[[Apollo ADJ Trial Balance 2023]]"
+  - "[[Apollo ADJ Trial Balance 2025-QB]]"
+dollar-amount: 145000
 estimated_impact: "~$145K understated FY2024"
 direction: apollo-inflated
 ---

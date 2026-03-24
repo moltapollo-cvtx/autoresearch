@@ -1,7 +1,21 @@
 ---
-tags: [finding]
+type: finding
 status: documented
 confidence: high
+tags: [finding, critical]
+created: 2026-03-23
+updated: 2026-03-24
+related:
+  - "[[Intercompany Transfer Tracker]]"
+  - "[[Account 2010 Fuel Payable Mechanism]]"
+  - "[[Fuel Spend Reconciliation]]"
+evidence-refs:
+  - "[[Apollo IFTA Filing 2024]]"
+  - "[[Apollo 2025 IFTA Filing]]"
+  - "[[ATI IFTA 2024]]"
+  - "[[DOC-QB-LOGS-2022-2026]]"
+  - "[[DOC-ATI-GL-2023]]"
+dollar-amount: 287000
 estimated_impact: "~$287K"
 direction: both
 ---

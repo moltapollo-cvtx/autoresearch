@@ -1,9 +1,15 @@
 ---
-tags: [template, finding]
+type: finding
+tags: [finding]
 status: documented | in-progress | needs-verification
-confidence: high | medium-high | medium | low
+confidence: critical | high | medium-high | medium | low
 estimated_impact:
 direction: apollo-inflated | ati-deflated | both | unknown
+dollar-amount:
+created: {{date:YYYY-MM-DD}}
+updated: {{date:YYYY-MM-DD}}
+related: []
+evidence-refs: []
 ---
 
 # Finding Title
@@ -32,5 +38,9 @@ direction: apollo-inflated | ati-deflated | both | unknown
 ## Action Items
 - [ ]
 
-## Cross-References
+## Connected Findings
 - [[]]
+
+## Source Files
+- [[]]
+- [[Source Registry]] | [[Data Lineage]]

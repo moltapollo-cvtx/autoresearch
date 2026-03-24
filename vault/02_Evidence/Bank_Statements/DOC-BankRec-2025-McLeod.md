@@ -1,12 +1,16 @@
 ---
-tags: [document, evidence, bank-statement]
+type: evidence
+tags: [evidence, source]
 doc_id: DOC-BANKREC-2025
-received_date: 2025-03-23
+received_date: 2026-03-23
 received_from: McLeod (system user)
 generation_date: 2026-03-22
 sha256: 50f8c8bd63ff6f48dc71a0b0e4f6d01b1c8efde68759803584f03e3683908923
 status: under-review
 prior_version: none
+created: 2026-03-23
+updated: 2026-03-24
+related: ["[[Bank Rec Analysis 2025]]", "[[Stellar Bank]]"]
 ---
 
 # Bank Reconciliation History Report — Apollo Energy Resources LLC

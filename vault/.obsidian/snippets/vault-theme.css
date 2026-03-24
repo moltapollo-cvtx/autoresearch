@@ -1,0 +1,225 @@
+/* =============================================================
+   FORENSIC INVESTIGATION VAULT THEME
+   Dark forensic aesthetic — deep navy/charcoal bg, amber/gold accents
+   ============================================================= */
+
+/* --- Root Variables --- */
+:root {
+  --forensic-bg-primary: #1a1d23;
+  --forensic-bg-secondary: #22262e;
+  --forensic-bg-tertiary: #2a2f3a;
+  --forensic-text-primary: #d4d4d8;
+  --forensic-text-secondary: #a1a1aa;
+  --forensic-text-muted: #71717a;
+  --forensic-accent-gold: #f59e0b;
+  --forensic-accent-amber: #d97706;
+  --forensic-accent-warm: #fbbf24;
+  --forensic-critical: #ef4444;
+  --forensic-high: #f97316;
+  --forensic-medium: #eab308;
+  --forensic-low: #22c55e;
+  --forensic-link: #60a5fa;
+  --forensic-link-hover: #93c5fd;
+  --forensic-border: #3f3f46;
+  --forensic-border-accent: #f59e0b40;
+  --forensic-tag-bg: #f59e0b20;
+  --forensic-tag-text: #fbbf24;
+  --forensic-code-bg: #18181b;
+}
+
+/* --- Custom Callout: FINDING --- */
+.callout[data-callout="finding"] {
+  --callout-color: 245, 158, 11;
+  --callout-icon: lucide-search;
+  border-left: 4px solid var(--forensic-accent-gold);
+  background-color: rgba(245, 158, 11, 0.05);
+}
+.callout[data-callout="finding"] .callout-title {
+  color: var(--forensic-accent-gold);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+/* --- Custom Callout: CRITICAL --- */
+.callout[data-callout="critical"] {
+  --callout-color: 239, 68, 68;
+  --callout-icon: lucide-alert-triangle;
+  border-left: 4px solid var(--forensic-critical);
+  background-color: rgba(239, 68, 68, 0.08);
+}
+.callout[data-callout="critical"] .callout-title {
+  color: var(--forensic-critical);
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+/* --- Custom Callout: EVIDENCE --- */
+.callout[data-callout="evidence"] {
+  --callout-color: 96, 165, 250;
+  --callout-icon: lucide-file-text;
+  border-left: 4px solid var(--forensic-link);
+  background-color: rgba(96, 165, 250, 0.05);
+}
+.callout[data-callout="evidence"] .callout-title {
+  color: var(--forensic-link);
+  font-weight: 600;
+}
+
+/* --- Custom Callout: PROPOSAL --- */
+.callout[data-callout="proposal"] {
+  --callout-color: 168, 85, 247;
+  --callout-icon: lucide-lightbulb;
+  border-left: 4px solid #a855f7;
+  background-color: rgba(168, 85, 247, 0.05);
+}
+.callout[data-callout="proposal"] .callout-title {
+  color: #a855f7;
+  font-weight: 600;
+}
+
+/* --- Custom Callout: OPEN-QUESTION --- */
+.callout[data-callout="open-question"] {
+  --callout-color: 234, 179, 8;
+  --callout-icon: lucide-help-circle;
+  border-left: 4px solid var(--forensic-medium);
+  background-color: rgba(234, 179, 8, 0.05);
+}
+.callout[data-callout="open-question"] .callout-title {
+  color: var(--forensic-medium);
+  font-weight: 600;
+}
+
+/* --- Custom Callout: SMOKING-GUN --- */
+.callout[data-callout="smoking-gun"] {
+  --callout-color: 239, 68, 68;
+  --callout-icon: lucide-flame;
+  border-left: 4px solid var(--forensic-critical);
+  background-color: rgba(239, 68, 68, 0.12);
+  box-shadow: 0 0 12px rgba(239, 68, 68, 0.15);
+}
+.callout[data-callout="smoking-gun"] .callout-title {
+  color: var(--forensic-critical);
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-size: 1.05em;
+}
+
+/* --- Tag Styling --- */
+.tag {
+  background-color: var(--forensic-tag-bg);
+  color: var(--forensic-tag-text);
+  border: 1px solid var(--forensic-border-accent);
+  border-radius: 4px;
+  padding: 1px 6px;
+  font-size: 0.85em;
+  font-weight: 500;
+}
+
+/* --- Confidence-level tag colors --- */
+a.tag[href="#critical"],
+a.tag[href*="/critical"] {
+  background-color: rgba(239, 68, 68, 0.15);
+  color: var(--forensic-critical);
+  border-color: rgba(239, 68, 68, 0.3);
+}
+a.tag[href="#high"],
+a.tag[href*="/high"] {
+  background-color: rgba(249, 115, 22, 0.15);
+  color: var(--forensic-high);
+  border-color: rgba(249, 115, 22, 0.3);
+}
+a.tag[href="#medium"],
+a.tag[href*="/medium"] {
+  background-color: rgba(234, 179, 8, 0.15);
+  color: var(--forensic-medium);
+  border-color: rgba(234, 179, 8, 0.3);
+}
+a.tag[href="#low"],
+a.tag[href*="/low"] {
+  background-color: rgba(34, 197, 94, 0.15);
+  color: var(--forensic-low);
+  border-color: rgba(34, 197, 94, 0.3);
+}
+
+/* --- Table Styling --- */
+.markdown-rendered table {
+  border-collapse: collapse;
+  width: 100%;
+}
+.markdown-rendered th {
+  background-color: var(--forensic-bg-tertiary);
+  color: var(--forensic-accent-warm);
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 0.85em;
+  letter-spacing: 0.04em;
+  padding: 8px 12px;
+  border-bottom: 2px solid var(--forensic-accent-gold);
+}
+.markdown-rendered td {
+  padding: 6px 12px;
+  border-bottom: 1px solid var(--forensic-border);
+}
+.markdown-rendered tr:hover td {
+  background-color: rgba(245, 158, 11, 0.03);
+}
+
+/* --- Headings --- */
+.markdown-rendered h1 {
+  color: var(--forensic-accent-warm);
+  border-bottom: 2px solid var(--forensic-accent-gold);
+  padding-bottom: 6px;
+}
+.markdown-rendered h2 {
+  color: var(--forensic-text-primary);
+  border-bottom: 1px solid var(--forensic-border);
+  padding-bottom: 4px;
+}
+.markdown-rendered h3 {
+  color: var(--forensic-accent-amber);
+}
+
+/* --- Blockquotes --- */
+.markdown-rendered blockquote {
+  border-left: 3px solid var(--forensic-accent-gold);
+  background-color: var(--forensic-bg-secondary);
+  padding: 8px 16px;
+  color: var(--forensic-text-secondary);
+}
+
+/* --- Code blocks --- */
+.markdown-rendered pre {
+  background-color: var(--forensic-code-bg);
+  border: 1px solid var(--forensic-border);
+  border-radius: 6px;
+}
+
+/* --- Checkboxes --- */
+input[type="checkbox"]:checked {
+  accent-color: var(--forensic-accent-gold);
+}
+
+/* --- Frontmatter/Properties styling --- */
+.metadata-container {
+  border: 1px solid var(--forensic-border);
+  border-radius: 6px;
+  background-color: var(--forensic-bg-secondary);
+}
+
+/* --- Graph View Node Colors --- */
+.graph-view.color-fill-tag[data-tag="finding"] { color: var(--forensic-accent-gold); }
+.graph-view.color-fill-tag[data-tag="evidence"] { color: var(--forensic-link); }
+.graph-view.color-fill-tag[data-tag="entity"] { color: #a855f7; }
+.graph-view.color-fill-tag[data-tag="person"] { color: #ec4899; }
+.graph-view.color-fill-tag[data-tag="company"] { color: #8b5cf6; }
+.graph-view.color-fill-tag[data-tag="source"] { color: #14b8a6; }
+.graph-view.color-fill-tag[data-tag="timeline"] { color: #06b6d4; }
+.graph-view.color-fill-tag[data-tag="critical"] { color: var(--forensic-critical); }
+
+/* --- Dollar amounts emphasis --- */
+strong {
+  color: var(--forensic-accent-warm);
+}

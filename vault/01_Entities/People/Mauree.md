@@ -1,8 +1,13 @@
 ---
-tags: [entity, person]
+type: entity-person
+tags: [entity, person, low]
 role: data-entry
 system_user: Mauree
-status: not-a-subject
+risk_level: low
+status: closed
+created: 2026-03-23
+updated: 2026-03-24
+related: ["[[Other Flagged Users]]", "[[DOC-QB-LOGS-2022-2026]]"]
 ---
 
 # Mauree

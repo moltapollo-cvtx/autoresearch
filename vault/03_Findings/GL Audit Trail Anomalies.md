@@ -1,7 +1,18 @@
 ---
-tags: [finding]
+type: finding
 status: documented
 confidence: high
+tags: [finding, high]
+created: 2026-03-23
+updated: 2026-03-24
+related:
+  - "[[Rosanna Karim]]"
+  - "[[Cordee]]"
+  - "[[Fuel Cost Manipulation]]"
+  - "[[Gemini Record Manipulation]]"
+evidence-refs:
+  - "[[DOC-QB-LOGS-2022-2026]]"
+  - "[[Apollo Quickbooks Audit Trail 2023 to dec 2024]]"
 estimated_impact: varies
 direction: both
 ---

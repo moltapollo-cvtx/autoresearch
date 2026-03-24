@@ -1,8 +1,13 @@
 ---
-tags: [evidence, finding, bank-statement, cash-flow]
-status: complete
+type: evidence
+tags: [evidence, finding, high]
+status: confirmed
 confidence: high
-added: 2026-03-23
+created: 2026-03-23
+updated: 2026-03-24
+related: ["[[Bank Rec Analysis 2025]]", "[[Intercompany Transfer Tracker]]", "[[Fuel Cost Manipulation]]"]
+evidence-refs: ["[[Apollo Bank Rec Jan 2024]]", "[[Apollo Bank Rec FEB 2024]]", "[[Apollo Bank Rec DEC 2024]]"]
+dollar-amount: 335566
 ---
 
 # Bank Reconciliation Analysis — 2024

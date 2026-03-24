@@ -1,7 +1,18 @@
 ---
-tags: [finding]
+type: finding
 status: documented
 confidence: medium-high
+tags: [finding, medium]
+created: 2026-03-23
+updated: 2026-03-24
+related:
+  - "[[Fuel Cost Manipulation]]"
+  - "[[Revenue Timing Shift]]"
+evidence-refs:
+  - "[[ATI GeneralLedger Report 2023]]"
+  - "[[ATI General Ledger 2022]]"
+  - "[[Apollo QuickBooks LOGS 2022-2026]]"
+  - "[[WHAT ATI CLAIMS APOLLO OWES FROM 2025 CHARGEBACKS]]"
 estimated_impact: TBD
 direction: apollo-inflated
 ---

@@ -1,7 +1,17 @@
 ---
-tags: [finding]
+type: finding
 status: documented
 confidence: high
+tags: [finding, high]
+created: 2026-03-23
+updated: 2026-03-24
+related:
+  - "[[Intercompany Transfer Tracker]]"
+  - "[[GL Audit Trail Anomalies]]"
+evidence-refs:
+  - "[[Apollo QuickBooks LOGS 2022-2026]]"
+  - "[[Apollo 2023 to dec 2024 General Ledger]]"
+dollar-amount: 858000
 estimated_impact: "$858K note"
 direction: apollo-inflated
 ---

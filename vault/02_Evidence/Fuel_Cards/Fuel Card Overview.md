@@ -1,7 +1,13 @@
 ---
-tags: [evidence, fuel-card]
+type: evidence
+tags: [evidence]
 evidence_type: fuel-card
 source: independent
+status: documented
+confidence: high
+created: 2026-03-23
+updated: 2026-03-24
+related: ["[[Card 0048 - Henry Collins]]", "[[Fuel Cost Manipulation]]", "[[Other Flagged Users]]"]
 ---
 
 # Fuel Card Overview

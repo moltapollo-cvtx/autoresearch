@@ -1,7 +1,15 @@
 ---
-tags: [dashboard, cash-flow]
+type: dashboard
 status: active
+tags: [dashboard]
+created: 2026-03-23
 updated: 2026-03-24
+related:
+  - "[[Intercompany Transfer Tracker]]"
+  - "[[Fuel Spend Reconciliation]]"
+  - "[[Bank Rec Analysis 2024]]"
+  - "[[Bank Rec Analysis 2025]]"
+evidence-refs: []
 ---
 
 # Cash Flow Dashboard
@@ -96,8 +104,8 @@ The mechanism: ATI posts fake "fuel" journal entries → inflates Apollo's recor
 - [[Fuel Card Overview]] — Card-level investigation
 
 ### 3. Undocumented Charges
-- $241,284 "ADJ TO STMT" (03/31/2025) — unexplained
-- $84,960 "Ins/Elog" (11/30/2025) — no supporting invoices
+- $241,284 "ADJ TO STMT" (2025-03-31) — **NOW EXPLAINED:** [[Account 2010 Fuel Payable Mechanism]] (79-day lag clearing entry)
+- $84,960 "Ins/Elog" (2025-11-30) — no supporting invoices — [[Bank Rec Analysis 2025]]
 - [[ATI Monthly Billing Manipulation]] — Monthly charges modified upward
 
 ### 4. Revenue Manipulation
@@ -105,7 +113,7 @@ The mechanism: ATI posts fake "fuel" journal entries → inflates Apollo's recor
 
 ### 5. Gemini Logistics
 - [[Gemini Record Manipulation]] — 23 records mass-deleted
-- GIG Transportation (2024): $112K — entity confirmation needed
+- [[GIG Transportation Services]] (2024): $112K — entity confirmation needed
 - UCNG Gemini (2025): $20,880 pass-through confirmed
 
 ---
@@ -123,6 +131,33 @@ The mechanism: ATI posts fake "fuel" journal entries → inflates Apollo's recor
 - [ ] Stellar Bank raw statements
 - [ ] Volume discount agreements
 - [ ] Insurance invoices, equipment lease agreements
+
+---
+
+## Dataview: Cash Flow Related Findings
+
+```dataview
+TABLE WITHOUT ID
+  file.link AS "Finding",
+  confidence AS "Confidence",
+  dollar-amount AS "Amount ($)",
+  direction AS "Direction"
+FROM "03_Findings" OR "04_Cash_Flow"
+WHERE dollar-amount
+SORT dollar-amount DESC
+```
+
+## Dataview: Evidence with Dollar Amounts
+
+```dataview
+TABLE WITHOUT ID
+  file.link AS "Evidence Note",
+  dollar-amount AS "Amount ($)",
+  confidence AS "Confidence"
+FROM "02_Evidence"
+WHERE dollar-amount
+SORT dollar-amount DESC
+```
 
 ---
 

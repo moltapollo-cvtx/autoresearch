@@ -1,1 +1,19 @@
-{}
+{
+  "showFrontmatter": true,
+  "livePreview": true,
+  "readableLineLength": true,
+  "strictLineBreaks": false,
+  "showLineNumber": true,
+  "cssTheme": "",
+  "enabledCssSnippets": ["vault-theme"],
+  "defaultViewMode": "preview",
+  "foldHeading": true,
+  "foldIndent": true,
+  "showInlineTitle": true,
+  "tabSize": 2,
+  "alwaysUpdateLinks": true,
+  "newLinkFormat": "shortest",
+  "useMarkdownLinks": false,
+  "attachmentFolderPath": "./",
+  "propertiesInDocument": "visible"
+}

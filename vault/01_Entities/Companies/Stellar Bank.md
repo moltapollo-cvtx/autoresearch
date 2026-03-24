@@ -1,5 +1,10 @@
 ---
+type: entity-company
 tags: [entity, company]
+status: confirmed
+created: 2026-03-24
+updated: 2026-03-24
+related: ["[[Apollo Energy Resources LLC]]", "[[Bank Rec Analysis 2024]]", "[[Bank Rec Analysis 2025]]"]
 ---
 
 # Stellar Bank

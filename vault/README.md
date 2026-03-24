@@ -22,10 +22,11 @@ Install these from Settings → Community Plugins:
 02_Evidence/        ← Source evidence organized by type
 03_Findings/        ← Documented investigative conclusions
 04_Cash_Flow/       ← Money movement tracking
-05_Timeline/        ← Chronological event reconstruction
-06_Strategy/        ← Meeting prep, evidence tiers, document demands
-07_Templates/       ← Reusable note templates for new entries
-08_Deliverables/    ← Index of formal documents produced
+05_Chain_of_Custody/ ← Source registry, data lineage, duplicate tracking
+06_Strategy/         ← Meeting prep, evidence tiers, document demands
+07_Templates/        ← Reusable note templates for new entries
+08_Deliverables/     ← Index of formal documents produced
+09_Raw_Data_Index/   ← Index notes for every raw source file (~90 files)
 ```
 
 ## How to Use Going Forward

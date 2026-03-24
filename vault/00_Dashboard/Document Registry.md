@@ -1,7 +1,13 @@
 ---
-tags: [dashboard, document]
+type: dashboard
 status: active
+tags: [dashboard, evidence]
+created: 2026-03-23
 updated: 2026-03-24
+related:
+  - "[[Source Registry]]"
+  - "[[Data Lineage]]"
+evidence-refs: []
 ---
 
 # Document Registry
@@ -101,8 +107,37 @@ See: [[Outstanding Document Demands]]
 
 ---
 
+## Dataview: All Source Files by Entity
+
+```dataview
+TABLE WITHOUT ID
+  file.link AS "Source",
+  entity AS "Entity",
+  period AS "Period",
+  file_type AS "Type",
+  status AS "Status"
+FROM "09_Raw_Data_Index"
+WHERE type = "source"
+SORT entity, period
+```
+
+## Dataview: Documents Missing SHA-256
+
+```dataview
+TABLE WITHOUT ID
+  file.link AS "Document",
+  doc_id AS "Doc ID",
+  received_date AS "Received"
+FROM ""
+WHERE sha256 = "PENDING" OR (!sha256 AND doc_id)
+SORT received_date
+```
+
+---
+
 ## Chain of Custody
 This registry is one layer of the chain of custody. For complete traceability:
 - [[Source Registry]] — Master catalog of all 90+ raw files with SHA-256 hashes
 - [[Data Lineage]] — Raw file → analysis → finding → deliverable traces
 - [[Duplicate Tracker]] — Conflicting/overlapping data versions
+- [[Evidence Bridge - Sources to Findings]] — Which sources support which findings

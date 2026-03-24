@@ -1,8 +1,13 @@
 ---
-tags: [entity, person]
+type: entity-person
+tags: [entity, person, high]
 role: Team member
 organization: "[[Apollo Energy Resources LLC]]"
 risk_level: medium-high
+status: confirmed
+created: 2026-03-23
+updated: 2026-03-24
+related: ["[[Apollo Energy Resources LLC]]", "[[Rosanna Karim]]", "[[GL Audit Trail Anomalies]]", "[[Gemini Record Manipulation]]"]
 ---
 
 # Cordee

@@ -1,8 +1,13 @@
 ---
-tags: [entity, person]
+type: entity-person
+tags: [entity, person, medium]
 role: Signatory
 organization: "[[Asphalt Transport Inc (ATI)]]"
 risk_level: medium
+status: confirmed
+created: 2026-03-23
+updated: 2026-03-24
+related: ["[[Asphalt Transport Inc (ATI)]]", "[[Promissory Note Backdating]]"]
 ---
 
 # James Luhr Jr.

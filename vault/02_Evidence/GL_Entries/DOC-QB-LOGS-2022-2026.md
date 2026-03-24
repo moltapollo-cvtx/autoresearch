@@ -1,11 +1,15 @@
 ---
-tags: [document, evidence, gl-entry]
+type: evidence
+tags: [evidence, source]
 doc_id: DOC-QB-LOGS-2022-2026
 received_date: 2026-03-23
-received_from: Walker (uploaded to investigation)
+received_from: Walker (uploaded)
 generation_date: unknown
 sha256: d918f3c9134d06e26fd2724abd8806c22090e5d8a3976f5f64e9a503ef9a0a82
 status: under-review
+created: 2026-03-23
+updated: 2026-03-24
+related: ["[[GL Audit Trail Anomalies]]", "[[Fuel Cost Manipulation]]", "[[Gemini Record Manipulation]]", "[[Promissory Note Backdating]]"]
 ---
 
 # Apollo QuickBooks Transaction Log — Jan 2022 to Mar 2026

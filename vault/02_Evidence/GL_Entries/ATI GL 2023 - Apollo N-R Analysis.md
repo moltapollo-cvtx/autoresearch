@@ -1,9 +1,15 @@
 ---
-tags: [finding, evidence, gl-entry, cash-flow]
+type: evidence
+tags: [evidence, finding, high]
 status: documented
 confidence: high
 estimated_impact: "$510K+ claimed receivable"
 direction: apollo-inflated
+dollar-amount: 510072
+created: 2026-03-23
+updated: 2026-03-24
+related: ["[[DOC-ATI-GL-2023]]", "[[Fuel Cost Manipulation]]", "[[Promissory Note Backdating]]", "[[Intercompany Transfer Tracker]]"]
+evidence-refs: ["[[DOC-ATI-GL-2023]]", "[[ATI GeneralLedger Report 2023]]"]
 ---
 
 # ATI GL 2023 — N/R Apollo Energy Analysis

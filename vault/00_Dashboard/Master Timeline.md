@@ -1,7 +1,17 @@
 ---
-tags: [dashboard, timeline]
+type: dashboard
 status: active
+tags: [dashboard, timeline]
+created: 2026-03-23
 updated: 2026-03-24
+related:
+  - "[[Bank Rec Analysis 2024]]"
+  - "[[Bank Rec Analysis 2025]]"
+  - "[[Fuel Cost Manipulation]]"
+  - "[[Promissory Note Backdating]]"
+  - "[[Gemini Record Manipulation]]"
+  - "[[GL Audit Trail Anomalies]]"
+evidence-refs: []
 ---
 
 # Master Timeline

@@ -1,6 +1,20 @@
 ---
-tags: [cash-flow, finding]
+type: cash-flow
+status: documented
+confidence: critical
+tags: [finding, evidence]
+created: 2026-03-23
 updated: 2026-03-23
+related:
+  - "[[Fuel Cost Manipulation]]"
+  - "[[Bank Rec Analysis 2024]]"
+  - "[[Bank Rec Analysis 2025]]"
+  - "[[Intercompany Transfer Tracker]]"
+evidence-refs:
+  - "[[Apollo IFTA Filing 2024]]"
+  - "[[Apollo 2025 IFTA Filing]]"
+  - "[[ATI IFTA 2024]]"
+  - "[[Apollo Fuel 2023 2025]]"
 ---
 
 # Fuel Spend Reconciliation

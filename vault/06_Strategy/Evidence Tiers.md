@@ -1,6 +1,17 @@
 ---
-tags: [strategy]
+type: strategy
 status: active
+confidence: high
+tags: [strategy]
+created: 2026-03-23
+updated: 2026-03-24
+related:
+  - "[[Grandparent Meeting Prep]]"
+  - "[[Fuel Cost Manipulation]]"
+  - "[[Promissory Note Backdating]]"
+  - "[[Revenue Timing Shift]]"
+  - "[[Gemini Record Manipulation]]"
+evidence-refs: []
 ---
 
 # Evidence Tiers — Grandparent Company Meeting

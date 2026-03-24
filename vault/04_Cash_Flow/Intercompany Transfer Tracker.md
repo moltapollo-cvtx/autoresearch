@@ -1,6 +1,20 @@
 ---
-tags: [cash-flow, finding]
+type: cash-flow
+status: confirmed
+confidence: critical
+tags: [finding, evidence, critical]
+created: 2026-03-23
 updated: 2026-03-23
+dollar-amount: 915887
+related:
+  - "[[Promissory Note Backdating]]"
+  - "[[Bank Rec Analysis 2024]]"
+  - "[[Bank Rec Analysis 2025]]"
+  - "[[Gemini Record Manipulation]]"
+evidence-refs:
+  - "[[Apollo Bank Rec Jan 2024]]"
+  - "[[Apollo Bank Recs 2025-TMS SYSTEM REPORT]]"
+  - "[[Apollo bank transfers 2025]]"
 ---
 
 # Intercompany Transfer Tracker — 2024 & 2025

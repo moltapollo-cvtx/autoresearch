@@ -1,8 +1,14 @@
 ---
-tags: [evidence, fuel-card]
+type: evidence
+tags: [evidence, critical]
 card_number: "*0048"
 assigned_driver: "[[Henry Collins]]"
 priority: critical
+status: needs-verification
+confidence: high
+created: 2026-03-23
+updated: 2026-03-24
+related: ["[[Fuel Card Overview]]", "[[Henry Collins]]", "[[Fuel Cost Manipulation]]"]
 ---
 
 # Card *0048 — Henry Collins

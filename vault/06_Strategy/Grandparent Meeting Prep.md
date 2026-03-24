@@ -1,6 +1,18 @@
 ---
-tags: [strategy]
+type: strategy
 status: active
+confidence: high
+tags: [strategy]
+created: 2026-03-23
+updated: 2026-03-24
+related:
+  - "[[Evidence Tiers]]"
+  - "[[Investigation Dashboard]]"
+  - "[[Cash Flow Dashboard]]"
+  - "[[Master Timeline]]"
+  - "[[Data Lineage]]"
+  - "[[Deliverables Index]]"
+evidence-refs: []
 ---
 
 # Grandparent Company Meeting Preparation

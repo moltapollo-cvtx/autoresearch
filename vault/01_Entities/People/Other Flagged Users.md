@@ -1,5 +1,10 @@
 ---
+type: entity-person
 tags: [entity, person]
+status: needs-verification
+created: 2026-03-23
+updated: 2026-03-24
+related: ["[[Mauree]]", "[[DOC-QB-LOGS-2022-2026]]", "[[DOC-BankRec-2025-McLeod]]"]
 ---
 
 # Other Flagged System Users
