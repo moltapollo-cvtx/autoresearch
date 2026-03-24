@@ -77,3 +77,8 @@ $20,879.82 labeled "UCNG Gemini Invs" flowed through Apollo's bank account in De
 
 ### Bank Rec: Gemini Invoice — 12/15/2025
 $6,163.71 deposit labeled "Gemini Invoice" — money IN to Apollo from Gemini. Without the deleted records, the basis for this amount cannot be verified.
+
+> [!UPGRADE-PATH] Confidence: HIGH → CONFIRMED (with dollar value)
+> **Document needed:** QuickBooks database backup predating Cordee's ~25-minute deletion session.
+> **From whom:** ATI — they control the QB system. Demanded in [[Document Demand Letter Template]] Category C, Item 14.
+> **What it would prove:** The total dollar value of the 23 deleted Gemini records. Combined with the already-documented $282,416 in batch entries by Rosanna, this would quantify the full Gemini manipulation exposure and confirm whether the deletions were targeted at high-value records.

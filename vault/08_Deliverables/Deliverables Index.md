@@ -45,7 +45,7 @@ These findings have gaps that should be filled before formal presentation:
 | Revenue Timing Shift ($145K) | Incomplete comparison report | Complete APL_GL_Comparison_Report.xlsx | MEDIUM |
 | ATI Monthly Billing Manipulation | No intercompany agreement | Request formal billing agreement from ATI | MEDIUM |
 | GIG Transportation ($112K) | Entity identity unconfirmed | State business registration check | HIGH |
-| Card *0048 / Henry Collins | Termination date unknown | HR records from Walker | HIGH |
+| Card *0048 / Henry Collins | Termination date not yet obtained | HR records from Walker — see [[Document Demand Letter Template]] Cat. B, Item 5 | HIGH |
 | $84,960 "Ins/Elog" | No itemized breakdown | Request from ATI/Rosanna | HIGH |
 
 ## Draft Reports (Synthesis Notes)

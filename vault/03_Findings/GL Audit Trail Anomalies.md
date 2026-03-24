@@ -78,6 +78,11 @@ Martha's user account has been **deleted from the system** but 3,030 transaction
 ### "Mauree" — 4,379 Entries ([[DOC-QB-LOGS-2022-2026]]) (Not a Subject)
 See [[Mauree]]. Third most active user in the system. **Assessment: incompetent, not malicious.** Entry pattern is routine fuel card settlements for named owner-operators. Does not touch intercompany accounts (NP ATI, NR Apollo) used in the manipulation mechanism.
 
+> [!UPGRADE-PATH] Confidence: HIGH → CRITICAL
+> **Document needed:** Independent QuickBooks database backup — either from Intuit's cloud backups or from ATI's own backup systems.
+> **From whom:** ATI (demanded in [[Document Demand Letter Template]] Category C, Item 14) or Intuit directly via subpoena.
+> **What it would prove:** An independent database backup would verify that the QB export Walker received is complete and unaltered. It would also reveal whether additional entries, deletions, or modifications occurred beyond what the current export shows.
+
 ## Source Files
 - [[Apollo QuickBooks LOGS 2022-2026]] — Primary source (26,993 transactions, SHA: `d918f3c9...ef9a0a82`)
 - [[Apollo Quickbooks Audit Trail 2023 to dec 2024]] — Supplementary audit trail

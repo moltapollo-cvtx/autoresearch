@@ -41,6 +41,11 @@ Understating FY2024 revenue makes Apollo appear less profitable in the completed
 - [[APL GL work]] — Working analysis file
 - [[Source Registry]] | [[Data Lineage]]
 
+> [!UPGRADE-PATH] Confidence: MEDIUM-HIGH → HIGH
+> **Document needed:** Completed APL_GL_Comparison_Report.xlsx — monthly revenue comparison across all 12 months of 2024, showing transaction-date revenue vs. book-date revenue for each month.
+> **From whom:** Investigation team (analysis in progress, was interrupted).
+> **What it would prove:** If the one-month forward shift holds across all 12 months, this becomes a systematic pattern that cannot be explained by isolated accrual timing. Upgrades from "pattern identified in partial data" to "systematic manipulation confirmed across full year."
+
 ## Counterarguments
 - **"Accrual timing differences"** — Possible for individual months, but a systematic one-month shift across the year is a pattern, not a timing difference.
 - **"Revenue recognition policy"** — Would need to be documented and consistently applied. A policy that systematically shifts revenue forward is unusual.

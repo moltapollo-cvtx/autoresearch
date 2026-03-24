@@ -149,6 +149,11 @@ ATI itself is losing nearly $2M despite $37M in revenue. This raises the questio
 
 ---
 
+> [!UPGRADE-PATH] Confidence: CRITICAL → CONFIRMED (legal standing)
+> **Document needed:** Gemini Logistics USA LLC articles of incorporation and operating agreement, showing ownership structure and formal relationship to ATI.
+> **From whom:** Texas Secretary of State (public filing) or ATI — demanded in [[Document Demand Letter Template]] Category C, Item 13.
+> **What it would prove:** If ATI controls Gemini, then the ever-growing NP Gemini ($924,186) is confirmed self-dealing — ATI is using an entity it controls to fabricate debt on Apollo's books. Transforms from "related entity profit trap" to "confirmed self-dealing through controlled subsidiary."
+
 ## Connected
 - [[Gemini Record Manipulation]] — 23 records mass-deleted by [[Cordee]]
 - [[Gemini Logistics USA LLC]] — Entity profile

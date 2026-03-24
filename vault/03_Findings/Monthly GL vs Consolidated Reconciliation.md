@@ -151,6 +151,11 @@ Source: [[Apollo 2023 to dec 2024 General Ledger]] (NP ATI 2420 activity)
 
 ---
 
+> [!UPGRADE-PATH] Confidence: HIGH → CRITICAL
+> **Document needed:** December 2024 closing journal entries and prior-year adjustments from ATI's QuickBooks, specifically the entries that created the $8,669 retained earnings gap and the missing $20,999 depreciation.
+> **From whom:** ATI ([[Rosanna Karim]]) — available in the QB database backup demanded in [[Document Demand Letter Template]] Category C, Item 14.
+> **What it would prove:** The specific adjusting entries would reveal whether the $8,669 gap is a closing error or intentional manipulation, and whether December depreciation was deliberately omitted. Combined with the insurance allocation stop (~$102,520 missing), upgrades the finding from "discrepancies identified" to "year-end manipulation quantified."
+
 ## Key Takeaway
 
 The manipulation is NOT in the intercompany balances (those match perfectly) — it's in the **expense allocations** ATI controls:

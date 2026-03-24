@@ -11,6 +11,87 @@ updated: 2026-03-24
 
 ---
 
+## 2026-03-24 — Vault Pass 5: Legal Packaging & Final Audit-Readiness
+
+### Summary
+Pass 5 converted the investigation vault from an internal analysis tool into a legally actionable package ready for attorneys, CPAs, mediators, or court. Created attorney-ready deliverables, formal document demand template, master financial reconciliation with double-counting analysis, chain of custody audit, confidence upgrade paths for all findings, and presentation materials.
+
+### P5-1: Executive Summary (NEW FILE)
+- Created `08_Deliverables/Executive Summary - ATI Financial Misconduct.md`
+- Attorney-ready, ~800 words, case caption style (Apollo v. ATI)
+- Jurisdiction-neutral framing ("financial irregularities", "unexplained transfers", "accounting anomalies")
+- 7 numbered findings with dollar amounts and dates
+- Aggregate exposure table with verification levels
+- Recommended next steps (document demand, forensic review, audit trail, access, preservation)
+- Status: Preliminary, dated 2026-03-24
+
+### P5-2: Document Demand Letter Template (NEW FILE)
+- Created `08_Deliverables/Document Demand Letter Template.md`
+- Formal demand letter addressed to James Luhr Jr / ATI
+- 15 document categories across Critical (A), High (B), and Standard (C) priority
+- 14-day response window
+- Cites fiduciary duty and operating agreement
+- Includes preservation notice for all electronic records
+- [ATTORNEY NAME], [FIRM NAME], [DATE] placeholders
+- Professional tone, no accusations — demands only
+
+### P5-3: Chain of Custody Completeness Audit
+- Rewrote Source Registry with full custody metadata:
+  - Added `Received From` column (27 entries: ATI/Rosanna, government filings, EFS, bank, investigation team)
+  - Added `Received Date` column (all entries: 2026-03-23 or 2026-03-24)
+  - Added global custodian: "Walker Anderson"
+- SHA-256 audit: **2 of 27** source files have hashes (QB Logs, Bank Recs 2025 PDF)
+- Added [!MISSING-EVIDENCE] callout to **25 files** missing SHA-256 hashes
+- Added Custody Chain section with hashing action items
+- Added integrity notes on source reliability tiers
+
+### P5-4: Findings Confidence Upgrades (8 files modified)
+- Added `[!UPGRADE-PATH]` callouts to 8 findings specifying exactly what document upgrades each:
+  1. **Promissory Note Backdating** (HIGH → CONFIRMED): Executed copy of $858K note
+  2. **Gemini Record Manipulation** (HIGH → CONFIRMED): QB database backup predating deletion
+  3. **Fuel Cost Manipulation** (HIGH → CRITICAL): Unaltered EFS portal exports
+  4. **Revenue Timing Shift** (MED-HIGH → HIGH): Completed APL_GL_Comparison_Report
+  5. **ATI Monthly Billing** (MED-HIGH → HIGH): Intercompany billing agreement
+  6. **GL Audit Trail Anomalies** (HIGH → CRITICAL): Independent QB database backup
+  7. **Monthly GL vs Consolidated** (HIGH → CRITICAL): Dec 2024 closing entries
+  8. **Gemini Profit Siphon** (CRITICAL → CONFIRMED): Gemini articles of incorporation
+- Each callout specifies: document needed, from whom, what it would prove
+
+### P5-5: Master Financial Reconciliation (NEW FILE)
+- Created `04_Cash_Flow/Master Financial Reconciliation.md`
+- 7-section reconciliation: Cash Extraction (A), Fuel Overstatement (B), Account 2010 (C), Gemini (D), Balance Sheet (E), Revenue/Billing (F), Unquantified (G)
+- Every line item linked to source finding with verification level
+- **5 [!WARNING] Double-Counting Risk** callouts identifying overlapping figures
+- Three analytical frames: cash-focused ($1,027,811), P&L inflation (~$801,761), balance sheet ($2,089,420)
+- [!CRITICAL] callout explaining why the three frames are interconnected, not additive
+- Most conservative independently verified number: **$915,887 net cash extraction**
+
+### P5-6: Presentation Deck Outline (NEW FILE)
+- Created `08_Deliverables/Presentation Deck Outline.md`
+- 12-slide deck outline for grandparent/attorney meeting
+- Each slide: title, 3-5 bullet points, suggested exhibit with vault link
+- Covers: title, context, core problem, top 4 findings, total exposure, gaps, evidence quality, next steps
+- Appendix materials table with print formats
+
+### P5-7: Integrity Check
+- Grep sweep of entire vault for: TBD, TODO, "needs source", "needs documentation", "unknown amount", "unknown date"
+- **TBD**: 0 actionable (9 in CHANGELOG historical text only)
+- **TODO**: 0
+- **"needs source/documentation"**: 0
+- **"unknown amount/date"**: 0
+- **"unknown" active**: 3 remaining, all legitimate:
+  - 1 template enum value (`direction: unknown` in Template - Finding.md)
+  - 1 Open Questions Q6 text (tracked with MISSING-EVIDENCE in [[Gemini Record Manipulation]])
+  - 1 Master Reconciliation gap (properly flagged with resolution path)
+- Fixed 2 instances: SYNTHESIS "Termination date unknown" → MISSING-EVIDENCE callout with document demand reference; Deliverables Index → linked to Document Demand Letter
+
+**New files created: 4** (Executive Summary, Document Demand Letter, Master Financial Reconciliation, Presentation Deck Outline)
+**Files modified: 10** (8 findings + Source Registry + Deliverables Index + SYNTHESIS)
+**UPGRADE-PATH callouts added: 8**
+**MISSING-EVIDENCE callouts added: 26** (25 SHA-256 in Source Registry + 1 Card *0048 in SYNTHESIS)
+
+---
+
 ## 2026-03-24 — Vault Pass 4: Synthesis, Cross-Entity Analysis & Presentation Layer
 
 ### Summary

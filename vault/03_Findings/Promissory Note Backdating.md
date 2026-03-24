@@ -38,6 +38,11 @@ Creates liability on Apollo's books → justifies cash extraction from Apollo �
 - **"Administrative delay in recording"** — A 174-day delay in recording an $858K note is not a clerical oversight. Notes of this magnitude are recorded promptly.
 - **"The note was genuinely executed on the earlier date but not entered until later"** — Possible but raises the question: why? And the batch-print pattern of all 12 monthly statements suggests systematic retrospective record creation, not isolated delay.
 
+> [!UPGRADE-PATH] Confidence: HIGH → CONFIRMED
+> **Document needed:** The executed copy of the $858,000 promissory note, with signatures, notarization, and date.
+> **From whom:** [[James Luhr Jr]] / ATI — demanded in [[Document Demand Letter Template]] Category A, Item 2.
+> **What it would prove:** If produced, compare the document's date to the QB batch timestamp to confirm the 174-day backdating. If NOT produced, the absence of an executed document for an $858K obligation is itself evidence of fabrication. Either outcome upgrades this finding to CONFIRMED.
+
 ## Source Files
 - [[Apollo QuickBooks LOGS 2022-2026]] — Entry creating promissory note (SHA: `d918f3c9...ef9a0a82`)
 - [[Apollo 2023 to dec 2024 General Ledger]] — GL record

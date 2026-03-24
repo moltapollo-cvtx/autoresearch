@@ -51,6 +51,11 @@ This is the single largest identified discrepancy. The overstatement appears on 
 - **"Different accounting periods or accrual basis"** — IFTA covers a defined period. A ~66% markup cannot be explained by timing differences alone.
 - **"ATI incurs fuel costs on Apollo's behalf not captured in IFTA"** — Possible in theory, but would need documentation and would need to show ~$287K in non-IFTA fuel purchases, which is implausible for the fleet size.
 
+> [!UPGRADE-PATH] Confidence: HIGH → CRITICAL
+> **Document needed:** Unaltered EFS portal exports (raw transaction-level data for all 10 cards, Carrier ID 5725124, covering 2023–2025).
+> **From whom:** [[EFS LLC]] directly, or via ATI — demanded in [[Document Demand Letter Template]] Category A, Item 1.
+> **What it would prove:** Card-level transaction detail would confirm that no legitimate fuel purchases exist to justify the $234,683 in 2023 journal entries. The gap between EFS actual and P&L reported would be confirmed at the transaction level, not just at the aggregate.
+
 ## Action Items
 - [ ] Obtain unaltered EFS portal exports to confirm card-level detail
 - [ ] Pull transaction reports for prioritized cards (see [[Fuel Card Overview]])

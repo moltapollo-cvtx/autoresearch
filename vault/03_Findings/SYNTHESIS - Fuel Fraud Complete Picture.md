@@ -128,7 +128,12 @@ Source: [[Apollo IFTA Filing 2024]], [[ATI IFTA 2024]]
 
 **What happened:** Fuel card *0048, assigned to terminated driver [[Henry Collins]], shows the highest spend of all 10 masked fuel cards in Apollo's fleet. The critical evidentiary threshold is Collins' termination date — every dollar charged after his departure is direct fraud.
 
-**Current status:** Termination date unknown. Full EFS transaction history for *0048 not yet obtained.
+**Current status:** Termination date not yet obtained. Full EFS transaction history for *0048 not yet obtained.
+
+> [!MISSING-EVIDENCE] Card *0048 Post-Termination Fraud — Requires Two Documents
+> **1. Henry Collins termination date** from Apollo HR/payroll records (Walker or ATI). Demanded in [[Document Demand Letter Template]] Category B, Item 5.
+> **2. EFS transaction report for card *0048** (Carrier ID 5725124). Demanded in [[Document Demand Letter Template]] Category B, Item 6.
+> Without both documents, post-termination fuel card fraud cannot be quantified. Every dollar charged after Collins' departure is direct theft.
 
 **Potential exposure:** Unquantified until termination date and card-level transaction data are secured. If *0048 was used for months or years after Collins' departure, the fraud could be substantial.
 
@@ -184,7 +189,7 @@ Creates fake fuel costs on P&L ←───── Accumulates payable, then dump
 | **2025** | ADJ TO STMT cash reduction | $241,284 | PROVEN |
 | **2025** | P&L vs EFS overstatement (5500 only) | $193,933 | HIGH |
 | **2025** | Grand total fuel overstatement (all accounts) | $422,078 | HIGH |
-| **2023-2025** | Card *0048 post-termination | Unknown | PENDING |
+| **2023-2025** | Card *0048 post-termination | Unquantified (see [!MISSING-EVIDENCE] above) | PENDING |
 | | | | |
 | **TOTAL DOCUMENTED** | | **$656,761** | (GJ entries + Account 2010 dump, no double-counting) |
 | **TOTAL INCLUDING P&L GAP** | | **$422,078** (2025 alone) | (alternative measure: actual vs reported) |

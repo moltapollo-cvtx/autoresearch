@@ -45,6 +45,11 @@ Every modification moved the number upward. A fixed billing amount that exceeds 
 - [[ATI GL 2023 - Intercompany Billing]] — Billing pattern analysis
 - [[Source Registry]] | [[Data Lineage]]
 
+> [!UPGRADE-PATH] Confidence: MEDIUM-HIGH → HIGH
+> **Document needed:** ATI's intercompany billing agreement with Apollo — the formal document (if any) governing what ATI may charge Apollo for management fees, insurance, equipment, and services.
+> **From whom:** ATI ([[Rosanna Karim]] / [[James Luhr Jr]]) — demanded in [[Document Demand Letter Template]] Category C, Item 10.
+> **What it would prove:** If no agreement exists, every intercompany charge is unilateral and unjustified. If an agreement exists, compare its terms to actual billing — any deviation is a breach. Either outcome quantifies the total overcharge.
+
 ## Action Items
 - [ ] Quantify total overcharge (sum of modifications across all months)
 - [ ] Request formal intercompany billing agreement documentation
