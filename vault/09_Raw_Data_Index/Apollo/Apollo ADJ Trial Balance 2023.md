@@ -30,8 +30,8 @@ Adjusted trial balance for Apollo Energy for fiscal year 2023. Contains year-end
 ## Related Findings
 - [[Revenue Timing Shift]]
 
-> [!PROPOSAL] Potential evidence for additional findings
-> This adjusted trial balance may support [[Monthly GL vs Consolidated Reconciliation]] (year-end account balance verification) and provides a baseline for tracking the emergence of intercompany payable growth in subsequent years. Cross-reference recommended.
+## Cited In
+- [[Revenue Timing Shift]] — 2023 adjusted balances used as baseline for revenue recognition timing analysis
 
 ## Chain of Custody
 - **Indexed:** 2026-03-24

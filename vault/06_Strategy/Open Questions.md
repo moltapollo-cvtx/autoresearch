@@ -73,6 +73,30 @@ SORT file.name ASC
 
 ---
 
+## Evidence Demand Matrix — What Document Resolves Each Question
+
+| Question | Resolving Document | Held By | Proves |
+|----------|--------------------|---------|--------|
+| Q1 (paydown justification) | Intercompany loan agreements, promissory notes, board resolutions for all ATI-Apollo transfers 2024-2025 | ATI (Rosanna Karim / James Luhr Jr) | Whether $1.2M in "paydowns" had legal basis beyond the backdated $858K note |
+| Q2 (Wire Payable $868K) | Apollo GL journal entry detail for account 2011 covering Dec 2024–Dec 2025, showing reclassification entries | ATI (controls Apollo's QB) | Where $868,535 was reclassified — likely to ATI Promissory (2430) |
+| Q3 (2025 P&L fuel line) | ATI-prepared Apollo Energy P&L for FY2025, showing 5500/5310/5520 account detail | ATI (Rosanna Karim) | 2025 fuel overstatement calculated against ATI's own numbers |
+| Q4 ($84,960 Ins/Elog) | Itemized invoices comprising the $84,960 "Ins/Elog" charge posted 2025-11-30 | ATI (Rosanna Karim) | Whether the charge is legitimate insurance + e-log costs or fabricated |
+| Q5 (GIG = Gemini?) | GIG Transportation Services LLC articles of incorporation and ownership records; EFS carrier management records for GIG | Texas Secretary of State; EFS LLC | Whether GIG shares ownership with Gemini/ATI — if yes, $112K is additional siphon |
+| Q6 (deleted Gemini value) | QuickBooks database backup predating Cordee's deletion session | ATI (controls QB system) | Total dollar value of 23 deleted Gemini records |
+| Q7 (deletion authorization) | Internal communications (email/Slack/text) between Cordee and ATI management re: Gemini records | ATI (subpoena/discovery) | Whether Cordee acted on ATI direction to destroy evidence |
+| Q8 (Gemini legal status) | Gemini Logistics USA LLC operating agreement, articles of incorporation, ownership records | Texas Secretary of State | ATI's control relationship — determines if Gemini debt is self-dealing |
+| Q9 (Collins termination date) | Apollo Energy HR/payroll records showing Henry Collins' last day of employment | Walker (Apollo) or ATI payroll | Enables calculation of post-termination fraud on card *0048 |
+| Q10 (insurance stop) | Insurance allocation policy and Nov/Dec 2024 GL entries for account 6200 | ATI (Rosanna Karim) | Whether ~$102,520 in missing insurance allocation was diverted |
+| Q11 (RE gap $8,669) | December 2024 closing journal entries and prior-year adjustments | ATI (controls QB) | Whether the $8,669 gap is a closing error or intentional manipulation |
+| Q12 (Dec depreciation) | December 2024 depreciation journal entry (or absence thereof) in GL | ATI (controls QB) | Whether $20,999 was intentionally omitted from GL |
+| Q13 (Gemini RE decrease) | Gemini 2024-2025 adjusting journal entries affecting retained earnings | ATI (controls Gemini books) | Where ~$183K in Gemini equity went — potential distribution to ATI |
+| Q14 (15x chargeback error) | ATI internal insurance billing calculations; actual insurance invoices | ATI (Rosanna Karim) | Whether 15x multiplier is arithmetic error or intentional inflation |
+| Q15 (equipment loans) | Truist and WFB loan agreements for 3 equipment units ($785K) | ATI (James Luhr Jr / Rosanna Karim) | Whether loans in ATI's name are being passed through to Apollo at markup |
+| Q16 (billing overcharge) | ATI monthly intercompany billing invoices to Apollo 2022-2025 | ATI (Rosanna Karim) | Total overcharge from variable-to-fixed billing modification |
+| Q17 (revenue timing) | Completed APL_GL_Comparison_Report.xlsx — monthly revenue comparison across all 12 months 2024 | Investigation team (in progress) | Whether revenue timing shift is systematic or isolated |
+
+---
+
 ## Source Files
 - [[Investigation Dashboard]] — Master finding list
 - [[Evidence Tiers]] — Presentation priority

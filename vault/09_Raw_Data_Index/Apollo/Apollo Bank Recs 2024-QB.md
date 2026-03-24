@@ -33,8 +33,8 @@ Compressed archive containing bank reconciliation files for Apollo Energy for al
 ## Related Findings
 - [[ATI Monthly Billing Manipulation]]
 
-> [!PROPOSAL] Potential evidence for additional findings
-> This bank reconciliation archive may contain detail supporting [[Intercompany Transfer Tracker]] (verify specific extraction amounts from Apollo to ATI) and cross-entity cash flow verification. Cross-reference recommended.
+## Cited In
+- [[Bank Rec Analysis 2024]] — full-year 2024 QuickBooks archive used as master reconciliation source
 
 ## Chain of Custody
 - **Indexed:** 2026-03-24

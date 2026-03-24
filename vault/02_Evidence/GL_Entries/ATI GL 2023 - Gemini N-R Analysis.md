@@ -3,7 +3,7 @@ type: evidence
 tags: [evidence, finding, high]
 status: documented
 confidence: high
-direction: unknown
+direction: apollo-inflated
 dollar-amount: 341705
 created: 2026-03-23
 updated: 2026-03-24

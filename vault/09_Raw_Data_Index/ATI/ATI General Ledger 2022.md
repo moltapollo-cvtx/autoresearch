@@ -32,8 +32,9 @@ Complete general ledger for ATI for fiscal year 2022. Contains all journal entri
 ## Related Findings
 - [[ATI Monthly Billing Manipulation]]
 
-> [!PROPOSAL] Potential evidence for additional findings
-> This ATI general ledger provides baseline 2022 data that may support [[Promissory Note Backdating]] (verify whether intercompany note entries existed in 2022 or were retroactively created) and [[Revenue Timing Shift]] (establish pre-manipulation billing patterns). Cross-reference with 2023 GL recommended.
+## Cited In
+- [[ATI Monthly Billing Manipulation]] — prior year comparison
+- [[Fuel Cost Manipulation]] — historical baseline
 
 ## Chain of Custody
 - **Indexed:** 2026-03-24

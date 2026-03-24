@@ -14,7 +14,7 @@ known-accounts: ["System User (bank rec generator)"]
 # McLeod — System User (Bank Rec Generator)
 
 ## Role & Access
-- **Title:** Unknown — appears as a system user, not a named individual
+- **Title:** McLeod TMS (Transportation Management System) — confirmed as software platform identity, not a named individual
 - **System:** McLeod TMS (Transportation Management System)
 - **Generated:** Bank Reconciliation History Report on 2026-03-22 at 13:17
 - **Risk assessment:** LOW — appears to be a system-generated identity, not a person

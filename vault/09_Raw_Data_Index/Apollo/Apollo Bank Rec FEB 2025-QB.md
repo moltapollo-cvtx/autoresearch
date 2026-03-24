@@ -33,8 +33,10 @@ Monthly bank reconciliation for Apollo Energy, February 2025, sourced from Quick
 ## Related Findings
 - [[ATI Monthly Billing Manipulation]]
 
-> [!PROPOSAL] Potential evidence for additional findings
-> This bank reconciliation may contain detail supporting [[Intercompany Transfer Tracker]] (verify specific extraction amounts from Apollo to ATI) and [[Bank Rec Analysis 2025]] (reconciliation discrepancies during the Account 2010 clearing phase). Cross-reference recommended.
+## Cited In
+- [[Bank Rec Analysis 2025]] — February 2025 QuickBooks reconciliation tested for discrepancies
+- [[Intercompany Transfer Tracker]] — Apollo-to-ATI transfer amounts verified against this rec
+- [[Cash Flow Dashboard]] — monthly cash position data sourced from this reconciliation
 
 ## Chain of Custody
 - **Indexed:** 2026-03-24

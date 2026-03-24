@@ -19,7 +19,10 @@ status: indexed
 - **File path:** `../../Apollo Trial Balance.CSV`
 - **Type:** csv
 - **Entity:** [[Apollo Energy Resources LLC]]
-- **Period covered:** Unknown (requires review - no date in filename)
+- **Period covered:** Undetermined — see MISSING-EVIDENCE below
+
+> [!MISSING-EVIDENCE] Period cannot be determined from filename
+> Requires review of CSV contents to determine as-of date for trial balance snapshot.
 
 ## Contents Summary
 Trial balance export for Apollo Energy. Contains all account balances (debit and credit) at a point in time. Compare against adjusted trial balance files to identify the nature and magnitude of adjusting entries.
@@ -30,8 +33,8 @@ Trial balance export for Apollo Energy. Contains all account balances (debit and
 ## Related Findings
 - [[Revenue Timing Shift]]
 
-> [!PROPOSAL] Potential evidence for additional findings
-> This trial balance may support [[Monthly GL vs Consolidated Reconciliation]] (P&L verification at a specific point in time). Date of this report should be determined to place it in the investigation timeline. Cross-reference recommended.
+## Cited In
+- [[Revenue Timing Shift]] — trial balance snapshot used for revenue recognition analysis (undated; see MISSING-EVIDENCE note above)
 
 ## Chain of Custody
 - **Indexed:** 2026-03-24

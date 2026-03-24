@@ -4,7 +4,7 @@ tags: [evidence, source]
 doc_id: DOC-QB-LOGS-2022-2026
 received_date: 2026-03-23
 received_from: Walker (uploaded)
-generation_date: unknown
+generation_date: "QB export — transaction dates Feb 2023–Apr 2025, entry dates Jun 2023–May 2025"
 sha256: d918f3c9134d06e26fd2724abd8806c22090e5d8a3976f5f64e9a503ef9a0a82
 status: under-review
 created: 2026-03-23

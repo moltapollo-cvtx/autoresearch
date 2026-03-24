@@ -31,8 +31,9 @@ Adjusted trial balance for Apollo Energy for fiscal year 2024. Contains year-end
 - [[Revenue Timing Shift]]
 - [[ATI Monthly Billing Manipulation]]
 
-> [!PROPOSAL] Potential evidence for additional findings
-> This adjusted trial balance may support [[Monthly GL vs Consolidated Reconciliation]] (verify year-end adjusted balances against monthly GL data) and [[Account 2010 Fuel Payable Mechanism]] (confirm year-end Account 2010 balance after 12 months of accumulation). Cross-reference recommended.
+## Cited In
+- [[Monthly GL vs Consolidated Reconciliation]] — year-end 2024 adjusted balances verified against monthly GL data
+- [[Revenue Timing Shift]] — 2024 adjusted balances tested for revenue recognition timing shifts
 
 ## Chain of Custody
 - **Indexed:** 2026-03-24

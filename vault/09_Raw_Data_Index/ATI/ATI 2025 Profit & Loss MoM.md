@@ -33,6 +33,11 @@ Month-over-month profit and loss statement for ATI for 2025. Shows revenue, expe
 - [[ATI Monthly Billing Manipulation]]
 - [[Revenue Timing Shift]]
 
+## Cited In
+- [[Gemini Profit Siphon]] — ATI financial position
+- [[Account 2010 Fuel Payable Mechanism]]
+- [[Forensic Cross-Reference Report]]
+
 ## Chain of Custody
 - **Indexed:** 2026-03-24
 - **Analyzed in:** Pending analysis

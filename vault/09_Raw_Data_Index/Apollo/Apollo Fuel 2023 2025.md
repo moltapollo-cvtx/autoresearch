@@ -32,8 +32,10 @@ Comprehensive fuel transaction data for Apollo Energy spanning three years (2023
 ## Related Findings
 - [[Fuel Cost Manipulation]]
 
-> [!PROPOSAL] Potential evidence for additional findings
-> This multi-year fuel dataset may support [[Account 2010 Fuel Payable Mechanism]] (compare actual fuel purchases against amounts posted to Account 2010) and [[Forensic Cross-Reference Report]] (cross-entity fuel cost verification). Cross-reference recommended.
+## Cited In
+- [[Fuel Cost Manipulation]] — actual fuel transaction data compared against GL-recorded fuel expenses
+- [[Fuel Spend Reconciliation]] — three-year fuel purchase data used in spend reconciliation
+- [[Forensic Cross-Reference Report]] — cross-entity fuel cost verification across 2023-2025
 
 ## Chain of Custody
 - **Indexed:** 2026-03-24

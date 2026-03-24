@@ -30,8 +30,9 @@ Monthly general ledger export for Gemini Logistics, May 2025. Contains all journ
 ## Related Findings
 - [[Gemini Record Manipulation]]
 
-> [!PROPOSAL] Potential evidence for additional findings
-> This Gemini GL source file may contain transaction-level detail supporting [[Gemini Profit Siphon]] (monthly P&L verification to trace profit extraction patterns) or [[Gemini Record Manipulation]] (identify manipulated entries). Cross-reference with ATI intercompany billing recommended.
+## Cited In
+- [[Gemini Profit Siphon]] — monthly revenue/expense tracking, NP balance verification
+- [[Gemini Record Manipulation]] — Gemini balance verification against batch entries
 
 ## Chain of Custody
 - **Indexed:** 2026-03-24

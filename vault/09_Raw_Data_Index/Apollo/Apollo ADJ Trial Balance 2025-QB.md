@@ -31,8 +31,9 @@ Adjusted trial balance for Apollo Energy for fiscal year 2025, sourced from Quic
 ## Related Findings
 - [[Revenue Timing Shift]]
 
-> [!PROPOSAL] Potential evidence for additional findings
-> This adjusted trial balance may support [[Monthly GL vs Consolidated Reconciliation]] (verify year-end adjusted balances) and [[Account 2010 Fuel Payable Mechanism]] (confirm Account 2010 balance after clearing entries in 2025). Cross-reference recommended.
+## Cited In
+- [[Revenue Timing Shift]] — 2025 adjusted balances tested for revenue recognition timing shifts
+- [[Forensic Cross-Reference Report]] — year-end 2025 trial balance included in cross-entity verification
 
 ## Chain of Custody
 - **Indexed:** 2026-03-24

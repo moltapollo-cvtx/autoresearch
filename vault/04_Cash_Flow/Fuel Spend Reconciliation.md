@@ -88,7 +88,7 @@ Actual cash paid to EFS LLC from Apollo's Stellar Bank account — independently
 | EFS at bank (verified) | $705,265 | $506,492 |
 | ATI-prepared P&L fuel line | ~$720K (est.) | **NOT PROVIDED** |
 | IFTA fuel cost | ~$433K (partial period) | Not yet filed? |
-| Fuel journal entries via NP ATI (2023 GL) | $234,683 (2023) | TBD |
+| Fuel journal entries via NP ATI (2023 GL) | $234,683 (2023) [[Apollo_Manual_Journal_Fuel_Targets]] | $285,789 (2025-03-31 Acct 2010 dump) [[Account 2010 Fuel Payable Mechanism]] |
 
 **CRITICAL GAP:** The 2025 ATI-prepared P&L has not been provided. Without it, we cannot calculate the 2025 fuel overstatement. **Demand immediately.**
 

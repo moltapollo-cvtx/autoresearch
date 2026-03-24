@@ -19,7 +19,10 @@ status: indexed
 - **File path:** `../../APL GL work.xlsx`
 - **Type:** xlsx
 - **Entity:** [[Apollo Energy Resources LLC]]
-- **Period covered:** Unknown (requires review)
+- **Period covered:** Undetermined — see MISSING-EVIDENCE below
+
+> [!MISSING-EVIDENCE] Period cannot be determined from filename
+> Requires review of workbook contents to determine date range and analytical scope.
 
 ## Contents Summary
 Working paper for Apollo Energy general ledger analysis. "APL" abbreviation and "work" suffix suggest this is an analytical workbook created during the investigation rather than a raw source export. May contain formulas, pivot tables, or annotations analyzing GL data.
@@ -31,8 +34,8 @@ Working paper for Apollo Energy general ledger analysis. "APL" abbreviation and 
 ## Related Findings
 - [[ATI Monthly Billing Manipulation]]
 
-> [!PROPOSAL] Potential evidence for additional findings
-> This analytical workbook may contain working paper analysis supporting [[Monthly GL vs Consolidated Reconciliation]] (GL verification work), [[Account 2010 Fuel Payable Mechanism]] (account-level analysis), or [[Forensic Cross-Reference Report]] (cross-reference calculations). Contents should be reviewed to determine scope and period. Cross-reference recommended.
+## Cited In
+- [[Revenue Timing Shift]] — analytical workbook supporting GL-level revenue timing analysis (undated; see MISSING-EVIDENCE note above)
 
 ## Chain of Custody
 - **Indexed:** 2026-03-24

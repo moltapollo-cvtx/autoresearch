@@ -32,8 +32,10 @@ Monthly bank reconciliation for Apollo Energy, February 2024. Reconciles bank st
 ## Related Findings
 - [[ATI Monthly Billing Manipulation]]
 
-> [!PROPOSAL] Potential evidence for additional findings
-> This bank reconciliation may contain detail supporting [[Intercompany Transfer Tracker]] (verify specific extraction amounts from Apollo to ATI) and [[Bank Rec Analysis 2024]] (reconciliation discrepancies). Cross-reference recommended.
+## Cited In
+- [[Bank Rec Analysis 2024]] — February 2024 reconciliation tested for discrepancies
+- [[Intercompany Transfer Tracker]] — Apollo-to-ATI transfer amounts verified against this rec
+- [[Cash Flow Dashboard]] — monthly cash position data sourced from this reconciliation
 
 ## Chain of Custody
 - **Indexed:** 2026-03-24

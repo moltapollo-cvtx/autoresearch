@@ -37,16 +37,16 @@ evidence-refs: []
 | 15 | ATI FUEL 2024.pdf | pdf | [[Asphalt Transport Inc (ATI)]] | 2024 | | Indexed | [[ATI FUEL 2024]] |
 | 16 | ATI 2025 Profit & Loss MoM.csv | csv | [[Asphalt Transport Inc (ATI)]] | 2025 | | Indexed | [[ATI 2025 Profit & Loss MoM]] |
 | 17 | Apollo Quickbooks Audit Trail 2023 to dec 2024.CSV | CSV | [[Apollo Energy Resources LLC]] | 2023-2024 | | Indexed | [[Apollo Quickbooks Audit Trail 2023 to dec 2024]] |
-| 18 | Apollo Transaction Detail by Account.csv | csv | [[Apollo Energy Resources LLC]] | TBD | | Indexed | [[Apollo Transaction Detail by Account]] |
-| 19 | Apollo Trial Balance.CSV | CSV | [[Apollo Energy Resources LLC]] | TBD | | Indexed | [[Apollo Trial Balance]] |
+| 18 | Apollo Transaction Detail by Account.csv | csv | [[Apollo Energy Resources LLC]] | Undetermined — requires CSV review | | Indexed | [[Apollo Transaction Detail by Account]] |
+| 19 | Apollo Trial Balance.CSV | CSV | [[Apollo Energy Resources LLC]] | Undetermined — requires CSV review | | Indexed | [[Apollo Trial Balance]] |
 | 20 | Apollo bank transfers 2025.pdf | pdf | [[Apollo Energy Resources LLC]] | 2025 | | Indexed | [[Apollo bank transfers 2025]] |
 | 21 | Apollo 2026 Chart of Accounts.csv | csv | [[Apollo Energy Resources LLC]] | 2026 | | Indexed | [[Apollo 2026 Chart of Accounts]] |
-| 22 | APL GL work.xlsx | xlsx | [[Apollo Energy Resources LLC]] | TBD | | Indexed | [[APL GL work]] |
+| 22 | APL GL work.xlsx | xlsx | [[Apollo Energy Resources LLC]] | Undetermined — analytical workbook, requires review | | Indexed | [[APL GL work]] |
 | 23 | Fuel_vs_Financials_Forensic_Report.xlsx | xlsx | Cross-entity | 2023-2025 | | Indexed | [[Fuel_vs_Financials_Forensic_Report]] |
 | 24 | WHAT ATI CLAIMS APOLLO OWES FROM 2025 CHARGEBACKS.xlsx | xlsx | Cross-entity | 2025 | | Indexed | [[WHAT ATI CLAIMS APOLLO OWES FROM 2025 CHARGEBACKS]] |
 | 25 | Apollo_2010_2025_Detail.csv | csv | [[Apollo Energy Resources LLC]] | 2010-2025 | | Indexed | [[Apollo_2010_2025_Detail]] |
 | 26 | Apollo_2010_Monthly_Rollforward.csv | csv | [[Apollo Energy Resources LLC]] | 2010 | | Indexed | [[Apollo_2010_Monthly_Rollforward]] |
-| 27 | Apollo_Manual_Journal_Fuel_Targets.csv | csv | [[Apollo Energy Resources LLC]] | TBD | | Indexed | [[Apollo_Manual_Journal_Fuel_Targets]] |
+| 27 | Apollo_Manual_Journal_Fuel_Targets.csv | csv | [[Apollo Energy Resources LLC]] | 2023-2025 | | Indexed | [[Apollo_Manual_Journal_Fuel_Targets]] |
 
 ### Monthly GL Files — Apollo (24 files)
 

@@ -43,22 +43,25 @@ Get-FileHash filename.xlsx -Algorithm SHA256
 
 | Doc ID | Document Name | Received | From | Generation Date | Hash (first 16) | Link |
 |---|---|---|---|---|---|---|
-| DOC-ATI-GL-2023 | ATI General Ledger 2023 | 2026-03-23 | unknown | unknown | PENDING | [[DOC-ATI-GL-2023]] |
+| DOC-ATI-GL-2023 | ATI General Ledger 2023 | 2026-03-23 | Rosanna Karim (ATI controller) — provided via ATI file share | QB-generated (.xlsm), date embedded in file metadata | PENDING — run `shasum -a 256` on ATI_GL_Report_2023.xlsm | [[DOC-ATI-GL-2023]] |
 | DOC-BANKREC-2025 | Bank Rec History (McLeod) | 2026-03-23 | McLeod (system) | 2026-03-22 13:17 | `50f8c8bd63ff6f48` | [[DOC-BankRec-2025-McLeod]] |
-| DOC-QB-LOGS | Apollo QB Transaction Log 2022-2026 | 2026-03-23 | Walker (uploaded) | unknown | `d918f3c9134d06e2` | [[DOC-QB-LOGS-2022-2026]] |
-| DOC-BANKREC-2024-JAN | Apollo Bank Rec Jan 2024 | 2026-03-23 | Walker (uploaded) | unknown | PENDING | [[Bank Rec Analysis 2024]] |
-| DOC-BANKREC-2024-FEB | Apollo Bank Rec Feb 2024 | 2026-03-23 | Walker (uploaded) | unknown | PENDING | [[Bank Rec Analysis 2024]] |
-| DOC-BANKREC-2024-MAR | Apollo Bank Rec Mar 2024 | 2026-03-23 | Walker (uploaded) | unknown | PENDING | [[Bank Rec Analysis 2024]] |
-| DOC-BANKREC-2024-APR | Apollo Bank Rec Apr 2024 | 2026-03-23 | Walker (uploaded) | unknown | PENDING | [[Bank Rec Analysis 2024]] |
-| DOC-BANKREC-2024-MAY | Apollo Bank Rec May 2024 | 2026-03-23 | Walker (uploaded) | unknown | PENDING | [[Bank Rec Analysis 2024]] |
-| DOC-BANKREC-2024-JUN | Apollo Bank Rec Jun 2024 | 2026-03-23 | Walker (uploaded) | unknown | PENDING | [[Bank Rec Analysis 2024]] |
-| DOC-BANKREC-2024-JUL | Apollo Bank Rec Jul 2024 | 2026-03-23 | Walker (uploaded) | unknown | PENDING | [[Bank Rec Analysis 2024]] |
-| DOC-BANKREC-2024-AUG | Apollo Bank Rec Aug 2024 | 2026-03-23 | Walker (uploaded) | unknown | PENDING | [[Bank Rec Analysis 2024]] |
-| DOC-BANKREC-2024-SEP1 | Apollo Bank Rec Sept 1 2024 | 2026-03-23 | Walker (uploaded) | unknown | PENDING | [[Bank Rec Analysis 2024]] |
-| DOC-BANKREC-2024-SEP30 | Apollo Bank Rec Sept 30 2024 | 2026-03-23 | Walker (uploaded) | unknown | PENDING | [[Bank Rec Analysis 2024]] |
-| DOC-BANKREC-2024-OCT | Apollo Bank Rec Oct 2024 | 2026-03-23 | Walker (uploaded) | unknown | PENDING | [[Bank Rec Analysis 2024]] |
-| DOC-BANKREC-2024-NOV | Apollo Bank Rec Nov 2024 | 2026-03-23 | Walker (uploaded) | unknown | PENDING | [[Bank Rec Analysis 2024]] |
-| DOC-BANKREC-2024-DEC | Apollo Bank Rec Dec 2024 | 2026-03-23 | Walker (uploaded) | unknown | PENDING | [[Bank Rec Analysis 2024]] |
+| DOC-QB-LOGS | Apollo QB Transaction Log 2022-2026 | 2026-03-23 | Walker (uploaded) | QB export covering Feb 2023–Apr 2025 (entry dates Jun 2023–May 2025) | `d918f3c9134d06e2` | [[DOC-QB-LOGS-2022-2026]] |
+| DOC-BANKREC-2024-JAN | Apollo Bank Rec Jan 2024 | 2026-03-23 | Walker (uploaded) | QB bank rec export (.xlsm) | PENDING — run `shasum -a 256` | [[Bank Rec Analysis 2024]] |
+| DOC-BANKREC-2024-FEB | Apollo Bank Rec Feb 2024 | 2026-03-23 | Walker (uploaded) | QB bank rec export (.xlsm) | PENDING — run `shasum -a 256` | [[Bank Rec Analysis 2024]] |
+| DOC-BANKREC-2024-MAR | Apollo Bank Rec Mar 2024 | 2026-03-23 | Walker (uploaded) | QB bank rec export (.xlsm) | PENDING — run `shasum -a 256` | [[Bank Rec Analysis 2024]] |
+| DOC-BANKREC-2024-APR | Apollo Bank Rec Apr 2024 | 2026-03-23 | Walker (uploaded) | QB bank rec export (.xlsm) | PENDING — run `shasum -a 256` | [[Bank Rec Analysis 2024]] |
+| DOC-BANKREC-2024-MAY | Apollo Bank Rec May 2024 | 2026-03-23 | Walker (uploaded) | QB bank rec export (.xlsm) | PENDING — run `shasum -a 256` | [[Bank Rec Analysis 2024]] |
+| DOC-BANKREC-2024-JUN | Apollo Bank Rec Jun 2024 | 2026-03-23 | Walker (uploaded) | QB bank rec export (.xlsm) | PENDING — run `shasum -a 256` | [[Bank Rec Analysis 2024]] |
+| DOC-BANKREC-2024-JUL | Apollo Bank Rec Jul 2024 | 2026-03-23 | Walker (uploaded) | QB bank rec export (.xlsm) | PENDING — run `shasum -a 256` | [[Bank Rec Analysis 2024]] |
+| DOC-BANKREC-2024-AUG | Apollo Bank Rec Aug 2024 | 2026-03-23 | Walker (uploaded) | QB bank rec export (.xlsm) | PENDING — run `shasum -a 256` | [[Bank Rec Analysis 2024]] |
+| DOC-BANKREC-2024-SEP1 | Apollo Bank Rec Sept 1 2024 | 2026-03-23 | Walker (uploaded) | QB bank rec export (.xlsm) — split month part 1 | PENDING — run `shasum -a 256` | [[Bank Rec Analysis 2024]] |
+| DOC-BANKREC-2024-SEP30 | Apollo Bank Rec Sept 30 2024 | 2026-03-23 | Walker (uploaded) | QB bank rec export (.xlsm) — split month part 2 | PENDING — run `shasum -a 256` | [[Bank Rec Analysis 2024]] |
+| DOC-BANKREC-2024-OCT | Apollo Bank Rec Oct 2024 | 2026-03-23 | Walker (uploaded) | QB bank rec export (.xlsm) | PENDING — run `shasum -a 256` | [[Bank Rec Analysis 2024]] |
+| DOC-BANKREC-2024-NOV | Apollo Bank Rec Nov 2024 | 2026-03-23 | Walker (uploaded) | QB bank rec export (.xlsm) | PENDING — run `shasum -a 256` | [[Bank Rec Analysis 2024]] |
+| DOC-BANKREC-2024-DEC | Apollo Bank Rec Dec 2024 | 2026-03-23 | Walker (uploaded) | QB bank rec export (.xlsm) | PENDING — run `shasum -a 256` | [[Bank Rec Analysis 2024]] |
+
+> [!MISSING-EVIDENCE]
+> **To complete SHA-256 integrity hashing:** All 13 2024 bank rec .xlsm files and the ATI GL 2023 .xlsm require SHA-256 hashes computed from the original files on disk. Run `shasum -a 256 *.xlsm` in the source file directory. Without hashes, document integrity cannot be verified if ATI challenges authenticity.
 
 ---
 

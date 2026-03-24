@@ -16,7 +16,7 @@ known-accounts: ["None — zero QB activity"]
 ## Role & Access
 - **Title:** Team member
 - **Organization:** [[Apollo Energy Resources LLC]]
-- **System access:** Unknown — not identified in [[DOC-QB-LOGS-2022-2026]] user analysis
+- **System access:** No QB activity detected — not present in [[DOC-QB-LOGS-2022-2026]] user analysis (26,993 transactions across 8 identified users). Likely has no direct access to Apollo's accounting system.
 - **Risk assessment:** LOW — no suspicious actions identified
 
 ## Notes

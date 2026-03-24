@@ -3,8 +3,8 @@ type: evidence
 tags: [evidence, source]
 doc_id: DOC-ATI-GL-2023
 received_date: 2026-03-23
-received_from: unknown
-generation_date: unknown
+received_from: "Rosanna Karim (ATI controller) — provided via ATI file share"
+generation_date: "QB-generated .xlsm covering full year 2023 (266,513 rows)"
 sha256: PENDING
 status: under-review
 created: 2026-03-23

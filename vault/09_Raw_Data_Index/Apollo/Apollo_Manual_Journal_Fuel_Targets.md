@@ -19,7 +19,7 @@ status: indexed
 - **File path:** `../../Apollo_Manual_Journal_Fuel_Targets.csv`
 - **Type:** csv
 - **Entity:** [[Apollo Energy Resources LLC]]
-- **Period covered:** Unknown (requires review)
+- **Period covered:** 2023 through 2025 (manual journal entries targeting fuel-related GL accounts)
 
 ## Contents Summary
 **KEY EVIDENCE FILE.** Listing of manual journal entries targeting fuel-related accounts in Apollo Energy's books. This file documents deliberate manipulation of fuel cost allocations through manual journal entries rather than system-generated transactions. Each entry represents a conscious override of the normal accounting process, where someone manually debited fuel expense accounts and credited intercompany payable (Account 2010). The pattern of manual entries -- rather than automated fuel card imports -- is a primary indicator that fuel costs charged to Apollo were fabricated or inflated. Cross-reference against actual fuel card data to quantify the discrepancy between real fuel purchases and booked fuel expenses.

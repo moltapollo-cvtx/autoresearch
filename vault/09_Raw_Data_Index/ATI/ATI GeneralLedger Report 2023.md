@@ -34,6 +34,12 @@ Complete general ledger report for ATI for fiscal year 2023. Contains all journa
 - [[ATI Monthly Billing Manipulation]]
 - [[Promissory Note Backdating]]
 
+## Cited In
+- [[Fuel Cost Manipulation]]
+- [[ATI Monthly Billing Manipulation]]
+- [[ATI GL 2023 - Gemini N-R Analysis]]
+- [[DOC-ATI-GL-2023]]
+
 ## Chain of Custody
 - **Indexed:** 2026-03-24
 - **Analyzed in:** [[DOC-ATI-GL-2023]]

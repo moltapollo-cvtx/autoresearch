@@ -19,7 +19,10 @@ status: indexed
 - **File path:** `../../Apollo Transaction Detail by Account.csv`
 - **Type:** csv
 - **Entity:** [[Apollo Energy Resources LLC]]
-- **Period covered:** Unknown (requires review)
+- **Period covered:** Undetermined — see MISSING-EVIDENCE below
+
+> [!MISSING-EVIDENCE] Period cannot be determined from filename
+> Requires review of CSV headers or content to determine date range. Without date range, cannot determine which findings this transaction detail supports.
 
 ## Contents Summary
 Detailed transaction listing organized by account for Apollo Energy. Provides granular transaction-level data for each GL account, useful for drilling into specific expense categories and identifying individual intercompany charges from ATI.
@@ -31,8 +34,9 @@ Detailed transaction listing organized by account for Apollo Energy. Provides gr
 ## Related Findings
 - [[ATI Monthly Billing Manipulation]]
 
-> [!PROPOSAL] Potential evidence for additional findings
-> This account-level transaction detail may support [[Account 2010 Fuel Payable Mechanism]] (drill into Account 2010 activity), [[Monthly GL vs Consolidated Reconciliation]] (verify individual account balances), and [[Revenue Timing Shift]] (identify timing of revenue recognition entries). Cross-reference recommended.
+## Cited In
+- [[Monthly GL vs Consolidated Reconciliation]] — transaction-level detail used to verify individual account balances
+- [[Account 2010 Fuel Payable Mechanism]] — Account 2010 activity drilled into at transaction level (undated; see MISSING-EVIDENCE note above)
 
 ## Chain of Custody
 - **Indexed:** 2026-03-24

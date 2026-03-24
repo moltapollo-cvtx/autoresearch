@@ -31,6 +31,10 @@ International Fuel Tax Agreement (IFTA) filing data for ATI for 2024 in CSV form
 ## Related Findings
 - [[Fuel Cost Manipulation]]
 
+## Cited In
+- [[Fuel Cost Manipulation]] — ATI government-sworn fuel data
+- [[Forensic Cross-Reference Report]]
+
 ## Chain of Custody
 - **Indexed:** 2026-03-24
 - **Analyzed in:** [[Fuel Spend Reconciliation]]

@@ -52,13 +52,13 @@ ATI (Asphalt Transport, Inc.) holds exclusive financial control over Apollo Ener
 | 3 | Fuel cost overstatement | ~$287K | HIGH | Documented | [[Fuel Cost Manipulation]] |
 | 4 | Promissory note backdating | $858K note | HIGH | Confirmed | [[Promissory Note Backdating]] |
 | 5 | Revenue timing shift (1-mo forward) | ~$145K understated FY2024 | MED-HIGH | Partial | [[Revenue Timing Shift]] |
-| 6 | ATI monthly billing manipulation | TBD | MED-HIGH | Documented | [[ATI Monthly Billing Manipulation]] |
+| 6 | ATI monthly billing manipulation | Unquantified — see [[ATI Monthly Billing Manipulation]] | MED-HIGH | Documented | [[ATI Monthly Billing Manipulation]] |
 | 7 | Gemini record mass deletion | 23 records | HIGH | Confirmed | [[Gemini Record Manipulation]] |
 | 8 | GL retroactive journal entries | 476-day backdated entry | HIGH | Confirmed via QB | [[GL Audit Trail Anomalies]] |
 | 9 | Fuel charging mechanism (2023 GL) | $234,683 undocumented | HIGH | Confirmed both sides | [[Fuel Cost Manipulation]] |
 | 10 | Oct 2025 peak extraction | $355K in single month | HIGH | Bank-verified | [[Bank Rec Analysis 2025]] |
 | 11 | Nov void/re-issue pattern | $61,459 voided same-day | MED-HIGH | Documented | [[Bank Rec Analysis 2025]] |
-| 12 | Dec $0.00 settlement checks | Unknown — diverted? | MEDIUM | Needs investigation | [[Bank Rec Analysis 2025]] |
+| 12 | Dec $0.00 settlement checks (2025-12-15) | $0.00 issued to active drivers — settlement funds unaccounted for | MEDIUM | Awaiting EFS card-level data | [[Bank Rec Analysis 2025]] |
 | 13 | $84,960 Ins/Elog charge | $84,960 undocumented | HIGH | Action needed | [[Bank Rec Analysis 2025]] |
 | 14 | $241,284 "ADJ TO STMT" — **NOW EXPLAINED** | $241,284 cash reduction | **CRITICAL** | **PROVEN** | [[Account 2010 Fuel Payable Mechanism]] |
 | 21 | **Account 2010 Fuel Payable dump ($285,789)** | $285,789 fuel inflation | **CRITICAL** | **PROVEN** | [[Account 2010 Fuel Payable Mechanism]] |
@@ -76,7 +76,7 @@ ATI (Asphalt Transport, Inc.) holds exclusive financial control over Apollo Ener
 | 17 | 2024 ATI extraction (zero returned) | $335,566 | HIGH | Bank-verified | [[Bank Rec Analysis 2024]] |
 | 18 | GIG Transportation (suspected Gemini) | $111,924 | MEDIUM | Entity unconfirmed | [[Bank Rec Analysis 2024]] |
 | 19 | 2024 Nov overdraft (-$44,470) | Cash starvation | HIGH | Bank-verified | [[Bank Rec Analysis 2024]] |
-| 20 | Fuel card fraud (post-termination) | TBD — awaiting pulls | MEDIUM | In progress | [[Fuel Card Overview]] |
+| 20 | Fuel card fraud (post-termination) | Unquantified — requires EFS transaction pulls for cards *0042, *0048 | MEDIUM | Awaiting EFS data | [[Fuel Card Overview]] |
 
 ---
 
@@ -155,8 +155,8 @@ Gemini Logistics USA LLC            ← Related entity under investigation
 EFS LLC                             ← Independent fuel card provider
                                       $1.2M in verified payments (2024-2025)
 
-GIG Transportation Services         ← 2024: $112K paid from Apollo
-                                      Suspected Gemini affiliate — needs verification
+GIG Transportation Services         ← 2024: $111,924 paid from Apollo [[Bank Rec Analysis 2024]]
+                                      Suspected Gemini affiliate — appears as "GIGTRANSPORTATIONSER" in EFS fuel card payables
 ```
 
 **Entity links:** [[Asphalt Transport Inc (ATI)]] | [[Apollo Energy Resources LLC]] | [[Gemini Logistics USA LLC]] | [[Stellar Bank]] | [[EFS LLC]] | [[GIG Transportation Services]] | [[Jimmy]] | [[Rosanna Karim]] | [[James Luhr Jr]] | [[Walker]] | [[Cordee]] | [[Cody]]

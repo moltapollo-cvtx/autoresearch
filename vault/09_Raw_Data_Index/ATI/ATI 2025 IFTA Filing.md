@@ -31,6 +31,10 @@ International Fuel Tax Agreement (IFTA) filing for ATI for 2025. Contains fuel c
 ## Related Findings
 - [[Fuel Cost Manipulation]]
 
+## Cited In
+- [[Fuel Cost Manipulation]]
+- [[Fuel Spend Reconciliation]]
+
 ## Chain of Custody
 - **Indexed:** 2026-03-24
 - **Analyzed in:** [[Fuel Spend Reconciliation]]

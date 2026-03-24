@@ -11,7 +11,9 @@ related: ["[[Mauree]]", "[[DOC-QB-LOGS-2022-2026]]", "[[DOC-BankRec-2025-McLeod]
 
 ## sknuckles
 - **Flagged for:** Suspicious or anomalous activity in accounting system audit trail
-- **Details:** TBD — expand as evidence develops
+
+> [!MISSING-EVIDENCE]
+> **To assess sknuckles' role:** Requires QB transaction log filtered to user "sknuckles" from [[DOC-QB-LOGS-2022-2026]], showing entry count, GJ count, backdating rate, and accounts touched. If sknuckles does not appear in the 26,993-row QB log, this user may exist only in the audit trail — check [[Apollo Quickbooks Audit Trail 2023 to dec 2024]]. Without this, risk level cannot be assessed.
 
 ## mcleod
 - **Flagged for:** Suspicious or anomalous activity in accounting system audit trail

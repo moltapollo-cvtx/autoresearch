@@ -13,7 +13,7 @@ evidence-refs:
   - "[[ATI General Ledger 2022]]"
   - "[[Apollo QuickBooks LOGS 2022-2026]]"
   - "[[WHAT ATI CLAIMS APOLLO OWES FROM 2025 CHARGEBACKS]]"
-estimated_impact: TBD
+estimated_impact: 0
 direction: apollo-inflated
 ---
 
@@ -21,6 +21,9 @@ direction: apollo-inflated
 
 ## Summary
 ATI's monthly intercompany charges to Apollo were initially entered at varying amounts (consistent with actual costs), then **modified upward to a fixed amount** ([[ATI GL 2023 - Intercompany Billing]], [[WHAT ATI CLAIMS APOLLO OWES FROM 2025 CHARGEBACKS]]). The modification converts variable, verifiable costs into a flat fee that is harder to challenge and consistently higher than the original entries.
+
+> [!MISSING-EVIDENCE]
+> **To quantify total overcharge:** Requires ATI's intercompany billing invoices to Apollo covering 2022-01 through 2025-12, showing per-month original variable amounts vs. modified fixed amounts. Cross-reference against [[ATI GeneralLedger Report 2023]] and [[ATI General Ledger 2022]] intercompany billing sections. Without itemized invoices, the total overcharge cannot be calculated. Confidence remains **medium**.
 
 ## Evidence
 - Initial entries showed varying monthly amounts

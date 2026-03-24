@@ -32,8 +32,9 @@ Fuel report for ATI for 2024 in PDF format. May contain fuel card statements, pu
 ## Related Findings
 - [[Fuel Cost Manipulation]]
 
-> [!PROPOSAL] Potential evidence for additional findings
-> This fuel source file may contain transaction-level detail supporting [[Account 2010 Fuel Payable Mechanism]] (ATI-side fuel payable entries that correspond to Apollo Account 2010 growth during 2024). Cross-reference with Apollo fuel data recommended.
+## Cited In
+- [[Fuel Cost Manipulation]] — ATI fuel cost comparison
+- [[Fuel Spend Reconciliation]]
 
 ## Chain of Custody
 - **Indexed:** 2026-03-24

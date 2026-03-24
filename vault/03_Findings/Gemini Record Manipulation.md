@@ -14,8 +14,8 @@ evidence-refs:
   - "[[ATI GL 2023 - Gemini N-R Analysis]]"
   - "[[Bank Rec Analysis 2025]]"
 dollar-amount: 282416
-estimated_impact: unknown
-direction: unknown
+estimated_impact: 282416
+direction: apollo-inflated
 ---
 
 # Gemini Record Manipulation
@@ -33,11 +33,15 @@ Two distinct acts of record manipulation involving [[Gemini Logistics USA LLC]]:
 - The combination — bulk creation followed by bulk deletion — suggests the records were created to serve a purpose and then removed when that purpose was fulfilled (or when discovery became a risk)
 
 ## Open Questions
-- What was the total dollar value of the deleted records?
-- What transactions did they represent?
-- Did cash actually move between entities as reflected in the (now-deleted) records?
-- Was Cordee directed to delete these records, and if so, by whom?
-- What is Gemini's formal relationship to ATI?
+
+> [!MISSING-EVIDENCE]
+> **To determine value of 23 deleted Gemini records:** Requires QuickBooks database backup or transaction-level audit log from before the deletion event, covering [[Gemini Logistics USA LLC]] N/P entries. The backup must predate Cordee's ~25-minute deletion session. Without this, the total dollar value of the 23 deleted records cannot be determined. Confidence on deletion impact remains **low**.
+
+> [!MISSING-EVIDENCE]
+> **To determine who directed the deletion:** Requires internal communications (email, Slack, text) between [[Cordee]] and ATI management ([[Rosanna Karim]], [[Jimmy]]) in the period surrounding the deletion event. Subpoena or discovery request to ATI for all communications referencing "Gemini" records. Without this, the question of authorization remains open.
+
+> [!MISSING-EVIDENCE]
+> **To confirm Gemini's legal relationship to ATI:** Requires Gemini Logistics USA LLC articles of incorporation, operating agreement, and ownership records from the Texas Secretary of State (or state of formation). Cross-reference against ATI's corporate filings. Without this, the formal relationship cannot be established. Confidence remains **medium**.
 
 ## Connected
 - [[Rosanna Karim]] — Created the records

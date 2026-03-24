@@ -32,8 +32,9 @@ Bank reconciliation report for Apollo Energy for 2025, generated from TMS (Treas
 ## Related Findings
 - [[ATI Monthly Billing Manipulation]]
 
-> [!PROPOSAL] Potential evidence for additional findings
-> This TMS system report provides an independent verification baseline for bank reconciliations. May support [[Intercompany Transfer Tracker]] and [[Bank Rec Analysis 2025]] by providing system-generated data free from manual manipulation. Cross-reference recommended.
+## Cited In
+- [[Bank Rec Analysis 2025]] — TMS system-generated report provides independent verification baseline
+- [[DOC-BankRec-2025-McLeod]] — cross-referenced as system-generated data source for McLeod reconciliation
 
 ## Chain of Custody
 - **Indexed:** 2026-03-24

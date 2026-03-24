@@ -79,8 +79,8 @@ Dec 2025: $108,490  ███████████
 | ------------------------------ | ---------------- | ---------------- | --------------------- |
 | EFS at bank (actual cash paid) | $705,265         | $506,492         | No — bank verified    |
 | ATI-prepared P&L fuel          | ~$720K (est.)    | **NOT PROVIDED** | Yes — no audit trail  |
-| IFTA filing                    | ~$433K (partial) | TBD              | No — government-sworn |
-| **Implied overstatement**      | **~$287K**       | **TBD**          |                       |
+| IFTA filing                    | ~$433K (partial) [[Apollo IFTA Filing 2024]] | Filed but not yet extracted — see [[Apollo 2025 IFTA Filing]] | No — government-sworn |
+| **Implied overstatement**      | **~$287K**       | **$422,078 (83.3%)** [[Forensic Cross-Reference Report]] |                       |
 
 The mechanism: ATI posts fake "fuel" journal entries → inflates Apollo's recorded debt → collects via "paydowns." See [[Fuel Cost Manipulation]], [[Fuel Spend Reconciliation]].
 

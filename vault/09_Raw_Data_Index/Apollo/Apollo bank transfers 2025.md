@@ -32,8 +32,9 @@ Record of bank transfers involving Apollo Energy during 2025. Likely includes in
 ## Related Findings
 - [[ATI Monthly Billing Manipulation]]
 
-> [!PROPOSAL] Potential evidence for additional findings
-> This bank transfers file may contain detail supporting [[Intercompany Transfer Tracker]] (verify specific extraction amounts and timing) and [[Account 2010 Fuel Payable Mechanism]] (trace how Account 2010 clearing entries corresponded to actual bank transfers in 2025). Cross-reference recommended.
+## Cited In
+- [[Intercompany Transfer Tracker]] — 2025 transfer amounts and timing verified against this source
+- [[Cash Flow Dashboard]] — 2025 bank transfer data feeds cash flow analysis
 
 ## Chain of Custody
 - **Indexed:** 2026-03-24

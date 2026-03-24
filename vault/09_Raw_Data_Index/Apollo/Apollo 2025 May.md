@@ -30,8 +30,10 @@ Monthly general ledger export for Apollo Energy, May 2025. Contains all journal 
 ## Related Findings
 - [[ATI Monthly Billing Manipulation]]
 
-> [!PROPOSAL] Potential evidence for additional findings
-> This source file may contain transaction-level detail supporting [[Account 2010 Fuel Payable Mechanism]] (clearing entries in 2025 that attempted to settle the inflated Account 2010 balance) or [[Forensic Cross-Reference Report]] (monthly verification of intercompany charges). Cross-reference recommended.
+## Cited In
+- [[Account 2010 Fuel Payable Mechanism]] — 2025 clearing entries settling the inflated Account 2010 balance
+- [[Gemini Profit Siphon]] — net profit tracking across Apollo monthly data
+- [[Forensic Cross-Reference Report]] — included in cross-entity monthly verification matrix
 
 ## Chain of Custody
 - **Indexed:** 2026-03-24

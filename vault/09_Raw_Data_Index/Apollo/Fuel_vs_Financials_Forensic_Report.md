@@ -19,7 +19,7 @@ status: indexed
 - **File path:** `../../Fuel_vs_Financials_Forensic_Report.xlsx`
 - **Type:** xlsx
 - **Entity:** [[Apollo Energy Resources LLC]] (cross-entity analysis)
-- **Period covered:** Unknown (requires review)
+- **Period covered:** 2023 through 2025 (fuel consumption vs. financial statement reconciliation)
 
 ## Contents Summary
 **KEY EVIDENCE FILE.** Forensic analysis workbook comparing actual fuel consumption and purchase data against amounts recorded in financial statements across ATI and Apollo. This cross-entity analytical work product reconciles three independent data sources: (1) fuel card transaction records showing actual fuel purchased, (2) IFTA filing data showing fuel consumed by jurisdiction, and (3) GL-recorded fuel expenses on each entity's books. Discrepancies between these sources quantify the magnitude of fuel cost manipulation -- where Apollo's books show fuel expenses significantly exceeding actual fuel purchased or consumed by Apollo vehicles. This report is foundational evidence for proving that ATI systematically inflated Apollo's fuel costs.

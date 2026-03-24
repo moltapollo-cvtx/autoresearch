@@ -25,9 +25,14 @@ Henry Collins is associated with card *0048, which has the highest spend of all 
 - EFS Fuel Card *0048 (highest-spend masked card)
 
 ## Key Transactions
+
+> [!MISSING-EVIDENCE]
+> **To quantify post-termination fraud on card *0048:** Requires (1) Henry Collins' exact termination date from Apollo Energy Resources LLC HR/payroll records or [[Walker]]'s records, and (2) EFS transaction report for card *0048 (Carrier ID 5725124) covering the full card lifetime. Filter transactions after termination date to calculate total unauthorized charges. Without the termination date, no post-termination amount can be calculated. Confidence remains **low**.
+
 | Date | Amount | Type | Source |
 |------|--------|------|--------|
-| Post-termination | Unknown | Fuel card charges after employment ended | [[Card 0048 - Henry Collins]] |
+| Pre-termination | Unquantified — highest-spend card in fleet | Fuel card charges during employment | [[Card 0048 - Henry Collins]] |
+| Post-termination | Unquantified — requires termination date + EFS pull | Potential unauthorized fuel card charges | [[Card 0048 - Henry Collins]] |
 
 ## Action Items
 - [ ] **PRIORITY:** Confirm exact termination date

@@ -14,7 +14,7 @@ known-accounts: ["QB User (DELETED)"]
 # Martha — Deleted QuickBooks User
 
 ## Role & Access
-- **Title:** Unknown — user account has been **deleted** from QuickBooks
+- **Title:** Unidentified — user account has been **deleted** from QuickBooks; real name and role cannot be determined from system data alone
 - **System access:** Formerly active in QB; account now deleted
 - **Risk assessment:** LOW — flagged for volume but no manipulation pattern identified
 
@@ -29,7 +29,7 @@ known-accounts: ["QB User (DELETED)"]
 ## Assessment
 Martha's entry profile shows moderate volume with a low backdating rate (3.0%). The deleted account status is notable but not necessarily suspicious — users are routinely deleted after departure. No specific manipulation pattern has been attributed to this user.
 
-> [!PROPOSAL] Consider whether the deleted account warrants further investigation. The 479 GJ entries should be reviewed for content, but the low backdating rate suggests this is not a priority.
+**Assessment: LOW PRIORITY.** The 479 GJ entries should be reviewed for content if resources allow, but the 3.0% backdating rate and routine fuel card settlement pattern do not warrant prioritization over the core ATI extraction findings. The deleted account itself does not indicate malice — QB user deletions are standard after employee departure.
 
 ## Connected
 - [[Other Flagged Users]] — Listed in the flagged users hub

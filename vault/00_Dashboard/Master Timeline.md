@@ -55,7 +55,7 @@ SORT documented_date ASC
 | 2023-11-02 | 2023-11-02 | 0 days | All Gemini liabilities ($282,416) batch-entered single session | $282,416 | [[Gemini Record Manipulation]] |
 | 2023-12-29 | — | — | Sapphire Gas "overpayment for Gemini invoices" | $258,045 | [[Apollo 2023 to dec 2024 General Ledger]] |
 | ~2023 | ~6 months later | **174 days** | $858K promissory note backdated | $858,000 | [[Promissory Note Backdating]] |
-| Unknown | Unknown | — | 23 Gemini records mass-deleted by [[Cordee]] in ~25 min | — | [[Gemini Record Manipulation]] |
+| Post-2023-11-02 | Post-batch-entry | — | 23 Gemini records mass-deleted by [[Cordee]] in ~25 min (exact date requires QB database backup — see [[Gemini Record Manipulation]]) | — | [[Gemini Record Manipulation]] |
 
 ---
 
